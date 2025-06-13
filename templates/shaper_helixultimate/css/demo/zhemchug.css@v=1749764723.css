@@ -1,0 +1,591 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+@font-face {
+  font-family: 'SLOOP-SCRIPT';
+  src:  url(https://wow-card.ru/templates/shaper_helixultimate/css/fonts/SLOOP-SCRIPT.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+font-family: 'TRAJAN';
+src: url('https://wow-card.ru/templates/shaper_helixultimate/css/fonts/TRAJAN.ttf');
+font-weight: normal;
+font-style: normal;
+}
+#zhemchug {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #ffffff;
+    --header-color: #000000;
+    --text-color: #000000;
+    --elements-color: #bababa;
+    --main-font: 'TRAJAN', sans-serif; /* Основной шрифт */
+    --beauty-font: 'SLOOP-SCRIPT', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#zhemchug{
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#zhemchug .title_text{
+    font-family: var(--beauty-font);
+    font-size: 64px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#zhemchug .descr_text{
+    font-family: var(--main-font);
+   font-size: 16px;
+    text-align: center;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ 
+#zhemchug .bg-img{
+             margin: 0;
+    background-image: url(../../../../images/sites/zhemchug/bg-main-pc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: -10;
+ }
+ #zhemchug .header{
+         min-height: 100vh;
+     position: relative;
+    padding: 15vh 5% 5vh 5%;
+    max-width: 600px;
+    margin: auto;
+ }
+ 
+#zhemchug  .places, #zhemchug  #plan, #zhemchug  #details, #zhemchug  #dresscode, #zhemchug  .counter, #zhemchug  .question, #zhemchug  .footer {
+      max-width: 600px;
+    margin: auto;
+ }
+ #zhemchug .header-blocks{
+   
+    background: var(--background-color);
+    /* margin: 150px 5% 50px; */
+   
+        min-height: calc(100vh - 20vh);
+    border-radius: 1000px 1000px 0 0;
+    border: 1px solid var(--elements-color);
+ }
+ #zhemchug  .separate-img-block{
+         position: relative;
+ }
+ #zhemchug .separate-img{
+     position: absolute;
+    top: 0%;
+    left: 50%;
+    height: 15vh;
+    transform: translate(-50%, -50%);
+ }
+ #zhemchug .header-blocks-texts{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 10vh;
+    
+    padding: 100px 0;
+
+ }
+ #zhemchug #groom, #zhemchug #bride, #zhemchug .header-block-center-and{
+         font-family: var(--beauty-font);
+    font-size: 72px;
+    line-height: 60%;
+ }
+ #zhemchug .header-block-center{
+         position: relative;
+    width: 90%;
+    margin: 10vh 0 0;
+ }
+ .header-block-center-names{
+     display: flex
+;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    z-index: 20;
+    position: relative;
+ }
+  #zhemchug #groom{
+          text-align: left;
+  }
+   #zhemchug #bride{
+           text-align: right;
+   }
+   #zhemchug .header-block-center-and{
+       position: absolute;
+    color: #eee8e8;
+    top: 0%;
+    left: 50%;
+    font-size: 180px;
+    transform: translate(-10%, 0px);
+   }
+  #zhemchug  .date-calendar h3{
+       font-family: var(--beauty-font);
+    font-size: 42px;
+   }
+   #zhemchug tbody,  #zhemchug td,  #zhemchug tfoot, #zhemchug th,  #zhemchug thead,  #zhemchug tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    padding: 5px 10px;
+    font-weight: 300;
+}
+#zhemchug #playButton{
+        cursor: pointer;
+    max-width: 70px;
+    margin: auto;
+    width: 15%;
+}
+#zhemchug #music{
+    padding: 50px 0;
+}
+#zhemchug .places{
+    padding: 50px 5%;
+}
+#zhemchug #plan, #zhemchug #dresscode, #zhemchug #questions{
+    position: relative;
+    padding: 0 5% 0vh 5%;
+    padding: 150px 5% 150px;
+}
+#zhemchug .site-blocks{
+        background: var(--background-color);
+    border-radius: 1000px 1000px 0 0;
+    border: 1px solid var(--elements-color);
+}
+#zhemchug #plan .separate-img{
+    
+    height: 10vh;
+}
+#zhemchug .site-blocks-texts{
+    position: relative;
+}
+#zhemchug .timetable__block{
+     display: flex
+;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+#zhemchug  .timetable__block-stroke{
+    width: 100%;
+}
+#zhemchug  .timetable__block-img{
+    width: 30%;
+    margin: auto;
+    max-width: 80px;
+    padding: 10px 0;
+}
+#zhemchug .timetable__block-line{
+   width: 15%;
+    margin: auto;
+    max-width: 40px;
+    padding: 10px 0;
+    position: relative;
+}
+#zhemchug .site-blocks-texts{
+        padding-top: 100px;
+            padding-bottom: 100px;
+}
+#zhemchug .timetable__block-time{
+    font-family: var(--beauty-font);
+    font-size: 68px;
+    line-height: 120%;
+}
+#zhemchug .timetable__block-line-img{
+    padding: 50px 0;
+    position: absolute;
+    border-left: 1px dashed var(--header-color);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#zhemchug .timetable-line-img{
+        padding: 30px 0;
+    z-index: 1;
+    position: relative;
+
+}
+#zhemchug #music, #zhemchug .site-blocks-texts{
+    position: relative;
+    z-index: 30;
+}
+#zhemchug .all-section{
+    overflow: hidden;
+}
+#zhemchug .mini-pearl-img-block{
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    transform: translate(30%, -50%);
+    z-index: 25;
+}
+#zhemchug .mini-pearl-img-block2{
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    transform: translate(30%, -50%);
+    z-index: 25;
+}
+#zhemchug .timetable__block-name{
+    font-family: var(--main-font);
+}
+#zhemchug .site-blocks{
+    position: relative;
+}
+#zhemchug .separate-img-block-bow{
+    position: relative;
+    position: absolute;
+    top: calc(100% + 00px);
+    /* bottom: calc(0% - 00px); */
+    left: 50%;
+    /* height: 15vh; */
+    transform: translate(-50%, calc(-20% - 0vh));
+}
+#zhemchug .separate-img-block-bow img{
+    height: 12vh;
+
+}
+
+#zhemchug .dresscode .separate-img{
+    height: 8vh;
+}
+
+#zhemchug .wedding-day{
+    background: url(../../../../images/sites/zhemchug/pearl-mini-01.png);
+        background-size: contain;    
+        background-repeat: no-repeat;
+    background-position: center;
+}
+#zhemchug .info-date, #zhemchug .details{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+#zhemchug .date-welcome{
+    font-size: 64px;
+}
+#zhemchug .separate-img-block-alone{
+        width: 80px;
+    margin: auto;
+    padding: 20px 0;
+}
+#zhemchug .place__header{
+    font-size: 18px;
+    line-height: 300%;
+}
+ #zhemchug #place p{
+    margin: 0 auto;
+}
+
+#zhemchug .place-one-left{
+        padding-bottom: 20px;
+}
+#zhemchug  .details-block .timetable-line-img{ 
+        width: 30px;
+    margin: auto;
+        padding: 20px 0;
+}
+#zhemchug  .dresscode_descr_text{
+        width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+ #zhemchug .dresscode__row{
+    display: flex
+;
+    width: 90%;
+    margin: auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 5px 0;
+}
+ #zhemchug .dresscode__color{
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50px;
+}
+ #zhemchug .menu_site{
+    background: #ffffff9e;
+}
+ #zhemchug .dresscode-color-1{
+    background-image: url(../../../../images/sites/zhemchug/colors/color-1.png);
+    
+}
+ #zhemchug .dresscode-color-2{
+   background-image: url(../../../../images/sites/zhemchug/colors/color-2.png);
+}
+ #zhemchug .dresscode-color-3{
+   background-image: url(../../../../images/sites/zhemchug/colors/color-3.png);
+}
+ #zhemchug .dresscode-color-4{
+    background-image: url(../../../../images/sites/zhemchug/colors/color-4.png);
+}
+ #zhemchug .dresscode-color-5{
+    background-image: url(../../../../images/sites/zhemchug/colors/color-5.png);
+}
+ #zhemchug .dresscode-color-6{
+   background-image: url(../../../../images/sites/zhemchug/colors/color-6.png);
+}
+ #zhemchug .dresscode-color-7{
+    background-image: url(../../../../images/sites/zhemchug/colors/color-7.png);
+}
+#zhemchug .timer-title{
+    line-height: 80%;
+}
+#zhemchug #clockdiv{
+  margin: 30px auto 0;
+    width: 90%;
+    background: #ffffffbf;
+    border-radius: 50px;
+    display: flex
+;
+    flex-direction: row;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#zhemchug .timer__block{
+           width: 50px;
+    background: url(../../../../images/sites/zhemchug/pearl-mini-01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 5px;
+}
+#zhemchug .timer__number span{
+        line-height: 50px;
+    font-size: 16px;
+}
+#zhemchug .question .separate-img{
+    height: 10vh;
+}
+#zhemchug .question__bloks{
+        width: 90%;
+    margin: auto;
+    text-align: left;
+}
+#zhemchug .question__text-mini{
+        font-size: 12px;
+}
+#zhemchug #question input[type="text"]{
+    border: 0px;
+    border-bottom: 1px solid var(--elements-color);
+    border-radius: 0px;
+}
+#zhemchug button{
+        width: 100%;
+    background: var(--background-color);
+    border: 1px solid var(--elements-color);
+    color: var(--header-color);
+}
+#zhemchug #groom-footer, #zhemchug #bride-footer{
+       font-family: var(--beauty-font);
+    font-size: 62px;
+    line-height: 70%;
+}
+#zhemchug .footer{
+        padding: 20px 0 80px;
+}
+#zhemchug .right-img-bg-footer{
+    display: flex
+;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+#zhemchug .footer__container img{
+    width: 150px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+#zhemchug .footer-img-frame{
+    
+    width: 150px;
+    position: relative;
+
+}
+#zhemchug .question__label {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+}
+#zhemchug .question__unvisible {
+    display: none;
+}
+#zhemchug .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+    border-radius: 50%;
+}
+#zhemchug .question__unvisible:checked + .question__visible-radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: var(--header-color);
+    border-radius: 50%;
+}
+#zhemchug .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+}
+#zhemchug .question__unvisible:checked + .question__visible-checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: var(--header-color-color);
+}
+#zhemchug .map-place{
+    padding: 20px 0;
+    width: 100%;
+}
+#zhemchug .map-place iframe{
+        width: 100%;
+    min-height: 200px;
+    border: 1px solid var(--header-color);
+}
+#zhemchug .site-blocks{
+        position: relative;
+}
+#zhemchug  #plan .mini-pearl-img-block{
+        display: block;
+    position: absolute;
+    top: 50%;
+    right: -0%;
+    transform: translate(70%, -50%);
+    z-index: 25;
+}
+#zhemchug  #questions .mini-pearl-img-block{
+    top: 50%;
+    right: 0%;
+    transform: translate(70%, -50%);
+}
+#zhemchug  #plan  .mini-pearl-img{
+        width: 400px;
+}
+#zhemchug #questions .mini-pearl-img{
+        width: 400px;
+}
+  #zhemchug  .timetable__block-name {
+        font-size: 24px;
+        line-height: 130%;
+    }
+    #zhemchug .timer__block-info{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+     #zhemchug  .details__text{
+        margin-bottom: 0;
+    }
+    #zhemchug  .rsvp-message, #zhemchug  .error-rsvp{
+        display: block;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: grey;
+    }
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#zhemchug{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#zhemchug .title_text{
+    font-family: var(--beauty-font);
+    font-size: 48px;
+    line-height: 130%;
+    color: var(--text-color);
+}
+#zhemchug .descr_text{
+            font-family: var(--main-font);
+        font-size: 14px;
+        line-height: 120%;
+        color: var(--text-color);
+        text-align: center;
+}
+#zhemchug .timer-title{
+    line-height: 80%;
+}
+ #zhemchug .header-blocks-texts{
+    
+
+ }
+  #zhemchug  .timetable__block-name {
+        font-size: 20px;
+        line-height: 130%;
+    }
+    #zhemchug .mini-pearl-img-block {
+    display: block;
+}
+#zhemchug .bg-img{
+             margin: 0;
+    background-image: url(../../../../images/sites/zhemchug/main-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: -10;
+ }
+}
+

@@ -1,0 +1,588 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+@font-face {
+  font-family: 'ARNO';
+  src:  url(../../fonts/ARNO.ttf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+  font-family: 'FAKEDES';
+  src:  url(../../fonts/FAKEDES.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+
+#malenkiemy {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #efebe2;
+    --header-color: #4c5649;
+    --text-color: #4c5649;
+    --main-font: 'ARNO', sans-serif; /* Основной шрифт */
+    --beauty-font: 'FAKEDES', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#malenkiemy{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+    background: var(--background-color);
+            overflow: hidden;
+}
+#malenkiemy a{
+    color: var(--background-color);
+}
+#malenkiemy p{
+    margin-bottom: 0;
+}
+#malenkiemy .header-img-block{
+            min-height: 100vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+}
+ #malenkiemy .title_text{
+    font-family: var(--beauty-font);
+    font-size: 64px;
+    line-height: 120%;
+    color: var(--text-color);
+    text-align: center;
+}
+#malenkiemy .descr_text{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+    text-align: center;
+}
+#malenkiemy #playButton{
+    width: 20%;
+    margin: auto;
+    max-width: 100px;
+}
+#malenkiemy #music{
+        padding: 30px 0;
+}
+#malenkiemy .info-date, #malenkiemy #plan, #malenkiemy #details, #malenkiemy #rsvp-block{
+     padding: 30px 0;
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+ }
+#malenkiemy .info-invitation{
+     background: var(--header-color);
+    padding: 30px 5%;
+    border-radius: 10px;
+    color: var(--background-color);
+    
+ }
+ #malenkiemy .site-blocks{
+     background: var(--header-color);
+    border-radius: 10px;
+    color: var(--background-color);
+    
+ }
+ #malenkiemy .header-img-block img{
+         margin: auto;
+    max-width: 1000px;
+    margin: 20px auto;
+    width: 100%;
+ }
+ #malenkiemy .welcome_title_text{
+     font-family: var(--beauty-font);
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 24px;
+ }
+ #malenkiemy .info-date .descr_text, #malenkiemy #plan .descr_text, #malenkiemy #details .descr_text, #malenkiemy #rsvp-block .descr_text{
+     color: var(--background-color);
+ }
+#malenkiemy .descr_text-upper{
+     text-transform:uppercase;
+     padding: 20px 0;
+     
+ }
+ #malenkiemy .info-date__invitation{
+     padding: 20px 0;
+ }
+ #malenkiemy .welcome_title_text{
+     margin-bottom: 20px;
+ }
+ #malenkiemy .calendar-header{
+     font-family: var(--beauty-font);
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 30px;
+ }
+ #malenkiemy .date-calendar{
+         width: 90%;
+    margin: auto;
+    padding: 20px 0;
+ }
+#malenkiemy .calendar-days-of-week{
+         display: flex
+;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--background-color);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+ }
+ #malenkiemy .calendar-days{
+         display: flex
+;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+#malenkiemy .calendar-days span{
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    margin-top: 5px;
+ }
+#malenkiemy .calendar-days .wedding-day{
+         color: var(--header-color);
+    background: var(--background-color);
+    border-radius: 10px;
+   
+ }
+ #malenkiemy .places{
+     position: relative;
+     margin: 80px 0 60px;
+ }
+ #malenkiemy .title_text{
+     border: 1px solid var(--header-color);
+    padding: 10px 30px;
+    background: var(--background-color);
+    display: inline-block;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+#malenkiemy .info-date__place{
+     width: 90%;
+    margin: auto;
+    border: 1px solid var(--header-color);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+ }
+ #malenkiemy .places-inside{
+         padding: 60px 10px 40px;
+ }
+ #malenkiemy .registration_descr_text,  #malenkiemy .banquet_descr_text{
+     padding-bottom: 20px;
+ }
+ #malenkiemy .registration_title_text,  #malenkiemy .banquet_title_text{
+     text-transform: uppercase;
+    margin-bottom: 10px;
+ }
+  #malenkiemy .info-date__img{
+         width: 80%;
+    margin: auto;
+
+ }
+  #malenkiemy .info-date__img img{
+      border-radius: 10px;
+    border: 1px solid var(--header-color);
+  }
+  #malenkiemy .img-separate{
+      width: 20px;
+    margin: auto;
+    padding: 40px 0;
+  }
+  #malenkiemy .title__header{
+      position: relative;
+  }
+ #malenkiemy .timetable_title_text, #malenkiemy .details_title_text{
+          border: 1px solid var(--background-color);
+    color: var(--background-color);
+    background: var(--header-color);
+  }
+ #malenkiemy .timetable__block{
+          display: flex
+;
+    gap: 0px;
+    flex-direction: column;
+    padding: 60px 20px 40px;
+  }
+ #malenkiemy .timetable__block-name{
+          text-transform: uppercase;
+  }
+ #malenkiemy .timetable__block-line{
+      border-left: 1px solid var(--background-color);
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    width: 1px;
+    margin: 15px auto;
+  }
+ #malenkiemy .site-blocks-texts{
+          width: 90%;
+    margin: auto;
+    border: 1px solid var(--header-color);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+  }
+   #malenkiemy .dresscode{
+      padding: 50px 0;
+  }
+   #malenkiemy #dresscode .site-blocks-texts{
+      padding: 60px 15px 40px;
+      max-width: 600px;
+    margin: auto;
+  }
+  #malenkiemy .dresscode_descr_text{
+          padding-bottom: 25px;
+  }
+  #malenkiemy .dresscode__row{
+      display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+        gap: 5px;
+  }
+ #malenkiemy  .dresscode-color-2, #malenkiemy  .dresscode-color-4, #malenkiemy  .dresscode-color-6{
+      transform: rotate(180deg);
+  }
+ #malenkiemy .img-separate-detail{
+          width: 20px;
+    margin: auto;
+    padding: 25px 0;
+  }
+ #malenkiemy .details-block{
+      padding: 60px 15px 40px;
+      
+  }
+  #malenkiemy .counter{
+      border: 1px solid var(--header-color);
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+  }
+ #malenkiemy #clockdiv{
+      display: flex
+;
+    gap: 20px;
+    justify-content: center;
+  }
+ #malenkiemy .counter-inside{
+      padding: 30px 10px;
+  }
+ #malenkiemy .timer-title{
+      font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+ #malenkiemy .timer__number {
+    position: relative; 
+    z-index: 1;     
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    color: var(--background-color);
+    font-family: var(--beauty-font);
+    font-size: 24px;
+}
+
+#malenkiemy .timer__number::before {
+    content: "";      
+    position: absolute; 
+    top: 50%;         
+    left: 50%;        
+    transform: translate(-50%, -50%); 
+    width: 100%;      
+    height: 100%;     
+    background-image: url('../../../../images/sites/malenkie-my/heart-01.svg'); 
+    background-repeat: no-repeat;   
+    background-size: contain;      
+    background-position: center;  
+    z-index: -1;     
+}
+#malenkiemy .question__bloks{
+    padding: 60px 15px 40px;
+}
+#malenkiemy .timer__number span {
+    position: relative; /* Чтобы спан был виден */
+    z-index: 2;         /* Размещаем текст НАД фоном и НАД .timer_number */
+    /* z-index можно и не ставить, главное чтобы у спана был position:relative */
+}
+#malenkiemy .question__text-mini{
+    font-size: 16px;
+    padding: 10px 0 15px;
+}
+#malenkiemy #question{
+        display: flex
+;
+    text-align: left;
+    flex-direction: column;
+}
+#malenkiemy .question__label {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+}
+#malenkiemy .question__string{
+    margin-bottom: 10px;
+}
+#malenkiemy .question__label{
+        margin-bottom: 0px;
+}
+#malenkiemy  .question__unvisible {
+    display: none;
+}
+#malenkiemy .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+    border-radius: 50%;
+}
+#malenkiemy  .question__unvisible:checked + .question__visible-radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: var(--header-color);
+    border-radius: 50%;
+}
+#malenkiemy  .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+}
+#malenkiemy .question__unvisible:checked + .question__visible-checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: var(--header-color);
+}
+#malenkiemy .question__string input[type="text"]{
+    border: 0;
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--header-color);
+    border-radius: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 5px 0 !important;
+}
+#malenkiemy .rsvp__button{
+    background: var(--header-color);
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 100%;
+    color: var(--background-color);
+    padding: 15px 20px 10px;
+    min-width: 200px;
+    margin: 10px 0;
+}
+#malenkiemy  #rsvp .rsvp__button, #malenkiemy  #details .rsvp__button{
+     color: var(--header-color);
+    background: var(--background-color);
+    min-width: calc(50% - 5px);
+    padding: 15px 0px 10px;
+}
+#malenkiemy .rsvp__buttons{
+    display: flex
+;
+    gap: 10px;
+    flex-direction: row;
+}
+#malenkiemy  #rsvp_container{
+        padding: 60px 0px 40px;
+}
+#malenkiemy .footer{
+    padding: 50px 0;
+}
+#malenkiemy .footer-name{
+    padding-top: 20px;
+    width: 70%;
+    max-width: 600px;
+    margin: auto;
+    display: flex
+;
+    flex-direction: column;
+    max-width: 350px;
+}
+#malenkiemy  .rsvp__string input[type="text"], #malenkiemy  .rsvp__string input[type="number"]{
+       color: var(--background-color);
+    background: var(--header-color);
+    border: 0;
+    border-bottom: 1px solid var(--background-color);
+    border-radius: 0;
+    opacity: 1;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 0 !important;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#malenkiemy  .rsvp__string{
+    padding: 10px 0;
+}
+#malenkiemy  .rsvp__form{
+    padding-top: 30px;
+}
+#malenkiemy .footer-name-row1{
+    gap: 20px;
+    display: flex
+;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+#malenkiemy #groom-footer{
+    font-family: var(--beauty-font);
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+#malenkiemy #bride-footer{
+    font-family: var(--beauty-font);
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 100%;
+    text-align: right;
+}
+#malenkiemy #questions{
+        padding: 50px 0 10px;
+}
+#malenkiemy #rsvp-block{
+    padding-top: 60px;
+}
+#malenkiemy .header-blocks{
+    display: none;
+}
+#malenkiemy .header-blocks-pc{
+    display: block;
+}
+#malenkiemy .rsvp-message{
+    padding: 60px 0px 40px;
+}
+#malenkiemy #question .rsvp-message{
+    padding: 10px 0px 10px;
+}
+#malenkiemy .dresscode_title_text-gen{
+            margin-bottom: 0px;
+        padding-top: 0px;
+        font-size: 32px;
+        font-family: var(--beauty-font);
+        padding-bottom: 10px;
+}
+#malenkiemy #dresscode-foto-man, #malenkiemy #dresscode-foto-woman{
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#malenkiemy{
+    font-family: var(--main-font);
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--text-color);
+    text-align: center;
+}
+#malenkiemy .title_text{
+    font-family: var(--beauty-font);
+    font-size: 36px;
+    line-height: 130%;
+    color: var(--text-color);
+    min-width: 250px;
+}
+ #malenkiemy .descr_text{
+    font-family: var(--main-font);
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--text-color);
+    text-align: center;
+}
+ #malenkiemy .title_text{
+     border: 1px solid var(--header-color);
+    padding: 10px 30px;
+    background: var(--background-color);
+    display: inline-block;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+  #malenkiemy .timetable_title_text,  #malenkiemy .details_title_text{
+          border: 1px solid var(--background-color);
+    color: var(--background-color);
+    background: var(--header-color);
+  }
+  #malenkiemy .header-blocks-pc{
+    display: none;
+}
+#malenkiemy .header-blocks{
+    display: block;
+}
+#malenkiemy .dresscode_title_text-gen{
+            margin-bottom: 0px;
+        padding-top: 0px;
+        font-size: 32px;
+        font-family: var(--beauty-font);
+        padding-bottom: 10px;
+}
+}
+  #malenkiemy  #dresscode_woman .dresscode_title_text, #malenkiemy #dresscode_man .dresscode_title_text {
+        margin-bottom: 0px;
+        padding-top: 30px;
+        font-size: 32px;
+        padding-bottom: 10px;
+        font-family: var(--beauty-font);
+    }
+#malenkiemy .question ::-webkit-input-placeholder {
+  color: var(--header-color);
+}

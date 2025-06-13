@@ -1,0 +1,665 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+@font-face {
+  font-family: 'HISTORYPRO';
+  src:  url(https://wow-card.ru/templates/shaper_helixultimate/css/fonts/HISTORYPRO-TWO.ttf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+  font-family: 'SLOOP-SCRIPT';
+  src:  url(https://wow-card.ru/templates/shaper_helixultimate/css/fonts/SLOOP-SCRIPT.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+  font-family: 'TIMES';
+  src:  url(https://wow-card.ru/templates/shaper_helixultimate/css/fonts/TIMES.ttf);
+       font-style: normal;
+       font-weight: normal;
+}
+#paper {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #8ea392;
+    --headerLIGHT-color: #e0e0e1; /* используется где в макете на зеленом фоне светлый текст*/
+    --text-color: #050505;/* используется, где в макете нет фона*/
+    --secondary-textBG-color: #050505; /* используется, где в макете дефолтный зеленый фон*/
+    --main-font: 'ALETHIANEXT', sans-serif; /* Основной шрифт */
+    --beauty-font: 'HISTORYPRO', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#paper{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ #paper .title_text{
+    font-family: var(--beauty-font);
+    font-size: 36px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ #paper .descr_text{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#paper .burger-menu{
+    display: none;
+}
+#paper .info-invitation{
+    margin: 0 20px;
+}
+#paper #plan, #paper .dresscode, #paper .details, #paper .rsvp, #paper .question, #paper .counter, #paper .footer, #paper .places, #paper .info-date, #paper #music, #paper .header{
+        max-width: 600px;
+    margin: auto;
+}
+#paper .header-blocks-texts{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 150vh;
+    padding: 10vh 0;
+ }
+ #paper .header-block-center{
+     font-family: var(--beauty-font);
+    font-size: 30px;
+    line-height: 120%;
+ }
+ #paper .header-img{
+         
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    transform: translate(0px, -50%);
+ }
+ #paper .header-blocks{
+     position: relative;
+ }
+#paper .header{
+     height: 150vh;
+ }
+#paper  .header-block-top, #paper .header-block-bottom{
+     text-transform: uppercase;
+ }
+ #paper #playButton{
+         cursor: pointer;
+    max-width: 100px;
+    width: 15%;
+    margin: auto;
+ }
+  #paper .title_text-BG{
+   font-family: var(--beauty-font);
+        font-size: 22px;
+        line-height: 130%;
+        color: var(--secondary-textBG-color);
+
+}
+#paper .descr_text-BG{
+font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--secondary-textBG-color);
+    
+}
+#paper h3{
+        font-size: 16px;
+    text-transform: uppercase;
+    font-family: var(--main-font);
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+#paper .date-calendar table{
+    margin: auto;
+    color: var(--secondary-textBG-color);
+}
+#paper tbody, #paper td, #paper tfoot, #paper th, #paper thead, #paper tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    padding: 5px 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: var(--main-font);
+}
+ #paper .info-date{
+        padding: 20px 0;
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+}
+ #paper .info-invitation{
+    background: var(--background-color);
+    border-radius: 15px;
+    padding: 50px 20px;
+}
+ #paper #welcome-text{
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+#paper .wedding-day{
+    background: url(../../../../images/sites/mig/heart-white-01.svg) center center no-repeat;
+    background-position: center center;
+    color: var(--text-color);
+}
+#paper .right-title-bg, #paper .left-title-bg{
+    position: relative;
+    height: 200px;
+}
+ #paper .right-img-bg{
+        position: absolute;
+    top: 50%;
+    z-index: -1;
+    transform: translate(0, -50%);
+}
+ #paper .left-img-bg{
+        position: absolute;
+    top: 50%;
+    z-index: -1;
+    transform: translate(0, -50%);
+}
+
+#paper .title__header{
+    position: relative;
+    top: 100px;
+    transform: translate(0, -50%);
+    text-align: right;
+    padding-right: 10%;
+}
+#paper .left-title-bg .title__header {
+    text-align: left;
+      padding-left: 10%;
+}
+
+#paper .info-date__place, #paper .rsvp-block, #paper .question__bloks{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+#paper .question__bloks{
+    padding: 0 0 70px;
+}
+#paper #place-one{
+    text-align: right;
+}
+#paper #place-two{
+    text-align: left;
+}
+#paper .registration_title_text, #paper .banquet_title_text{
+    text-transform: uppercase;
+}
+#paper .timetable__block{
+    display: flex
+;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+        gap: 10px;
+}
+#paper .timetable__block-stroke{
+    background: var(--background-color);
+    padding: 10px 20px;
+    display: flex
+;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+}
+#paper .timetable__block-texts{
+  text-align: left;
+    border-left: 1px solid var(--headerLIGHT-color);
+    margin-left: 10px;
+    padding: 10px 0px 10px 10px;
+}
+
+ #paper .timetable__block-time{
+        font-size: 18px;
+    color: var(--headerLIGHT-color);
+}
+ #paper .timetable__block-name{
+        font-size: 16px;
+    color: var(--headerLIGHT-color);
+    line-height: 100%;
+    padding-bottom: 10px;
+}
+ #paper .timetable__block-descr{
+    font-size: 16px;
+    line-height: 120%;
+}
+ #paper .dresscode_common{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+       padding: 30px 0 200px;
+}
+ #paper .dresscode__colors{
+        display: flex;
+    justify-content: center;
+    gap: 5px;
+        padding: 30px 0;
+}
+ #paper .dresscode__color{
+    max-height: 30px;
+    border-radius: 5px;
+    max-width: 30%;
+}
+ #paper .dresscode_descr_text{
+    text-align: right;
+}
+#paper .details-block{
+    width: 90%;
+    max-width: 600px;
+        margin: 0 auto 70px;
+    background: var(--background-color);
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+#paper .details-block-left{
+    text-align: left;
+}
+#paper .details__text{
+   margin: 25px 0;
+}
+#paper input[type="text"]:not(.form-control), #paper input[type="email"]:not(.form-control), #paper input[type="url"]:not(.form-control), #paper input[type="date"]:not(.form-control), #paper input[type="password"]:not(.form-control), #paper input[type="search"]:not(.form-control), #paper input[type="tel"]:not(.form-control), #paper input[type="number"]:not(.form-control), #paper select:not(.form-select):not(.form-control){
+    border: 0px;
+    border-bottom: 1px solid var(--header-color);
+    border-radius: 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+    text-transform: uppercase;
+    border-radius: 0;
+    width: 100%;
+    font-size: 12px;
+    line-height: 14px;
+    background: none;
+}
+#paper .rsvp_descr_text{
+    text-align: right;
+    margin-bottom: 50px;
+}
+#paper .rsvp__buttons{
+    display: flex
+;
+    justify-content: center;
+    gap: 10px;
+}
+#paper .rsvp__buttons button, #paper .rsvp__button{
+    background-color: var(--background-color);
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 50%;
+}
+#paper .details{
+    padding-bottom: 100px;
+}
+#paper #rsvp{
+    padding-bottom: 120px;
+}
+#paper .question__container{
+    text-align: left;
+}
+#paper #question input{
+    text-align: left;
+}
+#paper #clockdiv{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#paper .timer__block-info{
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+#paper  .timer__block{
+   background: var(--background-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    line-height: 50px;
+    font-size: 16px;
+}
+#paper .timer__text{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 10px;
+}
+#paper .counter{
+}
+#paper .footer__container{
+    position: relative;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#paper .right-img-bg-footer{
+        position: relative;
+            z-index: -1;
+}
+#paper  .footer-block-center{
+        text-transform: uppercase;
+    font-size: 32px;
+    line-height: 120%;
+    font-family: var(--beauty-font);
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    left: 50%;
+    bottom: 15px;
+    transform: translate(-50%, 0px);
+}
+#paper .map-place{
+    background: var(--background-color);
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+        margin-top: 20px;
+}
+#paper iframe{
+    width: 100%;
+    border-radius: 10px;
+    min-height: 300px;
+}
+#paper .info-place__text{
+        margin-bottom: 5px;
+}
+#paper  .question__text-mini{
+    font-size: 12px;
+}
+
+
+
+#paper .question__label {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+}
+#paper .question__unvisible {
+    display: none;
+}
+#paper .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+    border-radius: 50%;
+}
+#paper .question__unvisible:checked + .question__visible-radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: var(--background-color);
+    border-radius: 50%;
+}
+#paper .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+}
+#paper .question__unvisible:checked + .question__visible-checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: var(--background-color);
+}
+#paper #plan{
+    padding-bottom: 50px;
+}
+ #paper .menu__button{
+    display: none;
+}
+   #paper  #dresscode_woman .dresscode_title_text, #paper #dresscode_man .dresscode_title_text {
+        margin-bottom: 0px;
+        padding-top: 30px;
+        font-size: 24px;
+    }
+
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#paper{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ #paper .title_text{
+   font-family: var(--beauty-font);
+        font-size: 22px;
+        line-height: 130%;
+        color: var(--text-color);
+}
+ #paper .title_text-BG{
+   font-family: var(--beauty-font);
+        font-size: 22px;
+        line-height: 130%;
+        color: var(--secondary-textBG-color);
+}
+ #paper .descr_text{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--text-color);
+}
+#paper .descr_text-BG{
+font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--secondary-textBG-color);
+    
+}
+#paper .info-invitation{
+    margin: 0 0px;
+}
+#paper iframe {
+    width: 100%;
+    border-radius: 10px;
+    min-height: 200px;
+}
+#paper .header-blocks-texts{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 100vh;
+    padding: 10vh 0;
+ }
+ #paper .header{
+     height: 100vh;
+ }
+ #paper  .footer-block-center{
+    font-size: 24px;
+}
+#paper #rsvp {
+    padding-bottom: 70px;
+}
+#paper .details{
+    padding-bottom: 0px;
+}
+#paper .dresscode_common {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px 0 100px;
+}
+#paper .timetable__block-descr {
+    font-size: 12px;
+    line-height: 120%;
+}
+#paper #plan{
+    padding-bottom: 0px;
+}
+  #paper  #dresscode_woman .dresscode_title_text, #paper #dresscode_man .dresscode_title_text {
+        margin-bottom: 0px;
+        padding-top: 30px;
+        font-size: 24px;
+    }
+}
+
+ #paper .animate-from-left {
+    opacity: 0; /* Сначала делаем элемент невидимым */
+    transition: opacity 1s ease, transform 1s ease; /* Плавный переход */
+    transform: translateX(-50px); /* Сдвигаем влево */
+}
+
+ #paper .animate-from-left.aos-animate {
+    opacity: 1; /* Когда AOS активирует анимацию, делаем видимым */
+    transform: translateX(0); /* Возвращаем на место */
+}
+
+/*  Пример класса для текстовых элементов, появляющихся справа */
+ #paper .animate-from-right {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    transform: translateX(50px); /* Сдвигаем вправо */
+}
+
+ #paper .animate-from-right.aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/*  Пример класса для элементов, появляющихся снизу */
+ #paper .animate-from-bottom {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    transform: translateY(50px); /* Сдвигаем вниз */
+}
+
+ #paper .animate-from-bottom.aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+ #paper .swing {
+  animation: swingAnimation 5s linear infinite alternate;
+}
+
+
+
+/* Дополнительные анимации (примеры) */
+ #paper .fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0; /* Скрываем элемент изначально */
+}
+
+
+
+ #paper .slide-up {
+    animation: slideUp 1s ease-out forwards;
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+
+
+ #paper .slide-down {
+    animation: slideDown 1s ease-out forwards;
+    transform: translateY(-50px);
+    opacity: 0;
+}
+ #paper .pulse {
+  animation: pulse 3s linear infinite; 
+}
+
+/*
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes swingAnimation {
+  0% {
+    transform: rotate(-15deg); 
+  }
+  100% {
+    transform: rotate(15deg); 
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.85);
+  }
+  50% {
+    transform: scale(1.25); 
+  }
+  100% {
+    transform: scale(0.85); 
+  }
+}
+*/

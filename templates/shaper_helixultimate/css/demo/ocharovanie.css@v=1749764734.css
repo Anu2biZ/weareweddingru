@@ -1,0 +1,422 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+@font-face{
+  font-family: "SVERDLOVSK";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/SVERDLOVSK.ttf");
+}
+@font-face {
+  font-family: "WonderScript";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/WonderGardenScript-Regular.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("../../fonts/WonderGardenScript-Regular.woff") format("woff");
+}
+#ocharovanie {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #f3dfe2;
+    --header-color: #cc3730;
+    --text-color: #000000;
+    --white-color: #ffffff;
+    --main-font: 'SVERDLOVSK', sans-serif; /* Основной шрифт */
+    --beauty-font: 'WonderScript', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+#ocharovanie {
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#ocharovanie p{
+    margin: 0;
+}
+ #ocharovanie  .title_text{
+    font-family: var(--beauty-font);
+        font-size: 118px;
+
+        line-height: 100%;
+        padding-bottom: 20px;
+        color: var(--header-color);
+}
+ #ocharovanie  .descr_text{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+    text-align: center;
+}
+ #ocharovanie .header-block-bg-main{
+     height: 100vh;
+    /* display: flex
+; */
+    align-content: center;
+ }
+ #ocharovanie .header__img{
+     height: 90vh;
+    width: auto;
+    margin: auto;
+ }
+ #ocharovanie #music-block img {
+    padding: 10px 0;
+    cursor: pointer;
+    width: 10%;
+    margin: auto;
+    max-width: 70px;
+}
+ #ocharovanie #music-block {
+        padding: 25px 0;
+    background: var(--background-color);
+}
+#ocharovanie .info-date{
+        padding: 25px 0 50px;
+}
+#ocharovanie #home, #ocharovanie .info-date{
+    background: var(--background-color);
+}
+#ocharovanie .block-img-frame{
+     width: 90%;
+    margin: auto;
+    text-align: center;   
+}
+#ocharovanie .block-separator{
+    display: none;
+}
+#ocharovanie .info-invitation-block-text{
+    display: flex
+;
+    flex-direction: column;
+    gap: 15px;
+}
+#ocharovanie .welcome_title_text{
+    color: var(--header-color);
+    font-family: var(--beauty-font);
+    font-size: 108px;
+    line-height: 100%;
+    margin: 0;
+}
+#ocharovanie .header-text-simple{
+    color: var(--header-color);
+    font-family: var(--beauty-font);
+    font-size: 94px;
+        line-height: 100%;
+}
+#ocharovanie #welcome-text{
+    max-width: 600px;
+    margin: auto;
+    width: 90%;
+}
+#ocharovanie #places, #ocharovanie #plan, #ocharovanie #dresscode, #ocharovanie #details,  #ocharovanie .rsvp, #ocharovanie #questions,  #ocharovanie .counter{
+    padding: 50px 0 70px;
+}
+
+#ocharovanie .counter{
+    font-weight: bolder;
+}
+
+#ocharovanie .footer__text {
+    font-weight: bolder;
+}
+#ocharovanie  .dresscode__row{
+    display: flex
+;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+#ocharovanie .question__bloks{
+    width: 80%;
+    margin: auto;
+    max-width: 600px;   
+}
+#ocharovanie .dresscode_descr_text, #ocharovanie  #details-container{
+        width: 80%;
+    margin: auto;
+    max-width: 600px;
+}
+#ocharovanie .rsvp__container{
+    width: 80%;
+    margin: auto;
+    max-width: 600px;
+}
+#ocharovanie input[type="text"], #ocharovanie input[type="number"]{
+        border: 1px solid var(--header-color);
+    width: 100%;
+}
+#ocharovanie .rsvp__form{
+    padding-top: 30px;
+}
+#ocharovanie .rsvp__buttons{
+    padding-top: 15px;
+}
+#ocharovanie  .separator-image{
+        width: 5%;
+    margin: auto;
+    padding: 25px 0;
+}
+#ocharovanie .timetable__block-text{
+    display: flex
+;
+    flex-direction: column;
+    gap: 6px;
+}
+#ocharovanie .timetable__block-time{
+        color: var(--header-color);
+    font-size: 28px;
+    line-height: 100%;
+}
+#ocharovanie .timetable__block-name{
+        font-size: 24px;
+    line-height: 120%;
+        font-weight: 600;
+}
+
+#ocharovanie .timetable__block-stroke{
+        border-radius: 10px;
+    border: 1px solid var(--header-color);
+   padding: 30px 15px;
+    width: 70%;
+    margin: auto;
+    max-width: 400px;
+}
+#ocharovanie .opros-grup-title{
+    font-weight: 600;
+}
+#ocharovanie .timetable__block-separate{
+    width: 6%;
+    max-width: 30px;
+    margin: auto;
+    padding: 20px 0;
+}
+#ocharovanie  .block-separator-rotate{
+        transform: rotate(180deg);
+}
+#ocharovanie  #plan, #ocharovanie #details, #ocharovanie #questions{
+        background: var(--background-color);
+}
+#ocharovanie .question__text-mini{
+    font-size: 14px;
+    padding: 10px 0 15px;
+}
+#ocharovanie #question{
+        display: flex
+;
+    text-align: left;
+    flex-direction: column;
+}
+#ocharovanie .question__label {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+}
+#ocharovanie .question__string{
+    margin-bottom: 10px;
+}
+#ocharovanie .question__label{
+        margin-bottom: 0px;
+}
+#ocharovanie  .question__unvisible {
+    display: none;
+}
+#ocharovanie .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+    border-radius: 50%;
+}
+#ocharovanie  .question__unvisible:checked + .question__visible-radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: var(--header-color);
+    border-radius: 50%;
+}
+#ocharovanie  .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+}
+#ocharovanie .question__unvisible:checked + .question__visible-checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: var(--header-color);
+}
+#ocharovanie .question__string input[type="text"] {
+    border: 0;
+    background-color: var(--background-color);
+    border: 1px solid var(--header-color);
+    border-radius: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px 10px !important;
+    border-radius: 5px;
+}
+#ocharovanie .rsvp__button {
+    background: var(--header-color);
+    color: var(--background-color);
+    min-width: calc(50% - 5px);
+    padding: 10px 0px 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    font-weight: 600;
+}
+#ocharovanie  .dresscode__colors{
+        width: 90%;
+    margin: auto;
+    max-width: 600px;
+}
+#ocharovanie .rsvp__buttons{
+    display: flex
+;
+    gap: 10px;
+    flex-direction: row;
+}
+#ocharovanie .registration_descr_text{
+        padding-bottom: 30px;
+}
+#ocharovanie  .info-date__with-map iframe{
+    width: 100%;
+    min-height: 250px;
+    max-width: 800px;
+}
+#ocharovanie  #clockdiv {
+    display: flex
+;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 12px;
+        padding: 20px 0 0;
+}
+#ocharovanie .timer__block-info {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+#ocharovanie .timer__number {
+    width: 50px;
+    height: 50px;
+    /* color: var(--header-color); */
+    line-height: 50px;
+    font-size: 18px;
+       border: 1px solid var(--header-color);
+    border-radius: 50%;
+}
+#ocharovanie  .timer__block-inside{
+        display: flex
+;
+    gap: 5px;
+    flex-direction: column;
+}
+#ocharovanie  .timer-title{
+    color: var(--header-color);
+    font-size: 24px;
+}
+#ocharovanie .names-footer{
+    color: var(--header-color);
+    font-size: 48px;
+    line-height: 100%;
+    padding: 30px 0;
+}
+#ocharovanie  .footer__container img{
+        width: 5%;
+    max-width: 50px;
+    margin: auto;
+}
+#ocharovanie .footer {
+    padding: 0 0 50px;
+}
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#ocharovanie {
+    font-family: var(--main-font);
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--text-color);
+}
+#ocharovanie  .title_text{
+   font-family: var(--beauty-font);
+        font-size: 116px;
+        line-height: 100%;
+        padding-bottom: 20px;
+        color: var(--header-color);
+}
+#ocharovanie  .descr_text{
+    font-family: var(--main-font);
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--text-color);
+    text-align: center;
+    font-weight: bolder;
+}
+#ocharovanie .block-separator-pc{
+    display: none;
+}
+#ocharovanie .block-separator{
+    display: block;
+}
+#ocharovanie .header__img {
+    width: 90%;
+    /* text-align: right; */
+    margin-left: 10%;
+        height: auto;
+
+    max-width: 600px;
+}
+#ocharovanie .welcome_title_text {
+    color: var(--header-color);
+    font-family: var(--beauty-font);
+    font-size: 104px;
+    line-height: 100%;
+    margin: 0;
+}
+#ocharovanie .header-text-simple {
+    color: var(--header-color);
+    font-family: var(--beauty-font);
+    font-size: 94px;
+    line-height: 100%;
+}
+}
+

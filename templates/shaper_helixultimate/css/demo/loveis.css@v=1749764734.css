@@ -1,0 +1,1067 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@font-face {
+  font-family: "BEERMONEY";
+  src:
+  url(../../fonts/BEERMONEY.ttf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+  font-family: "UnivrstyRoman";
+  src:
+  url(../../fonts/UnivrstyRoman.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+#loveis {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #ffffff;
+    --header-color: #f92828;
+    --text-color: #000000;
+    --main-font: 'UnivrstyRoman', sans-serif; /* Основной шрифт */
+    --beauty-font: 'BEERMONEY', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#loveis{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+    overflow: hidden;
+}
+#loveis p{
+    margin: 0;
+}
+#loveis .title_text{
+    font-family: var(--beauty-font);
+    font-size: 64px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#loveis .descr_text{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ 
+ #loveis .header-block-bg-text{
+     position: absolute;
+    color: var(--header-color);
+    font-family: var(--beauty-font);
+ }
+#loveis .header-text-small{
+     font-size: 28px;
+    padding: 30px 0;
+ }
+ #loveis  #music-text{
+            padding: 0px 0;
+            font-size: 24px;
+}
+#loveis .header-block-bg-text{
+        font-size: 54px;
+    top: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+  #loveis  .header-block-bg{
+     position: relative;
+ }
+  #loveis  .header{
+    min-height: calc(100vh - 150px);
+ }
+ #loveis .welcome_beauty_text, #loveis .timetable_title_text, #loveis .dresscode_title_text, #loveis .details__header, #loveis .rsvp_title_text, #loveis .timer-title, #loveis .question_title_text{
+     color: var(--header-color);
+ }
+ #loveis .welcome_title_text{
+     text-transform: uppercase;
+    font-size: 32px;
+ }
+   #loveis .info-date__invitation{
+     text-align: left;
+         width: 80%;
+ }
+
+  #loveis #plan,  #loveis .dresscode,  #loveis .details,  #loveis .rsvp,  #loveis .counter,  #loveis .question,  #loveis .footer{
+     max-width: 800px;
+    width: 80%;
+    margin: auto;
+ }
+   #loveis .info-date,  #loveis .places{
+     max-width: 600px;
+    width: 80%;
+    margin: auto;
+ }
+ #loveis .block-separator-pc{
+     padding: 50px 0;
+ }
+   #loveis  .block-img-loveis{
+     display: flex;
+    /* text-align: right; */
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0px 0px 20px 0px;
+}
+ #loveis  .block-img-loveis img{
+     width: 60%;
+     max-width: 400px;
+ }
+   #loveis .block-img-loveis-left{
+         justify-content: flex-start;
+ }
+ #loveis .place_beauty_text{
+     text-align: right;
+     color:var(--header-color);
+ }
+ #loveis #place-one .info-date__check-in{
+         text-align: right;
+ }
+ #loveis .frame-block{
+     position: relative;
+ }
+#loveis .block-img-frame{
+         position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 3;
+ }
+ #loveis #registration-time, #loveis #banquet-time{
+     font-size: 36px;
+    line-height: 120%;
+    padding: 10px 0;
+}
+#loveis .info-date__with-map iframe{
+    height: 330px;
+       padding: 10px 10px;
+    width: calc(100% - 20px);
+}
+#loveis .block-img-frame img{
+    height: 350px;
+    width: 100%;
+}
+#loveis .places{
+    padding-bottom: 20px;
+}
+#loveis .timetable__block{
+    display: flex
+;
+    flex-direction: column;
+        margin: auto;
+        max-width: 400px;
+}
+#loveis .timetable__block-stroke img{
+    width: 25px;
+    margin: auto;
+    padding: 0px 0;
+}
+#loveis .timetable__block-name, #loveis .timetable__block-time{
+    font-family: var(--main-font);
+    font-size: 32px;
+    line-height: 120%;
+}
+#loveis .timetable__block-descr{
+        line-height: 100%;
+    padding: 10px 0;
+}
+#loveis #plan{
+    width: 90%;
+}
+#loveis .timetable__block-imgFrame{
+    position: relative;
+    height: auto;
+}
+#loveis .timetable__block-imgFrame img{
+     position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+#loveis .timetable__block-texts{
+    padding: 40px 20px;
+}
+#loveis .timetable__block-stroke{
+    width: 100%;
+}
+#loveis .dresscode__color{
+    max-width: 60px;
+}
+#loveis .dresscode__colors{
+        display: flex
+;
+    gap: 20px;
+    padding: 20PX 0;
+    justify-content: center;
+}
+#loveis .separator-image{
+    width: 30px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+#loveis .block-img-loveis-center{
+    justify-content: center;
+}
+#loveis .dresscode_descr_text{
+    text-align: center;
+    padding: 0;
+        margin: auto;
+}
+ #loveis .dresscode_title_text, #loveis .details__header, #loveis .rsvp_title_text, #loveis .timer-title, #loveis .timetable_title_text, #loveis .question_title_text{
+    padding: 0 0 20px;
+ }
+  #loveis input[type="text"],  #loveis input[type="number"]{
+      border: 1px solid black;
+    width: 100%;
+    margin: 10px 0;
+    height: 40px;
+  }
+
+
+#loveis .rsvp__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+#loveis .rsvp__button {
+  position: relative;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: inherit;
+  color: black;
+  width: 200px;  /* Подгоните под размеры вашей картинки-обводки */
+  height: 60px; /* Подгоните под размеры вашей картинки-обводки */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+#loveis .rsvp__button span {
+    position: relative;
+    z-index: 2;
+}
+
+#loveis .rsvp__button-yes::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../../images/sites/loveis/button-01.svg'); /* Путь к картинке для "Подтвердить" */
+  background-repeat: no-repeat;
+  background-size: contain; /* Или cover, или конкретные размеры */
+  background-position: center;
+  z-index: 1;
+}
+
+#loveis #question .rsvp__button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../../images/sites/loveis/button-01.svg'); /* Путь к картинке для "Подтвердить" */
+  background-repeat: no-repeat;
+  background-size: contain; /* Или cover, или конкретные размеры */
+  background-position: center;
+  z-index: 1;
+}
+#loveis .rsvp__button-no::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../../images/sites/loveis/button-01.svg'); /* Путь к картинке для "Отклонить" */
+  background-repeat: no-repeat;
+  background-size: contain; /* Или cover, или конкретные размеры */
+  background-position: center;
+  z-index: 1;
+}
+
+/* Дополнительные стили для наведения (пример) */
+#loveis .rsvp__button:hover::before {
+  /*  Можно изменить картинку, добавить тень и т.д. */
+}
+#loveis .timer-title-white{
+    font-family: var(--main-font);
+    font-size: 28px;
+}
+
+
+#loveis .timer__bloks {
+    display: flex;
+    justify-content: center; /* Центрируем блоки по горизонтали */
+    gap: 20px; /* Расстояние между блоками */
+}
+
+#loveis .timer__block-info {
+  /*  Если нужно добавить общие стили  */
+}
+
+#loveis .timer__block-inside {
+    display: flex;
+    flex-direction: column; /* Элементы внутри блока идут вертикально */
+    align-items: center;     /* Центрируем по горизонтали */
+}
+
+#loveis .timer__block {
+    position: relative; /* Для позиционирования круга */
+   width: 65px;
+    height: 65px;
+    display: flex; /* Центрируем цифру внутри блока */
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* Размер цифры */
+    font-weight: bold;
+    margin-bottom: 5px; /* Отступ от цифры до текста */
+}
+
+#loveis .timer__number{
+  z-index: 2; /*  Цифра поверх круга */
+}
+
+
+#loveis .timer__circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../../images/sites/loveis/timer-circle-01.svg'); /*  Путь к вашей картинке круга */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 1; /* Круг под цифрой */
+}
+
+#loveis .timer__text {
+    text-align: center;
+}
+#loveis #clockdiv{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 25px 0;
+}
+#loveis .question__string{
+    padding: 5px 0;
+}
+#loveis #question{
+    text-align: left;
+}
+#loveis .question__text-mini{
+    font-size: 14px;
+    padding-top: 5px;
+}
+#loveis .question__label {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+}
+#loveis .question__unvisible {
+    display: none;
+}
+#loveis .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+    border-radius: 50%;
+}
+#loveis .question__unvisible:checked + .question__visible-radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: var(--header-color);
+    border-radius: 50%;
+}
+#loveis .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+}
+#loveis .question__unvisible:checked + .question__visible-checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+#loveis .button-container{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#loveis  .footer .timer-title {
+    text-align: left;
+}
+#loveis .footer .timer-title-white {
+    text-align: right;
+}
+
+#loveis  .footer .header-block-small-heart{
+    padding: 30px 0;
+    width: 70px;
+    margin: auto;
+}
+#loveis  .footer__container{
+    padding: 0px 0 50px;
+}
+#loveis  .footer__text{
+    font-size: 28px;
+}
+#loveis  .names-footer{
+    font-family: var(--beauty-font);
+    font-size: 42px;
+    line-height: 120%;
+}
+#loveis .block-separator-pc{
+   display: block;
+}
+#loveis .block-separator{
+     display: none;
+}
+#loveis .header-block-bg-main img{
+    max-height: calc(100vh - 170px);
+    margin: auto;
+}
+#loveis #place-one, #loveis #place-two{
+    padding: 10px 0;
+}
+    #loveis #registration-time, #loveis #banquet-time, #loveis .welcome_title_text {
+        font-size: 36px;
+        line-height: 120%;
+        padding: 20px 0;
+    }
+    
+   #loveis tbody, #loveis td, #loveis tfoot, #loveis th, #loveis thead, #loveis tr {
+    padding: 5px 10px;
+}
+#loveis table{
+    margin: 20px auto 0;
+}
+
+#loveis .wedding-day{
+    color: var(--text-color);
+    background: url(../../../../images/sites/loveis/heart-red-date-01.svg) center center no-repeat;
+    background-position: center center;
+}
+
+#loveis #playButton{
+    width: 50px;
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#loveis .menu__button{
+    display: none;
+}
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#loveis{
+    font-family: var(--main-font);
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ #loveis .title_text{
+   font-family: var(--beauty-font);
+        font-size: 42px;
+        line-height: 120%;
+        margin: 0;
+}
+#loveis .descr_text{
+    font-family: var(--main-font);
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#loveis .timer-title-white{
+    font-family: var(--main-font);
+    font-size: 28px;
+}
+ 
+ #loveis .header-block-bg-text{
+     position: absolute;
+    color: var(--header-color);
+    font-family: var(--beauty-font);
+ }
+#loveis .header-text-small{
+     font-size: 28px;
+    padding: 30px 0;
+    line-height: 120%;
+ }
+ 
+#loveis  #music-text{
+            padding: 0px 0;
+            font-size: 20px;
+}
+#loveis .header-block-bg-text{
+     font-size: 58px;
+    top: 5vh;
+    left: 5vw;
+        transform: translateX(0%);
+ }
+  #loveis  .header-block-bg{
+     position: relative;
+ }
+  #loveis  .header{
+    min-height: calc(100vh - 150px);
+ }
+ #loveis .welcome_beauty_text, #loveis .timetable_title_text, #loveis .dresscode_title_text, #loveis .details__header, #loveis .rsvp_title_text, #loveis .timer-title, #loveis .question_title_text{
+     color: var(--header-color);
+ }
+ #loveis .welcome_title_text{
+     text-transform: uppercase;
+    font-size: 32px;
+ }
+   #loveis .info-date__invitation{
+     text-align: left;
+        width: 90%;
+ }
+
+  #loveis .info-date,  #loveis .places, #loveis #plan,  #loveis .dresscode,  #loveis .details,  #loveis .rsvp,  #loveis .counter,  #loveis .question,  #loveis .footer{
+     max-width: 800px;
+    width: 80%;
+    margin: auto;
+ }
+  #loveis .block-separator, #loveis .block-separator-pc{
+     padding: 30px 0;
+ }
+   #loveis  .block-img-loveis{
+     display: flex;
+    /* text-align: right; */
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0px 0px 20px 0px;
+}
+ #loveis  .block-img-loveis img{
+     width: 60%;
+ }
+   #loveis .block-img-loveis-left{
+         justify-content: flex-start;
+ }
+ #loveis .place_beauty_text{
+     text-align: right;
+     color:var(--header-color);
+ }
+ #loveis #place-one .info-date__check-in{
+         text-align: right;
+ }
+ 
+ #loveis .place-left{
+     text-align: left;
+ }
+ #loveis .frame-block{
+     position: relative;
+ }
+#loveis .block-img-frame{
+         position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+ }
+ #loveis #registration-time, #loveis #banquet-time{
+     font-size: 36px;
+    line-height: 120%;
+    padding: 10px 0;
+}
+#loveis .info-date__with-map iframe{
+    height: 230px;
+       padding: 10px 10px;
+    width: calc(100% - 20px);
+}
+#loveis .block-img-frame img{
+    height: 250px;
+    width: 100%;
+}
+#loveis .places{
+    padding-bottom: 20px;
+}
+#loveis .timetable__block{
+    display: flex
+;
+    flex-direction: column;
+        margin: auto;
+}
+#loveis .timetable__block-stroke img{
+    width: 25px;
+    margin: auto;
+    padding: 0px 0;
+}
+#loveis .timetable__block-name, #loveis .timetable__block-time{
+    font-family: var(--main-font);
+    font-size: 32px;
+    line-height: 120%;
+}
+#loveis .timetable__block-descr{
+        line-height: 100%;
+    padding: 10px 0;
+}
+#loveis #plan{
+    width: 90%;
+}
+#loveis .timetable__block-imgFrame{
+    position: relative;
+    height: auto;
+}
+#loveis .timetable__block-imgFrame img{
+     position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+#loveis .timetable__block-texts{
+    padding: 40px 20px;
+}
+#loveis .timetable__block-stroke{
+    width: 100%;
+}
+#loveis .dresscode__color{
+    max-width: 60px;
+}
+#loveis .dresscode__colors{
+        display: flex
+;
+    gap: 20px;
+    padding: 20PX 0;
+    justify-content: center;
+}
+#loveis .separator-image{
+    width: 30px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+#loveis .block-img-loveis-center{
+    justify-content: center;
+}
+#loveis .dresscode_descr_text{
+    text-align: center;
+    padding: 0;
+        margin: auto;
+}
+ #loveis .dresscode_title_text, #loveis .details__header, #loveis .rsvp_title_text, #loveis .timer-title, #loveis .timetable_title_text, #loveis .question_title_text{
+    padding: 0 0 20px;
+ }
+  #loveis input[type="text"],  #loveis input[type="number"]{
+      border: 1px solid black;
+    width: 100%;
+    margin: 10px 0;
+    height: 40px;
+  }
+
+
+#loveis .rsvp__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+#loveis .rsvp__button {
+  position: relative;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: inherit;
+  color: black;
+  width: 200px;  /* Подгоните под размеры вашей картинки-обводки */
+  height: 60px; /* Подгоните под размеры вашей картинки-обводки */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+#loveis .rsvp__button span {
+    position: relative;
+    z-index: 2;
+}
+
+#loveis .rsvp__button-yes::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../../images/sites/loveis/button-01.svg'); /* Путь к картинке для "Подтвердить" */
+  background-repeat: no-repeat;
+  background-size: contain; /* Или cover, или конкретные размеры */
+  background-position: center;
+  z-index: 1;
+}
+
+#loveis #question .rsvp__button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../../images/sites/loveis/button-01.svg'); /* Путь к картинке для "Подтвердить" */
+  background-repeat: no-repeat;
+  background-size: contain; /* Или cover, или конкретные размеры */
+  background-position: center;
+  z-index: 1;
+}
+#loveis .rsvp__button-no::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../../images/sites/loveis/button-01.svg'); /* Путь к картинке для "Отклонить" */
+  background-repeat: no-repeat;
+  background-size: contain; /* Или cover, или конкретные размеры */
+  background-position: center;
+  z-index: 1;
+}
+
+/* Дополнительные стили для наведения (пример) */
+#loveis .rsvp__button:hover::before {
+  /*  Можно изменить картинку, добавить тень и т.д. */
+}
+#loveis .timer-title-white{
+    font-family: var(--main-font);
+    font-size: 28px;
+}
+
+
+#loveis .timer__bloks {
+    display: flex;
+    justify-content: center; /* Центрируем блоки по горизонтали */
+    gap: 20px; /* Расстояние между блоками */
+}
+
+#loveis .timer__block-info {
+  /*  Если нужно добавить общие стили  */
+}
+
+#loveis .timer__block-inside {
+    display: flex;
+    flex-direction: column; /* Элементы внутри блока идут вертикально */
+    align-items: center;     /* Центрируем по горизонтали */
+}
+
+#loveis .timer__block {
+    position: relative; /* Для позиционирования круга */
+   width: 65px;
+    height: 65px;
+    display: flex; /* Центрируем цифру внутри блока */
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* Размер цифры */
+    font-weight: bold;
+    margin-bottom: 5px; /* Отступ от цифры до текста */
+}
+
+#loveis .timer__number{
+  z-index: 2; /*  Цифра поверх круга */
+}
+
+
+#loveis .timer__circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../../images/sites/loveis/timer-circle-01.svg'); /*  Путь к вашей картинке круга */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 1; /* Круг под цифрой */
+}
+
+#loveis .timer__text {
+    text-align: center;
+}
+#loveis #clockdiv{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 25px 0;
+}
+#loveis .question__string{
+    padding: 5px 0;
+}
+#loveis #question{
+    text-align: left;
+}
+#loveis .question__text-mini{
+    font-size: 14px;
+    padding-top: 5px;
+}
+#loveis .question__label {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+}
+#loveis .question__unvisible {
+    display: none;
+}
+#loveis .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+    border-radius: 50%;
+}
+#loveis .question__unvisible:checked + .question__visible-radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: var(--header-color);
+    border-radius: 50%;
+}
+#loveis .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+}
+#loveis .question__unvisible:checked + .question__visible-checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+#loveis .button-container{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#loveis  .footer .timer-title {
+    text-align: left;
+}
+#loveis .footer .timer-title-white {
+    text-align: right;
+}
+
+#loveis  .footer .header-block-small-heart{
+    padding: 30px 0;
+    width: 70px;
+    margin: auto;
+}
+#loveis  .footer__container{
+    padding: 0px 0 50px;
+}
+#loveis  .footer__text{
+    font-size: 28px;
+}
+#loveis  .names-footer{
+    font-family: var(--beauty-font);
+    font-size: 42px;
+    line-height: 120%;
+}
+
+#loveis .block-separator-pc{
+    display: none;
+}
+#loveis .block-separator{
+    display: block;
+}
+#loveis .header-block-bg-main img{
+    max-height: calc(100vh - 0px);
+    margin: auto;
+}
+}
+   
+   
+   
+   
+    
+    /*  Пример класса для текстовых элементов, появляющихся справа */
+#loveis .animate-from-right {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    transform: translateX(50px); /* Сдвигаем вправо */
+}
+
+#loveis .animate-from-right.aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/*  Пример класса для элементов, появляющихся снизу */
+#loveis .animate-from-bottom {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    transform: translateY(50px); /* Сдвигаем вниз */
+}
+
+#loveis .animate-from-bottom.aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#loveis .swing {
+  animation: swingAnimation 5s linear infinite alternate;
+}
+
+
+
+/* Дополнительные анимации (примеры) */
+#loveis .fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0; /* Скрываем элемент изначально */
+}
+
+
+
+#loveis .slide-up {
+    animation: slideUp 1s ease-out forwards;
+    transform: translateY(50px); /* Сдвигаем элемент вниз изначально */
+    opacity: 0;
+}
+
+
+
+#loveis .slide-down {
+    animation: slideDown 1s ease-out forwards;
+    transform: translateY(-50px); /* Сдвигаем элемент вверх изначально */
+    opacity: 0;
+}
+#loveis .pulse {
+  animation: pulse 3s linear infinite; /* 3 секунды, линейно, бесконечно */
+}
+#loveis .pulse-slow {
+  animation: pulse-slow 7s linear infinite; /* 3 секунды, линейно, бесконечно */
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes swingAnimation {
+  0% {
+    transform: rotate(-7deg); /* Наклон влево */
+  }
+  100% {
+    transform: rotate(7deg); /* Наклон вправо */
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1); /* Исходный размер */
+  }
+  50% {
+    transform: scale(1.05); /* Увеличение на 5% */
+  }
+  100% {
+    transform: scale(1); /* Возврат к исходному размеру */
+  }
+}
+@keyframes pulse-slow {
+  0% {
+    transform: scale(0.95); /* Исходный размер */
+  }
+  50% {
+    transform: scale(1.05); /* Увеличение на 5% */
+  }
+  100% {
+    transform: scale(0.95); /* Возврат к исходному размеру */
+  }
+}
+
+
+#loveis #place-two{
+    padding-top: 50px;
+}
+#loveis .dresscode_man, #loveis.dresscode_woman{
+    padding: 20px 0;
+}
+#loveis #registration-title, #loveis #banquet-title{
+        text-transform: uppercase;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,407 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+@font-face{
+  font-family: "SourceCodePro-Light";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/SourceCodePro-Light.ttf");
+}
+#vdokhnovenie {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #8FA5C6;
+    --header-color: white;
+    --text-color: #231F20;
+    --main-font: 'SourceCodePro-Light', sans-serif; /* Основной шрифт */
+    --beauty-font: 'mak', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#vdokhnovenie{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+    text-align: center;
+        max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+#vdokhnovenie p{
+    margin: 0;
+}
+ #vdokhnovenie .title_text{
+    font-size: 42px;
+    line-height: 120%;
+     font-family: var(--beauty-font);
+    color: var(--background-color);
+    text-transform: uppercase;
+}
+ #vdokhnovenie .descr_text{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+        text-align: center;
+
+}
+#vdokhnovenie .header-blocks{
+    height: 84vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 8vh 10%;
+    text-align: left;
+}
+#vdokhnovenie .header-block-bottom{
+        font-family: var(--beauty-font);
+    font-size: 50px;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+ #vdokhnovenie .header-title-color{
+     color: var(--background-color);
+ }
+  #vdokhnovenie .header-block-bg-main{
+     max-width: 75%;
+ }
+  #vdokhnovenie .date-welcome{
+     font-weight: bolder;
+         padding: 5px 0;
+ }
+   #vdokhnovenie #playButton {
+    width: 20%;
+    max-width: 100px;
+    margin: auto;
+}
+  #vdokhnovenie #music-block {
+        padding: 30px 0;
+    }
+  #vdokhnovenie  .welcome_title_text{
+        font-size: 42px;
+    font-family: var(--beauty-font);
+    color: var(--background-color);
+    text-transform: uppercase;
+    }
+    #vdokhnovenie  .info-date{
+          padding: 50px 0 0;
+    text-align: center;
+    }
+    #vdokhnovenie  .welcome_title_text-small{
+        font-size: 18px;
+    font-family: var(--beauty-font);
+    color: var(--background-color);
+    text-transform: uppercase;
+    line-height: 100%;
+   padding: 35px 0 25px;
+    }
+    
+     #vdokhnovenie  .info-invitation-block-text{
+        padding: 0px 10% 30px;
+    }
+    #vdokhnovenie   .row_title_text{
+        background: var(--background-color);
+    color: var(--header-color);
+    line-height: 100%;
+    padding: 10px 0 5px;
+    font-family: var(--beauty-font);
+    text-transform: uppercase;
+    font-size: 24px;
+    }
+     #vdokhnovenie  #registration-title,  #vdokhnovenie  #banquet-title{
+            font-size: 18px;
+    font-family: var(--beauty-font);
+    color: var(--background-color);
+    text-transform: uppercase;
+    line-height: 100%;
+    padding: 35px 0 15px;
+        
+    }
+     #vdokhnovenie  .details-block{
+        width: 80%;
+    margin: auto;
+    max-width: 500px;
+        padding: 30px 0 50px;
+    }
+    #vdokhnovenie  .dresscode_common {
+          width: 90%;
+    margin: auto;
+    max-width: 500px;
+        padding: 30px 0 50px;
+    }
+     #vdokhnovenie  .separator-image{
+            width: 8%;
+    max-width: 50px;
+    padding: 30px 0;
+    margin: auto;
+    }
+   #vdokhnovenie  .dresscode__colors {
+       width: 100%;
+    gap: 10px;
+    display: flex
+;
+    justify-content: center;
+    margin: auto;
+    padding: 30px 0;
+    }
+    #vdokhnovenie  .dresscode__color {
+        width: 75px;
+        height: 20px;
+        max-height: 25px;
+        min-height: 20px;
+        min-width: 40px;
+    }
+    #vdokhnovenie .names-footer{
+        display: flex
+;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+       align-items: flex-end;
+    align-items: flex-end;
+
+    padding: 20px 0 30px;
+    }
+   #vdokhnovenie .names-footer-block{
+     display: flex
+;
+    /* margin: auto; */
+    flex-direction: column;
+    
+    /* line-height: 120%; */
+    font-size: 64px;   
+    }
+  #vdokhnovenie  .name-footer{
+          font-size: 44px;
+    font-family: var(--beauty-font);
+    text-transform: uppercase;
+    line-height: 100%;
+    }
+  #vdokhnovenie  .and-footer{
+        font-size: 94px;
+    font-family: var(--beauty-font);
+    text-transform: uppercase;
+    color: var(--background-color);
+       line-height: 80%;
+    }
+   #vdokhnovenie  iframe{
+           width: 100%;
+    padding: 30px 0;
+    min-height: 300px;
+    }
+   #vdokhnovenie  .rsvp__button {
+            background: var(--background-color);
+    text-transform: uppercase;
+    width: 50%;
+    }
+      #vdokhnovenie .rsvp__buttons{
+            display: flex
+;
+    gap: 10px;
+    margin-top: 20px;
+    }
+    #vdokhnovenie  input{
+        width: 100%;
+    border: 1px solid var(--background-color);
+    }
+    #vdokhnovenie  .rsvp_descr_text{
+        padding: 20px 0;
+    }
+    #vdokhnovenie .rsvp-block, #vdokhnovenie .question__container{
+            width: 80%;
+    margin: auto;
+    max-width: 500px;
+    }
+    #vdokhnovenie  section#rsvp, #vdokhnovenie  .question{
+            max-width: 500px;
+    padding: 30px 0 30px;
+    }
+ #vdokhnovenie #question{
+        display: flex
+;
+    text-align: left;
+    flex-direction: column;
+}
+#vdokhnovenie .question__label {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+}
+#vdokhnovenie .question__string{
+    margin-bottom: 10px;
+}
+#vdokhnovenie .question__label{
+        margin-bottom: 0px;
+}
+#vdokhnovenie  .question__unvisible {
+    display: none;
+}
+#vdokhnovenie .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--background-color);
+    border-radius: 50%;
+}
+#vdokhnovenie  .question__unvisible:checked + .question__visible-radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: var(--background-color);
+    border-radius: 50%;
+}
+#vdokhnovenie .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--background-color);
+}
+#vdokhnovenie .question__unvisible:checked + .question__visible-checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: var(--background-color);
+}
+#vdokhnovenie .question__text-mini{
+        font-size: 13px;
+    padding: 10px 0 20px;
+}
+#vdokhnovenie .opros-inside{
+    padding: 30px 0 50px;
+}
+#vdokhnovenie .counter{
+        width: 90%;
+    margin: auto;
+    max-width: 600px;
+            padding: 30px 0;
+}
+#vdokhnovenie .timer-title {
+        font-size: 24px;
+    }
+    #clockdiv {
+    display: flex
+;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#vdokhnovenie .timer__block-info {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+#vdokhnovenie .timer__block-inside {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+#vdokhnovenie .timer__block {
+    border: 2px solid  var(--background-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: var(--text-color);
+    line-height: 50px;
+    font-size: 18px;
+    font-family: var(--beauty-font);
+    font-size: 20px;
+}
+ #vdokhnovenie .timer-title{
+        font-size: 32px;
+            padding-bottom: 20px;
+
+    }
+   #vdokhnovenie  .timer{
+        padding-bottom: 50px;
+    }
+  #vdokhnovenie   .timetable__block-line{
+            border-left: 1px solid var(--background-color);
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    width: 1px;
+    margin: 15px auto;
+    }
+     #vdokhnovenie   .timetable__block-img{
+            max-width: 150px;
+    margin: auto;
+    padding: 10px 0;
+    }
+    #vdokhnovenie  .timetable__block-name, #vdokhnovenie  .timetable__block-time{
+        font-family: var(--beauty-font);
+    font-size: 24px;
+    text-transform: uppercase;
+       color: var(--background-color);
+    padding: 10px 0;
+    }
+    #vdokhnovenie .plan__place{
+            width: 90%;
+    margin: auto;
+    max-width: 500px;
+        padding: 50px 0;
+    }
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#vdokhnovenie{
+    font-size: 16px;
+    line-height: 120%;
+}
+#vdokhnovenie .title_text{
+    font-size: 32px;
+    line-height: 120%;
+}
+ #vdokhnovenie .descr_text{
+    font-size: 16px;
+    line-height: 120%;
+}
+  #vdokhnovenie  .welcome_title_text{
+        font-size: 32px;
+    }
+
+   #vdokhnovenie .timer-title{
+        font-size: 24px;
+            padding-bottom: 20px;
+
+    }
+}
+ #vdokhnovenie #registration-place,   #vdokhnovenie #banquet-place{
+    width: 90%;
+    margin: auto;
+}

@@ -1,0 +1,465 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@font-face {
+  font-family: 'BRUSNIKA';
+  src:  url(../../fonts/BRUSNIKA.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+font-family: 'Ink';
+src: url('../../fonts/Ink.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+#childhood {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #D9D9D9;
+    --header-color: #303030;
+    --text-color: #303030;
+      --element-color-green: #a1b087;
+       --element-color-yellow: #f1d089;
+        --element-color-pink: #eec1d5;
+         --element-color-blue: #bccdd7;
+      
+    --main-font: 'BRUSNIKA', sans-serif; /* Основной шрифт */
+    --beauty-font: 'Ink', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#childhood{
+    font-family: var(--main-font);
+   font-size: 32px;
+    line-height: 120%;
+    color: var(--text-color);
+    overflow: hidden;
+}
+  #childhood .welcome_title_text{
+    font-family: var(--beauty-font);
+    font-size: 64px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+  #childhood .title_text{
+    font-family: var(--beauty-font);
+    font-size: 64px;
+    line-height: 80%;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--header-color);
+    padding: 0px 20px;
+    margin: 0px auto 25px;
+    display: inline-block;
+}
+ #childhood .descr_text{
+    font-family: var(--main-font);
+    font-size: 32px;
+    line-height: 100%;
+    color: var(--text-color);
+        text-align: center;
+}
+  #childhood .info-date__invitation{
+     margin-bottom: 50px;
+ }
+  #childhood .childhood-img-bg{
+         background-image: url(../../../../images/sites/childhood/Childhood-bg-pc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    min-height: 100vh;
+        height: 100vh;
+    overflow: auto;
+    margin: auto;
+            position: fixed;
+        top: 0;
+        z-index: -10;
+ }
+
+#childhood .header-blocks p{
+             font-size: 42px;
+                 margin: 10px 0;
+ }
+#childhood .header-block-top {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+ }
+#childhood .header-blocks{
+         padding: 80px 0 30px;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+ }
+#childhood #playButton{
+     max-width: 70px;
+    margin: auto;
+ }
+ #childhood #music{
+         padding: 50px 0;
+ }
+ #childhood .info-date, #childhood .places, #childhood #plan, #childhood #details, #childhood #dresscode, #childhood .counter, #childhood #questions, #childhood .footer{
+         width: 90%;
+    max-width: 600px;
+    margin: auto;
+ }
+ #childhood .separate-img-block{
+     width: 40px;
+    margin: auto;
+    padding: 50px 0;
+ }
+ #childhood .date-calendar{
+     border: 1px solid var(--header-color);
+    padding: 20px 5px;
+    margin: auto;
+    background: white;
+    max-width: 500px;
+ }
+#childhood h3{
+         font-size: 28px;
+    font-family: var(--beauty-font);
+    border-bottom: 1px solid var(--header-color);
+    padding: 0 0px 10px;
+    margin: 0 20px 20px;
+ }
+ #childhood table{
+     margin: auto;
+ }
+#childhood th{
+     text-transform: uppercase;
+    font-weight: 100;
+ }
+#childhood tbody, #childhood td, #childhood tfoot, #childhood th, #childhood thead, #childhood tr{
+         padding: 4px 8px;
+ }
+ #childhood #place-one, #childhood #place-two, #childhood #questions, #childhood #plan{
+     border: 1px solid var(--header-color);
+    border-radius: 20px;
+    padding: 20px;
+        background: white;
+ }
+ #childhood #questions{
+     margin-bottom: 20px;
+     padding-top: 40px;
+ }
+ 
+ #childhood #plan{
+     padding-top: 40px;
+ }
+ 
+
+  #childhood .question__text-mini, #childhood  .error-rsvp{
+         font-size: 22px;
+    color: var(--element-color-green);
+ }
+#childhood .question__label{
+         line-height: 100%;
+    margin: 0;
+ }
+ #childhood  #question{
+     text-align: left;
+    line-height: 100%;
+    padding-bottom: 20px;
+ }
+ #childhood .timer__text span{
+     font-size: 20px;
+     text-transform: uppercase;
+ }
+ #childhood .timer__block{
+        
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+ }
+#childhood  #clockdiv{
+         display: flex
+;
+    justify-content: center;
+    gap: 20px;
+ }
+ #childhood .timer-title{
+     font-size: 28px;
+ }
+ #childhood .timer__number_var_day{
+      background: var(--element-color-yellow);
+ }
+ #childhood .timer__number_var_hour{
+      background: var(--element-color-green);
+ }
+ #childhood  .timer__number_var_min{
+      background: var(--element-color-blue);
+ }
+ #childhood  .timer__number_var_sec{
+      background: var(--element-color-pink);
+ }
+  #childhood input[type="text"]{
+     font-size: 24px;
+    border: 0px;
+    border-bottom: 1px solid var(--header-color);
+    border-radius: 0px;
+    padding: 0px !important;
+ }
+#childhood .rsvp__button{
+     position: absolute;
+    left: 50%;
+    transform: translate(-50%, 20px);
+    background: var(--element-color-yellow);
+    text-transform: uppercase;
+    color: var(--header-color);
+ }
+#childhood .registration_title_text, #childhood .banquet_title_text{
+         text-transform: uppercase;
+    color: var(--element-color-green);
+ }
+ #childhood .info-place__text{
+         margin: 0 auto;
+ }
+ #childhood .map-place{
+     border: 1px solid var(--header-color);
+    margin: 0;
+    padding: 0;
+    height: auto;
+    height: 310px;
+ }
+  #childhood .map-place iframe{
+      width: calc(100% - 10px);
+    height: 300px;
+    border: 1px solid var(--header-color);
+    margin: 5px;
+  }
+  #childhood .registration_descr_text,  #childhood .banquet_descr_text{
+          padding: 0 0 20px;
+  }
+   #childhood .timetable__block{
+      display: flex
+;
+    flex-direction: column;
+    margin: auto;
+    gap: 30px;
+    margin: 0 auto;
+    width: 100%;
+  }
+ #childhood  .timetable__block-stroke{
+      background: var(--element-color-yellow);
+    border-radius: 10px;
+    padding: 20px 15px 10px;
+    display: flex
+;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: stretch;
+    width: 100%;
+  }
+ #childhood  .timetable__block-up{
+      text-align: left;
+  }
+ #childhood  .timetable__block-name{
+          font-family: var(--main-font);
+    font-size: 32px;
+  }
+ #childhood  .timetable__block-descr{
+      font-size: 24px;
+    line-height: 100%;
+  }
+  #childhood  .timetable__block-time{
+      text-align: right;
+    font-size: 32px;
+    line-height: 100%;
+  }
+  #childhood #details-container{
+      display: flex
+;
+    gap: 30px;
+    flex-direction: column;
+  }
+  #childhood .details__text{
+      margin: 0px 0;
+  }
+   #childhood .dresscode__row{
+      display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  #childhood  .dresscode__color{
+          border-radius: 8px;
+    max-height: 35px;
+  }
+  #childhood .dresscode__colors{
+      display: flex
+;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #childhood .footer__container{
+     padding: 50px 0;
+ }
+  #childhood  .footer-name{
+         display: flex
+;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 36px;
+ }
+  #childhood  #groom-bride-footer{
+     margin: 0;
+    line-height: 100%;
+ }
+   #childhood  .footer-img-frame{
+         width: 70px;
+ }
+ 
+ 
+#childhood .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px; /* Adjust as needed */
+    height: 16px; /* Adjust as needed */
+    border: 2px solid #000; /* Black border */
+    border-radius: 50%; /* Makes it circular */
+       margin-right: 8px;
+    vertical-align: middle; /* Important for proper alignment */
+    box-sizing: border-box;
+}
+
+#childhood .question__unvisible:checked + .question__visible-radio::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;  /* Adjust as needed - this is the size of the inner dot */
+    height: 8px; /* Adjust as needed */
+    border-radius: 50%;
+    background-color: #000; /* Black fill */
+}
+#childhood .question__unvisible{
+display: none;
+}
+
+/* For checkboxes */
+#childhood .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px; /* Adjust as needed */
+    height: 16px; /* Adjust as needed */
+    border: 2px solid #000; /* Black border */
+        margin-right: 8px;
+    vertical-align: middle;
+     box-sizing: border-box;
+}
+
+#childhood .question__unvisible:checked + .question__visible-checkbox::before {
+    content: '✔'; /* Use a checkmark character */
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px; /* Adjust as needed */
+    color: #000;    /* Black checkmark */
+}
+#childhood .wedding-day{
+        color: var(--text-color);
+    background: url(../../../../images/sites/childhood/heart-blue-date-01.svg) center center no-repeat;
+    background-position: center center;
+}
+#childhood .places{
+    max-width: 600px;
+}
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#childhood {
+    font-family: var(--main-font);
+    font-size: 28px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+
+#childhood .childhood-img-bg{
+         background-image: url(../../../../images/sites/childhood/Childhood-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    min-height: 100vh;
+        height: 100vh;
+    overflow: auto;
+    max-width: 800px;
+    margin: auto;
+            position: fixed;
+        top: 0;
+        z-index: -10;
+ }
+ #childhood .welcome_title_text{
+    font-family: var(--beauty-font);
+    font-size: 36px;
+    line-height: 130%;
+    color: var(--text-color);
+    text-align: center;
+}
+ #childhood .title_text{
+    font-size: 36px;
+}
+ #childhood .descr_text{
+           font-family: var(--main-font);
+        font-size: 28px;
+        line-height: 100%;
+        color: var(--text-color);
+        text-align: center;
+}
+#childhood .header-blocks p{
+             font-size: 38px;
+ }
+  #childhood .timer-title{
+     font-size: 24px;
+ }
+#childhood .timetable__block-descr {
+    font-size: 22px;
+    line-height: 80%;
+}
+#childhood .question__text-mini, #childhood .error-rsvp {
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--element-color-green);
+}
+ #childhood .map-place{
+     border: 1px solid var(--header-color);
+    margin: 0;
+    padding: 0;
+    height: auto;
+    height: 210px;
+ }
+  #childhood .map-place iframe{
+      width: calc(100% - 10px);
+    height: 200px;
+    border: 1px solid var(--header-color);
+    margin: 5px;
+  }
+}
+ #childhood #question .opros-grup-title{
+        font-weight: 800;
+}
+ #childhood #question .question__string{
+    padding: 10px 0;
+}

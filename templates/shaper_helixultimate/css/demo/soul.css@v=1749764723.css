@@ -1,0 +1,623 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+@font-face {
+  font-family: 'CYGRE-THIN';
+  src:  url(../../fonts/CYGRE-THIN.ttf);
+       font-style: normal;
+       font-weight: normal;
+}
+
+@font-face {
+  font-family: "WonderScript";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/WonderGardenScript-Regular.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("../../fonts/WonderGardenScript-Regular.woff") format("woff");
+}
+#soul {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #e0e0e0;
+    --header-color: #db0f0f;
+    --text-color: #000000;
+    --main-font: 'CYGRE-THIN', sans-serif; /* Основной шрифт */
+    --beauty-font: 'WonderScript', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#soul{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+    overflow: hidden;
+}
+#soul .title_text{
+    font-family: var(--main-font);
+        text-transform: uppercase;
+    color: var(--header-color);
+    position: relative;
+    z-index: 10;
+    line-height: 0%;
+    padding-bottom: 20px;
+    padding-top: 150px;
+}
+
+#soul .welcome_title_text{
+        text-transform: uppercase;
+    color: var(--header-color);
+    position: relative;
+    z-index: 10;
+    line-height: 0%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#soul .title_text-beauty{
+        line-height: 0%;
+    font-family: var(--beauty-font);
+    color: var(--elements-color2);
+    font-size: 162px;
+    padding-bottom: 80px;
+    z-index: 0;
+    position: relative;
+    
+}
+#soul .header-block-bg-main-pc{
+    display: block;
+}
+#soul .header-block-bg-main{
+    display: none;
+}
+#soul .welcome_title_text-beauty{
+        line-height: 0%;
+    font-family: var(--beauty-font);
+    color: var(--elements-color2);
+    font-size: 142px;
+    font-size: 8em;
+    padding-bottom: 80px;
+    z-index: 0;
+    position: relative;
+}
+ #soul .descr_text{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ #soul .header{
+        height: 100vh;
+}
+#soul .header-blocks{
+    position: relative;
+    height: 100vh;
+}
+ 
+#soul .header-block-bg-main{
+     width: 100%;
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    z-index: 0;
+ }
+ #soul .header__img{
+     display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+    transform: translate(0%, -50%);
+ }
+ #soul .header-block-text{
+     position: relative;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 15vh;
+    padding: 10vh 0 5vh;
+ }
+ #soul .header-block-top{
+         display: flex
+;
+    flex-direction: column;
+    gap: 0vh;
+ }
+#soul .header-text-simple{
+         font-size: 20px;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+ }
+#soul .header-block-names{
+         font-family: var(--beauty-font);
+    font-size: 172px;
+    line-height: 60%;
+    color: var(--header-color);
+ }
+ #soul #playButton{
+     padding-bottom: 15px;
+    cursor: pointer;
+    width: 15%;
+    margin: auto;
+ }
+#soul #music-text{
+     font-size: 16px;
+    text-transform: uppercase;
+ }
+ #soul #music-block{
+     padding: 50px 0;
+ }
+ #soul #welcome-text{
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+ }
+#soul #plan, #soul .dresscode_descr_text, #soul #details-container, #soul .rsvp__container, #soul .opros-inside, #soul #clockdiv{
+     width: 90%;
+    margin: auto;
+    max-width: 600px;
+ }
+#soul #timetable__block-stroke{
+         width: 90%;
+    margin: auto;
+ }
+ #soul .timetable__block-time{
+     text-transform: uppercase;
+    font-size: 24px;
+    padding: 30px 0;
+ }
+ #soul .timetable__block-name{
+     text-transform: uppercase;
+    font-size: 24px;
+ }
+ #soul .timetable__block-line-start{
+     width: 7%;
+    margin: auto;
+    max-width: 50px;
+    padding: 40px 0;
+ }
+  #soul  .separator-image, #soul  .separate-block-mid{
+     width: 7%;
+    margin: auto;
+    max-width: 40px;
+    padding: 40px 0;
+ }
+ #soul .details__text{
+         margin: 0;
+ }
+  #soul .timetable__block-shadowBlock{
+         height: 8px;
+    background: var(--background-color);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+ }
+   #soul .timetable__block-name{
+     position: relative;
+    z-index: 3;
+    display: inline-block;
+    display: inline-block;
+    padding: 0 20px;
+    min-width: 200px;
+ }
+   #soul .timetable__block-title{
+     position: relative;
+    display: inline-block;
+    margin: auto;
+ }
+ #soul .dresscode__colors{
+         display: flex
+;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 0;
+ }
+ #soul  .timer__number::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../../images/sites/soul/heart-01.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+}
+ #soul .counter{
+        border: 1px solid var(--header-color);
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 80px auto;
+
+}
+ #soul clockdiv{
+    display: flex
+;
+    gap: 20px;
+    justify-content: center;
+}
+ #soul .timer__number {
+    position: relative;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    color: var(--background-color);
+    font-family: var(--beauty-font);
+    font-size: 24px;
+}
+ #soul #clockdiv {
+    display: flex
+;
+    gap: 20px;
+    justify-content: center;
+}
+#soul  .timer-title{
+        line-height: 100%;
+    padding: 0;
+}
+#soul  .timer{
+    padding: 50px 15px;
+}
+ #soul .timer__number{
+        font-family: var(--main-font);
+    color: white;
+    font-size: 20px;
+}
+#soul #question{
+      display: flex
+;
+    text-align: left;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+#soul .question__label {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+}
+#soul .question__string{
+    margin-bottom: 10px;
+}
+#soul .question__label{
+        margin-bottom: 0px;
+}
+#soul  .question__unvisible {
+    display: none;
+}
+#soul .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+}
+#soul .question__unvisible:checked + .question__visible-radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: var(--header-color);
+    border-radius: 50%;
+}
+#soul .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--text-color);
+}
+#soul .question__unvisible:checked + .question__visible-checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: var(--header-color);
+}
+#soul .question__string input[type="text"]{
+    border: 0;
+  background-color: white;
+    border-bottom: 1px solid var(--text-color);
+    border-radius: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 5px 0 !important;
+}
+#soul .rsvp__button{
+   background: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 100%;
+    color: var(--background-color);
+    padding: 15px 20px 10px;
+    min-width: 200px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid var(--header-color);
+    color: var(--text-color);
+}
+#soul  #rsvp .rsvp__button{
+     color: var(--header-color);
+    background: var(--background-color);
+    min-width: calc(50% - 5px);
+    padding: 15px 0px 10px;
+}
+#soul .rsvp__buttons{
+    display: flex
+;
+    gap: 10px;
+    flex-direction: row;
+}
+#sou .footer {
+    padding-bottom: 50px;
+}
+#soul .names-footer{
+    font-family: var(--beauty-font);
+    font-size: 102px;
+    color: var(--header-color);
+    line-height: 100%;
+}
+#soul .calendar-header{
+     line-height: 100%;
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+    font-size: 122px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+}
+#soul .calendar-days{
+      display: flex
+;
+    margin: auto;
+    text-align: center;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#soul .calendar-days span{
+         padding: 15px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 24px;
+    line-height: 100%;
+}
+#soul span.wedding-day{
+    color: var(--text-color);
+    background: url(../../../../images/sites/soul/empty-heart.svg) center center no-repeat;
+    background-position: center center;
+    border: 0px;
+    padding: 25px;
+    height: auto;
+}
+#soul .info-place__text{
+   margin: 5px;
+}
+#soul #registration-time, #soul #banquet-time{
+    text-transform: uppercase;
+    color: var(--header-color);
+    font-size: 24px;
+    padding-top: 15px;
+}
+#soul .info-date__img{
+    width: 90%;
+    margin: auto;
+    max-width: 350px;
+    padding: 30px 0 15px;
+}
+#soul #places button{
+    width: 90%;
+    max-width: 350px;
+}
+#soul .footer {
+    padding-bottom: 40px;
+}
+#soul #places {
+    padding-bottom: 70px;
+}
+#soul .timer__block-inside{
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+#soul  .question__text-mini{
+    font-size: 16px;
+}
+#soul   .dresscode__color{
+        max-width: 80px;
+    max-height: 80px;
+}
+#soul .menu__button{
+    display: none;
+
+}
+#soul .sp-scroll-up{
+      display: none;
+}
+#soul  .header-block-bg-main-pc{
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    z-index: -10;
+}
+#soul .header__img-pc{
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+    transform: translate(-50%, 0%);
+    max-width: 800px;
+}
+#soul .header-block-names{
+        display: flex
+;
+    justify-content: center;
+}
+#soul .menu_site{
+    display: none;
+}
+#soul #registration-title{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+#soul #banquet-title{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#soul{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#soul .title_text{
+    font-family: var(--main-font);
+        text-transform: uppercase;
+    color: var(--header-color);
+    position: relative;
+    z-index: 10;
+    line-height: 0%;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+#soul  .details__header, #soul .dresscode_title_text{
+    padding-top: 120px;
+}
+#soul .welcome_title_text{
+        text-transform: uppercase;
+    color: var(--header-color);
+    position: relative;
+    z-index: 10;
+    line-height: 0%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#soul .title_text-beauty{
+        line-height: 0%;
+    font-family: var(--beauty-font);
+    color: var(--elements-color2);
+    font-size: 162px;
+    padding-bottom: 80px;
+    z-index: 0;
+    position: relative;
+    
+}
+#soul .welcome_title_text-beauty{
+        line-height: 0%;
+    font-family: var(--beauty-font);
+    color: var(--elements-color2);
+    font-size: 142px;
+    font-size: 8em;
+    padding-bottom: 80px;
+    z-index: 0;
+    position: relative;
+}
+ #soul .descr_text{
+    font-family: var(--main-font);
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#soul  .timer-title{
+        line-height: 100%;
+    padding: 0;
+}
+#soul .header-block-bg-main-pc{
+    display: none;
+}
+#soul .header-block-bg-main{
+    display: block;
+}
+#soul .header-block-names{
+        display: flex
+;
+    justify-content: center;
+        flex-direction: column;
+}
+ #soul .header-block-top{
+         display: flex
+;
+    flex-direction: column;
+    gap: 5vh;
+ }
+  #soul .header-block-text{
+     position: relative;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 15vh;
+    padding: 15vh 0 1vh;
+ }
+}
+
+@media screen and (max-width: 400px) {
+#soul .header-block-text {
+    position: relative;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 15vh;
+    padding: 10vh 0 5vh;
+}
+#soul .header-block-names {
+    font-family: var(--beauty-font);
+    font-size: 132px;
+    line-height: 50%;
+    color: var(--header-color);
+}
+    
+}

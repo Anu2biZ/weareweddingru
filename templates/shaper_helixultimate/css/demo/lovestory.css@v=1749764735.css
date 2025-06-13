@@ -1,0 +1,530 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+@font-face {
+  font-family: 'GROTESK';
+  src:  url(../../fonts/GROTESK.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+  font-family: 'ALETHIANEXT';
+  src:  url(../../fonts/ALETHIANEXT-LIGHT.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+
+#lovestory {
+    --element-color-grey: #b5b3b4;
+    --element-color-white: #ffffff;
+    --background-color: #ee2d40;
+    --header-color: #ee2d40;
+    --text-color: #050505;
+    --main-font: 'ALETHIANEXT', sans-serif; /* Основной шрифт */
+    --beauty-font: 'GROTESK', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#lovestory{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ #lovestory .title_text{
+    font-family: var(--beauty-font);
+    font-size: 48px;
+    line-height: 120%;
+    color: var(--text-color);
+            line-height: 100%;
+        color: var(--header-color);
+        text-transform: uppercase;
+        font-weight: 900;
+        margin-bottom: 20px;
+}
+#lovestory .place__header{
+    text-align: left;
+    max-width: 600px;
+    width: 90%;
+    margin: auto;
+}
+#lovestory .descr_text{
+    font-family: var(--main-font);
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ #lovestory .header{
+     height: 100vh;
+ }
+ #lovestory .header-blocks{
+     position: relative;
+    height: 100vh;
+    overflow: hidden;
+ }
+ #lovestory .header-block-text{
+  position: absolute;
+    font-size: 48px;
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+    font-weight: 800;
+    line-height: 100%;
+ }
+#lovestory .header-img-block{
+     position: absolute;
+    bottom: 0;
+ }
+#lovestory #playButton{
+     max-width: 70px;
+    margin: auto;
+ }
+ #lovestory #music{
+         padding: 50px 0;
+ }
+#lovestory .info-invitation{
+         width: 90%;
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+ }
+ #lovestory .welcome_title_text, #lovestory  .calendar-header{
+     font-family: var(--beauty-font);
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 100;
+    color: var(--header-color);
+ }
+  #lovestory .calendar-days-of-week{
+     display: flex
+;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--background-color);
+    padding-bottom: 10px;
+ }
+  #lovestory .date-calendar{
+     width: 90%;
+    margin: auto;
+    padding: 30px 0 20px;
+ }
+  #lovestory .calendar-days{
+     display: flex
+;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+  #lovestory  .calendar-days span{
+  
+        width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+  }
+  #lovestory .calendar-header{
+      padding: 20px 0;
+  }
+  #lovestory  .wedding-day{
+      color: white;
+    background: var(--background-color);
+    border-radius: 100px;
+   
+  }
+ #lovestory .welcome_descr_text{
+     text-align: center;
+ }
+ #lovestory  .info-date{
+     padding-bottom: 50px;
+ }
+ #lovestory .places, #lovestory .details, #lovestory .counter{
+     background: var(--background-color);
+ }
+ 
+  #lovestory .places .title_text, #lovestory .details .title_text, #lovestory .counter .title_text{
+      text-shadow:
+       -1px -1px 0 white,
+        1px -1px 0 white,
+       -1px  1px 0 white,
+        1px  1px 0 white;
+        color: var(--background-color);
+        line-height: 120%;
+ }
+#lovestory .places{
+     padding: 50px 0;
+ }
+#lovestory .info-date__place{
+         max-width: 600px;
+    width: 90%;
+    margin: auto;
+ }
+#lovestory .place-one-left{
+         border-left: 1px solid var(--element-color-white);
+    text-align: left;
+    padding: 5px 0;
+ }
+#lovestory  .registration_descr_text p, #lovestory .banquet_descr_text p{
+       margin-bottom: 5px;
+ }
+#lovestory .registration_descr_text, #lovestory .banquet_descr_text{
+         padding-left: 5%;
+           margin: 0;
+ }
+#lovestory #registration-time, #lovestory #banquet-time{
+     margin: 0;
+    color: var(--element-color-white);
+    font-family: var(--beauty-font);
+    padding-bottom: 10px;
+ }
+#lovestory #place-one, #lovestory #place-two{
+         padding: 15px 0;
+ }
+#lovestory .button-place{
+     padding: 10px 20px;
+    border: 1px solid var(--element-color-white);
+    width: 250px;
+    color: var(--element-color-white);
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 20px 0;
+ }
+#lovestory .registration_title_text, #lovestory .banquet_title_text{
+     text-transform: uppercase;
+ }
+#lovestory .creeping-line-container {
+   width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: var(--element-color-grey);
+    padding: 10px 0;
+}
+
+#lovestory .creeping-line {
+    display: inline-block; /*  Важно! 
+    animation: creeping-line 20s linear infinite;*/
+    font-family: var(--beauty-font);
+    color: var(--element-color-white);
+    font-size: 32px;
+    line-height: 100%;
+}
+#lovestory #plan, #lovestory #questions, #lovestory #dresscode {
+    padding: 50px 0;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+#lovestory #details {
+    padding: 50px 0;
+        text-align: left;
+   
+}
+#lovestory .details-block, #lovestory .details__header{
+     width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+#lovestory #details-container p{
+        margin: 0;
+}
+#lovestory #details-container{
+        display: flex
+;
+    flex-direction: column;
+    gap: 20px;
+}
+#lovestory #details-container div{
+    border-left: 1px solid var(--element-color-white);
+    padding: 5px 0% 5px 5%;
+    line-height: 100%;
+    font-size: 16px;
+}
+#lovestory #plan .title__header{
+    text-align: right;
+}
+#lovestory .creeping-line span {
+    display: inline-block; /*  Важно! */
+     animation: creeping-line 20s linear infinite;
+}
+
+#lovestory .timetable__block{
+    display: flex
+;
+    gap: 20px;
+    flex-direction: column;
+    /* margin: auto; */
+    padding-right: 0px;
+    /* margin-right: 0; */
+    /* text-align: right; */
+    width: 100%;
+}
+#lovestory .timetable__block-stroke{
+    text-align: right;
+    border-right: 1px solid var(--background-color);
+    padding: 10px 5% 10px;
+    display: flex
+;
+    flex-direction: column;
+    gap: 5px;
+        width: 100%;
+}
+#lovestory .timetable__block-time{
+        font-family: var(--beauty-font);
+    text-transform: uppercase;
+    color: var(--background-color);
+}
+#lovestory .timetable__block-name{
+        font-family: var(--main-font);
+    text-transform: uppercase;
+}
+#lovestory .timetable__block-descr{
+    font-size: 16px;
+    line-height: 100%;
+}
+#lovestory .dresscode_descr_text{
+    text-align: right;
+    border-right: 1px solid var(--background-color);
+    padding: 10px 5% 10px;
+    display: flex
+;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+#lovestory .dresscode__row{
+    display: flex
+;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+#lovestory .rsvp__button{
+    padding: 10px 20px;
+    border: 1px solid var(--background-color);
+    width: 250px;
+    color: var(--background-color);
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 20px 0;
+    background: var(--element-color-white);
+    max-height: 70px;
+}
+#lovestory .dresscode__color{
+        max-width: 40px;
+    border: 1px solid var(--template-text-dark);
+}
+#lovestory .question__string{
+    font-size: 16px;
+}
+#lovestory .question__string label{
+        margin: 0;
+}
+#lovestory #question input[type="text"]{
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid var(--background-color);
+    border-radius: 0;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#lovestory .site-blocks{
+    text-align: right;
+}
+#lovestory .question__text-mini{
+    font-size: 16px;
+    color: var(--background-color);
+}
+#lovestory .question__label{
+        display: flex
+;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+#lovestory .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px; /* Adjust as needed */
+    height: 16px; /* Adjust as needed */
+    border: 1px solid #000; /* Black border */
+    border-radius: 50%; /* Makes it circular */
+       margin-left: 6px;
+    vertical-align: middle; /* Important for proper alignment */
+    box-sizing: border-box;
+}
+
+#lovestory .question__unvisible:checked + .question__visible-radio::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;  /* Adjust as needed - this is the size of the inner dot */
+    height: 8px; /* Adjust as needed */
+    border-radius: 50%;
+    background-color: var(--background-color); /* Black fill */
+}
+#lovestory .question__unvisible{
+display: none;
+}
+
+/* For checkboxes */
+#lovestory .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px; /* Adjust as needed */
+    height: 16px; /* Adjust as needed */
+    border: 1px solid #000; /* Black border */
+        margin-left: 6px;
+    vertical-align: middle;
+     box-sizing: border-box;
+}
+
+#lovestory .question__unvisible:checked + .question__visible-checkbox::before {
+    content: '✔'; /* Use a checkmark character */
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px; /* Adjust as needed */
+    color: var(--background-color);  
+}
+#lovestory  .footer, #lovestory .counter{
+        padding: 50px 0;
+}
+#lovestory  .footer-name{
+        font-family: var(--beauty-font);
+    font-size: 36px;
+    line-height: 100%;
+    color: var(--header-color);
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#lovestory  .groom-bride-plus{
+    font-size: 24px;
+}
+#lovestory #clockdiv{
+        display: flex
+;
+    justify-content: center;
+    gap: 20px;
+}
+#lovestory .timer__block{
+        border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: var(--element-color-white);
+    color: var(--background-color);
+    font-family: var(--beauty-font);
+    font-size: 14px;
+}
+#lovestory .timer__text{
+    color: var(--element-color-white);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#lovestory .timer__block-info{
+        display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+#lovestory  .timer-title{
+    line-height: 110%;
+    font-size: 32px;
+}
+#lovestory  .text-white-timer{
+        text-shadow: none;
+        color: var(--element-color-white);
+}
+#lovestory .header{
+        max-width: 600px;
+    margin: auto;
+    min-height: 1150px;
+    
+}
+#lovestory .header-blocks{
+    min-height: 1150px;
+}
+ #lovestory   #welcome-text{
+      padding-top: 30px;
+  }
+@keyframes creeping-line {
+    0% {
+        transform: translateX(0%); /* Начинаем справа */
+    }
+    100% {
+        transform: translateX(-100%); /* Сдвигаем влево на всю ширину */
+    }
+}
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#lovestory{
+    font-family: var(--main-font);
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#lovestory .title_text{
+    font-family: var(--beauty-font);
+    font-size: 36px;
+    line-height: 130%;
+    color: var(--text-color);
+            line-height: 100%;
+        color: var(--header-color);
+        text-transform: uppercase;
+        font-weight: 900;
+        margin-bottom: 20px;
+}
+#lovestory .descr_text{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#lovestory .question__text-mini, #lovestory .error-rsvp{
+    font-size: 14px;
+    color: var(--background-color);
+    text-align: right;
+}
+#lovestory .header{
+        max-width: 600px;
+    margin: auto;
+    min-height: 100vh;
+}
+#lovestory .header-blocks{
+   min-height: 100vh;
+}
+#lovestory .date-calendar {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+ #lovestory .calendar-header{
+      padding: 0px 0;
+  }
+ #lovestory   #welcome-text{
+      padding-top: 0px;
+  }
+   #lovestory .timer-title{
+      font-size: 24px;
+  }
+}
+ #lovestory .rsvp-message{
+    font-size: 16px;
+    line-height: 100%;
+}

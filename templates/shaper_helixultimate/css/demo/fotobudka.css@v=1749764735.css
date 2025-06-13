@@ -1,0 +1,500 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+@font-face {
+  font-family: 'TILDASANS-REGULAR';
+  src:  url(https://wow-card.ru/templates/shaper_helixultimate/css/fonts/TILDASANS-REGULAR.ttf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+  font-family: "WonderScript";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://wow-card.ru/templates/shaper_helixultimate/css/fonts/WonderGardenScript-Regular.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("https://wow-card.ru/fonts/WonderGardenScript-Regular.woff") format("woff");
+}
+#fotobudka {
+    /*--primary-color: #333;
+    --secondary-color: #eee;
+    --background-color: #D9D9D9;*/
+    --header-color: #fc067c;
+    --text-color: #000000;
+    --main-font: 'TILDASANS-REGULAR', sans-serif; /* Основной шрифт */
+    --beauty-font: 'WonderScript', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#fotobudka{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ #fotobudka .title_text{
+            color: var(--text-color);
+        font-size: 180px;
+        font-family: var(--beauty-font);
+        line-height: 40%;
+}
+ #fotobudka .descr_text{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+            text-align: center;
+}
+ #fotobudka .header-img-block{
+    height: 100vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+}
+#fotobudka #music{
+    padding-bottom: 50px;
+}
+#fotobudka #playButton{
+    cursor: pointer;
+    width: 12%;
+    margin: auto;
+    max-width: 70px;
+    padding-bottom: 10px;
+}
+ #fotobudka .info-date{
+    margin: auto;
+    max-width: 600px;
+ }
+ #fotobudka .descr_text-upper,  #fotobudka .welcome_title_text{
+             font-family: var(--main-font);
+        font-size: 32px;
+        text-transform: uppercase;
+        line-height: 120%;
+        color: var(--header-color);
+ }
+  #fotobudka .info-date__invitation{
+     gap: 10px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+    width: 90%;
+    margin: auto;
+ }
+  #fotobudka .date-calendar{
+      border: 1px solid var(--header-color);
+    border-radius: 10px;
+    padding: 30px 15px;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    bottom: -100px;
+    background: white;
+    /* margin: auto; */
+    left: 50%;
+    transform: translate(-50%, 0px);
+  }
+  #fotobudka  h3{
+      font-family: var(--beauty-font);
+    font-size: 92px;
+    line-height: 60%;
+    color: var(--header-color);
+  }
+ #fotobudka  tbody, #fotobudka td, #fotobudka tfoot, #fotobudka th, #fotobudka thead, #fotobudka tr {
+    padding: 5px 10px;
+}
+ #fotobudka .date-calendar table{
+    margin: 30px auto 0;
+}
+ #fotobudka .wedding-day:before {
+        content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35px;
+    height: 30px;
+    background-image: url(../../../../images/sites/fotobudka/heart-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -10;  
+}
+ #fotobudka .wedding-day{
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 10;
+}
+ #fotobudka  .calendar-block{
+    position: relative;
+}
+ #fotobudka .places{
+    padding-top: 170px;
+}
+#fotobudka .place-one-left{
+        background: white;
+            border: 1px solid var(--header-color);
+    border-radius: 10px;
+    padding: 30px 15px;
+    width: 80%;
+    margin: auto;
+}
+#fotobudka .timetable_title_text{
+    line-height: 100%;
+    padding-top: 80px;
+}
+#fotobudka .timetable_title_text, #fotobudka .details_title_text{
+        line-height: 120%;
+}
+#fotobudka #plan, #fotobudka #details{
+        padding: 120px 0 80px;
+}
+#fotobudka .timetable__block-stroke{
+    display: flex
+;
+    flex-direction: row;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+}
+#fotobudka .timetable__block-text{
+        gap: 10px;
+    display: flex
+;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#fotobudka .timetable__block-descr{
+    text-align: left;
+}
+#fotobudka .timetable__img{
+    width: 250px;
+}
+#fotobudka .timetable__block-line{
+    border-top: 1px solid var(--header-color);
+ 
+    width: 90%;
+    margin: auto;
+}
+#fotobudka .timetable__block-img{
+        width: 30%;
+}
+#fotobudka .timetable__block-text{
+    width: 70%;
+}
+#fotobudka  .timetable__block-name{
+        text-transform: uppercase;
+}
+#fotobudka .timetable__block-time{
+    font-size: 20px;
+}
+#fotobudka .dresscode_common{
+        background: white;
+    border: 1px solid var(--header-color);
+    border-radius: 10px;
+   padding: 50px 25px;
+    width: 80%;
+    margin: auto;
+}
+#fotobudka .dresscode__color{
+    border-radius: 10px;
+    max-width: 50px;
+    max-height: 50px;
+}
+#fotobudka .dresscode__colors{
+    display: flex;
+padding-top: 20px;
+    gap: 10px;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+#fotobudka .detail-block{
+    text-align: left;
+        padding-bottom: 20px;
+}
+#fotobudka .details__title{
+        margin-bottom: 5px;
+    text-align: left;
+    text-transform: uppercase;
+}
+#fotobudka .title-separate-detail{
+    border-bottom: 1px solid var(--header-color);
+    margin-bottom: 10px;
+}
+#fotobudka #details-container{
+        max-width: 80%;
+    margin: auto;
+}
+#fotobudka .rsvp__container, #fotobudka .question__bloks{
+    background: white;
+    border: 1px solid var(--header-color);
+    border-radius: 10px;
+    width: 80%;
+    padding: 50px 25px 20px;
+    margin: auto;
+}
+#fotobudka .question__text-mini{
+    font-size: 13px;
+}
+#fotobudka .counter-inside{
+    position: relative;
+}
+#fotobudka .timer{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    top: 30px;
+}
+#fotobudka .timer-title{
+        font-size: 24px;
+    text-transform: uppercase;
+}
+#fotobudka #clockdiv{
+    display: flex;
+gap: 10px;
+}
+#fotobudka .timer__block-info{
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+#fotobudka .timer__block{
+    background: #ffffff70;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+#fotobudka .timer__block span{
+        color: var(--header-color);
+    font-size: 24px;
+    line-height: 70px;
+
+}
+#fotobudka .timer__text span{
+        font-size: 18px;
+}
+#fotobudka #question{
+    text-align: left;
+}
+#fotobudka #questions, #fotobudka .counter, #fotobudka #rsvp-block{
+    padding: 40px 0 20px;
+}
+#fotobudka .rsvp__string input{
+        width: 100%;
+    border-color: var(--text-color);
+}
+#fotobudka .rsvp__buttons{
+        display: flex
+;
+    gap: 10px;
+}
+#fotobudka .rsvp__buttons button, #fotobudka #question button{
+        background: white;
+    border: 1px solid var(--header-color);
+    border-radius: 5px;
+    width: 50%;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: normal;
+}
+#fotobudka #registration-name, #fotobudka #registration-time{
+    font-size: 20px;
+    color: var(--header-color);
+    text-transform: uppercase;
+}
+#fotobudka .footer{
+    padding: 40px 0;
+}
+#fotobudka .footer-descr{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+#fotobudka .places button{
+        background: white;
+    border: 1px solid var(--header-color);
+    border-radius: 5px;
+    width: 50%;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: normal;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#fotobudka .info-date__check-in{
+    position: relative;
+}
+
+#fotobudka .footer-name{
+        font-family: var(--beauty-font);
+    color: var(--header-color);
+    font-size: 108px;
+    line-height: 70%;
+}
+#fotobudka .question__label {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+}
+#fotobudka .question__string{
+    margin-bottom: 10px;
+}
+#fotobudka .question__label{
+        margin-bottom: 0px;
+}
+#fotobudka  .question__unvisible {
+    display: none;
+}
+#fotobudka .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+}
+#fotobudka .question__unvisible:checked + .question__visible-radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: var(--header-color);
+    border-radius: 50%;
+}
+#fotobudka  .question__string{
+    padding: 5px 0;
+}
+#fotobudka  .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--text-color);
+}
+#fotobudka .question__unvisible:checked + .question__visible-checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: var(--header-color);
+}
+#fotobudka  .header-img-block img{
+        max-width: 600px;
+    margin: auto;
+}
+#fotobudka  .places, #fotobudka  #plan, #fotobudka  .dresscode, #fotobudka  .details, #fotobudka  #rsvp-block, #fotobudka  #questions{
+        max-width: 800px;
+    margin: auto;
+}
+ #fotobudka .counter {
+    max-width: 600px;
+    margin: auto;
+}
+#fotobudka .details-block button{
+    background: white;
+    border: 1px solid var(--header-color);
+    border-radius: 5px;
+    width: 50%;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: normal;
+}
+#fotobudka  .rsvp-message{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+ #fotobudka  #rsvp-block .rsvp-message{
+ padding-top: 50px;
+    width: 90%;
+    margin: auto;
+     
+ }
+
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#fotobudka{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#fotobudka .title_text, #fotobudka .rsvp_title_text{
+            color: var(--text-color);
+        font-size: 150px;
+        font-family: var(--beauty-font);
+        line-height: 40%;
+}
+ #fotobudka .descr_text{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+            text-align: center;
+}
+ #fotobudka .descr_text-upper,  #fotobudka .welcome_title_text{
+             font-family: var(--main-font);
+        font-size: 28px;
+        text-transform: uppercase;
+        line-height: 120%;
+        color: var(--header-color);
+ }
+ #fotobudka .timetable_title_text{
+    line-height: 100%;
+    padding-top: 0px;
+}
+#fotobudka .timetable_title_text{
+        line-height: 120%;
+}
+#fotobudka .timetable_title_text, #fotobudka .details_title_text{
+        line-height: 100%;
+}
+#fotobudka #plan, #fotobudka #details{
+        padding: 60px 0 80px;
+}
+#fotobudka .header-img-block img {
+    max-width: 100%;
+    margin: auto;
+}
+}
+

@@ -1,0 +1,714 @@
+@charset "UTF-8";
+
+
+
+
+#wedding-form-container {
+    --primary-color-light: #a1a0a0;
+    --primary-color-dark: #393738;
+    --secondary-color-light: #f2d5cd;
+    --secondary-color-dark: #1d1b1c;
+    --black-color: #292421;
+    --background-color: #e7e2db;
+    --header-color: #393738;
+    --text-color: #393738;
+      --main-font: 'CALVINO-reg', sans-serif; /* Основной шрифт */
+    --beauty-font: 'mak', sans-serif; /* Шрифт для заголовков */
+    font-family: var(--main-font);
+    background-color: var(--background-color);
+    color: var(--text-color);
+   padding: 20px;
+}
+#wedding-form-container h2 {
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#wedding-form-container .date-picker-container{
+    width: 30%;
+    min-width: 150px;
+}
+
+#wedding-form-container h3 {
+ color: var(--secondary-color-dark);
+    font-size: calc(1rem + .6vw);
+    text-align: left;
+    font-family: var(--beauty-font);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+
+}
+#wedding-form-container h4 {
+  
+    color: var(--primary-color-dark);
+    margin-bottom: 0px;
+    font-family: var(--beauty-font);
+    margin-top: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: 1px solid grey;
+    margin-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+
+#wedding-form-container .form-section {
+       background-color: var(--primary-color-light);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+#wedding-form-container label {
+    color: var(--primary-color-dark);
+    display: block;
+    margin-bottom: 0px;
+    /* font-weight: bold; */
+    font-family: var(--main-font);
+    text-align: left;
+}
+
+#wedding-form-container #json-editor-container {
+    background: white;
+}
+
+#wedding-form-container input[type="text"],
+#wedding-form-container input[type="date"],
+#wedding-form-container input[type="time"],
+#wedding-form-container select,
+#wedding-form-container textarea,
+#wedding-form-container input[type="url"]
+ {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--primary-color-dark);
+     border-radius: 5px;
+     box-sizing: border-box;
+}
+
+#wedding-form-container select {
+   height: 40px;
+}
+#wedding-form-container textarea {
+    height: 80px;
+}
+#wedding-form-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+#wedding-form-container button {
+    background-color: var(--secondary-color-dark);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#wedding-form-container button:hover {
+   
+}
+
+#wedding-form-container .details {
+    border-top: 1px solid var(--secondary-color-light);
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#wedding-form-container .details .title {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 20px;
+ }
+#wedding-form-container .details .title__header {
+    display: flex;
+    align-items: center;
+}
+
+#wedding-form-container .details .title__trait {
+      width: 50px;
+      height: 2px;
+        background-color: var(--secondary-color-light);
+        margin-right: 10px;
+}
+#wedding-form-container .details .title__title {
+      font-family: var(--beauty-font);
+      font-size: 24px;
+    color: var(--secondary-color-dark);
+  margin-bottom: 0;
+}
+
+#wedding-form-container .label-container{
+        text-align: left;
+}
+#wedding-form-container .question-area{
+       border: 1px solid var(--primary-color-dark);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#wedding-form-container #timeline-container select{
+    display: inline-block;
+    width: calc(100% - 110px);
+}
+#wedding-form-container #timeline-container input {
+    display: inline-block;
+       width: 100px;
+}
+#wedding-form-container .label-container input, #wedding-form-container .label-container label {
+        display: inline-block;
+}
+
+#wedding-form-container .details .details__container {
+    background-color: var(--primary-color-light);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#wedding-form-container  #colors-container ,
+#wedding-form-container  #colors-container-men,
+#wedding-form-container  #colors-container-women
+    {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+#wedding-form-container .color-input {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+#brif .detail-input, #brif #dresscode, #brif #welcome, #brif #additionalComments{
+        min-height: 80px;
+}
+#brif #dresscodeMen, #brif #dresscodeWomen{
+        height: 60px;
+}
+#brif .question-area h4{
+    border-top: 0px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 0px;
+}
+#brif #questions-container .brif-descr{
+    border-left: 1px solid black;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#brif [id^="options-container-"] {
+
+    padding-left: 20px;
+}
+#brif [id^="options-container-"] button {
+text-transform: uppercase;
+        width: calc(50% - 10px);
+        margin: 10px auto;
+}
+#brif .additional-section .label-container, #brif .additional-section label[for="additionalComments"]{
+    margin-top: 10px;
+        padding-top: 15px;
+        border-top: 1px solid #5d5b5b;
+}
+#brif .number-order-row{
+        display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+#brif #orderNumber{
+    color: var(--primary-color-dark);
+    font-size: 15px;
+    margin-bottom: 0px;
+    /* font-weight: bold; */
+    font-family: var(--main-font);
+    text-align: left;
+}
+/* Стили для модального окна */
+#brif .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top, higher than other content */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+#brif .modal-content {
+  background-color: #fefefe;
+  margin: 10% auto; /* 10% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  max-width: 800px; /* Add a maximum width */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Add a subtle shadow */
+  position: relative; /* For positioning the close button */
+}
+
+/* The Close Button */
+#brif .close {
+  color: #aaa;
+  position: absolute; /* Position it absolutely within the modal content */
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#brif .close:hover,
+#brif .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#brif .modal-buttons {
+  text-align: center; /* Center the buttons */
+  margin-top: 20px; /* Add some space above the buttons */
+}
+#brif .modal-buttons button{
+     margin: 0 10px; /* Add horizontal spacing between buttons */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    font-size: 16px;
+
+}
+#brif .modal-buttons button:hover{
+    background-color: #3e8e41;
+}
+#previewContent p {
+    }
+    #previewContent strong {
+        margin-right: 5px;
+    }
+   #wedding-form-container  .one-line-parameter {
+       display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+    color: var(--secondary-color-dark);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+     #wedding-form-container .one-line-parameter h3{
+     color: #ff0080;
+    font-size: 16px;
+    margin: 0;
+    line-height: 100%;
+    text-transform: unset;
+    font-family: var(--main-font);
+ }
+
+#brif .one-line-parameter p {
+    font-size: 14px;
+    margin: 0;
+    line-height: 100%;
+    text-align: left;
+}
+#brif .noone-line-parameter{
+    margin-bottom: 10px;
+    text-align: left;
+}
+ #wedding-form-container  .noone-line-parameter h3{
+     color: #ff0080;
+    font-size: 16px;
+    margin: 0;
+    line-height: 100%;
+    text-align: left;
+    text-transform: unset;
+    font-family: var(--main-font);
+ }
+
+#brif .noone-line-parameter p {font-size: 14px;
+    margin: 0;
+    line-height: 100%;
+}
+#brif .question-line-parameter{
+    margin-bottom: 10px;
+    text-align: left;
+    border-bottom: 1px solid #c6c6c6;
+    padding-bottom: 10px;
+}
+#brif .question-line-parameter p{
+    font-size: 14px;
+    margin: 0;
+    line-height: 100%;
+}
+#brif .question-line-parameter ul{
+margin-bottom: 0;
+    font-size: 14px;
+    line-height: 100%;
+    
+}
+#wedding-form-container .questions-h3{
+        color: var(--secondary-color-dark);
+    font-size: 16px;
+    margin: 0;
+    line-height: 100%;
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+     text-align: left;
+    text-transform: unset;
+    font-family: var(--main-font);
+}
+.modal-buttons{
+    display: flex
+;
+    gap: 10px;
+}
+#wedding-form-container .modal-buttons button{
+        background-color: var(--secondary-color-dark);
+    color: #a1a0a0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    min-height: 35px;
+    width: 50%;
+    font-family: sans-serif;
+}
+#wedding-form-container .main-descr-modal{
+    font-size: 12px;
+    line-height: 100%;
+    padding-bottom: 20px;
+}
+#wedding-form-container .modal-content h2{
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+#wedding-form-container .cost-info p{
+    color: var(--primary-color-dark);
+    display: block;
+    margin-bottom: 0px;
+    /* font-weight: bold; */
+    font-family: var(--main-font);
+}
+#wedding-form-container .cost-info span{
+    color: white;
+}
+
+#wedding-form-container .modal-content{
+   width: 90%;
+    margin: auto;
+    top: 50px;
+}
+
+#wedding-form-container .brif-descr{
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 20px;
+}
+
+#wedding-form-container .date-picker-container {
+    width: 100%;
+    min-width: 150px;
+}
+#wedding-form-container input[type="text"], #wedding-form-container input[type="date"], #wedding-form-container input[type="time"], #wedding-form-container select, #wedding-form-container textarea, #wedding-form-container input[type="url"] {
+    width: calc(100% - 0px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary-color-dark);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+            height: 35px;
+}
+#wedding-form-container #json-editor-container {
+    margin: 0px auto;
+    border: 0px solid #ccc;
+    padding: 20px 10px;
+}
+#wedding-form-container {
+padding: 0px;
+    
+}
+#wedding-form-container label {
+    font-size: 15px;
+    display: flex
+;
+        align-items: center;
+}
+#wedding-form-container .form-section {
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: left;
+    border: 0px;
+    
+}
+#wedding-form-container .timeline-top{
+    display: flex
+;
+    gap: 10px;
+    align-items: center;
+
+}
+    #wedding-form-container .form-section .brif-descr {
+        font-size: 12px;
+        line-height: 14px;
+        padding-bottom: 10px;
+    }
+#wedding-form-container h4 {
+  
+    color: var(--primary-color-dark);
+    margin-bottom: 0px;
+    font-family: var(--beauty-font);
+    margin-top: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: 1px solid grey;
+    margin-bottom: 5px;
+    padding-top: 10px;
+
+}
+#wedding-form-container input[type="text"]:not(.form-control), #wedding-form-container input[type="email"]:not(.form-control), #wedding-form-container input[type="url"]:not(.form-control), #wedding-form-container input[type="date"]:not(.form-control), #wedding-form-container input[type="password"]:not(.form-control), #wedding-form-container input[type="search"]:not(.form-control), #wedding-form-container input[type="tel"]:not(.form-control), #wedding-form-container input[type="number"]:not(.form-control), #wedding-form-container select:not(.form-select):not(.form-control) {
+    display: block;
+    /* width: 100%; */
+    padding: 0.5rem 0.5rem !important;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #ffffff;
+    background-image: none;
+    background-clip: padding-box;
+     border: 1px solid var(--primary-color-dark);
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    display: table-footer-group;
+    font-size: 12px;
+}
+#wedding-form-container .label-container{
+    display: flex
+;
+    align-items: center;
+}
+#wedding-form-container #dresscode-inputs, #wedding-form-container #details-inputs, #wedding-form-container #rsvp-container, #wedding-form-container #timeline-block, #wedding-form-container #questions-block{
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: block;
+}
+#dresscodeColorsContainer .brif-descr{
+ padding-top: 10px;   
+}
+#wedding-form-container #colors-container, #wedding-form-container #colors-container-men, #wedding-form-container #colors-container-women {
+    display: flex
+;
+    gap: 15px;
+    margin-bottom: 0px;
+}
+#wedding-form-container .color-input {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 0px;
+}
+#wedding-form-container button {
+    background-color: var(--secondary-color-dark);
+    color: #a1a0a0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    min-height: 35px;
+}
+#dresscodeColorsContainer, #menDresscode, #womenDresscode{
+    display: block;
+    padding-bottom: 0px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+ #menDresscode, #womenDresscode {
+        margin-bottom: 0px;
+        padding: 15px 0 10px 0;
+    }
+
+@media screen and (max-width: 800px) {
+#wedding-form-container h2{
+font-family: var(--beauty-font);
+    color: var(--header-color);
+    text-align: center;
+    margin-bottom: 20px;    
+}
+#wedding-form-container .brif-descr{
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 20px;
+}
+#wedding-form-container h3 {
+ color: var(--secondary-color-dark);
+    font-size: calc(1rem + .6vw);
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 0px;
+
+}
+#wedding-form-container .date-picker-container {
+    width: 100%;
+    min-width: 150px;
+}
+#wedding-form-container input[type="time"]{
+     -webkit-appearance: none; /* Сбрасываем стили Safari */
+}
+#wedding-form-container input[type="text"], #wedding-form-container input[type="date"], #wedding-form-container input[type="time"], #wedding-form-container select, #wedding-form-container textarea, #wedding-form-container input[type="url"] {
+   
+text-align: left;
+    width: calc(100% - 0px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary-color-dark);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+            height: 35px;
+}
+#wedding-form-container #json-editor-container {
+    margin: 0px auto;
+    border: 0px solid #ccc;
+    padding: 20px 10px;
+}
+#wedding-form-container {
+padding: 0px;
+    
+}
+#wedding-form-container label {
+    font-size: 15px;
+    display: flex
+;
+        align-items: center;
+}
+#wedding-form-container .form-section {
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: left;
+    border: 0px;
+    
+}
+    #wedding-form-container .form-section .brif-descr {
+        font-size: 12px;
+        line-height: 14px;
+        padding-bottom: 10px;
+    }
+#wedding-form-container h4 {
+  
+    color: var(--primary-color-dark);
+    margin-bottom: 0px;
+    font-family: var(--beauty-font);
+    margin-top: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: 1px solid grey;
+    margin-bottom: 5px;
+    padding-top: 10px;
+
+}
+#wedding-form-container input[type="text"]:not(.form-control), #wedding-form-container input[type="email"]:not(.form-control), #wedding-form-container input[type="url"]:not(.form-control), #wedding-form-container input[type="date"]:not(.form-control), #wedding-form-container input[type="password"]:not(.form-control), #wedding-form-container input[type="search"]:not(.form-control), #wedding-form-container input[type="tel"]:not(.form-control), #wedding-form-container input[type="number"]:not(.form-control), #wedding-form-container select:not(.form-select):not(.form-control) {
+    display: block;
+    /* width: 100%; */
+    padding: 0.5rem 0.5rem !important;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #ffffff;
+    background-image: none;
+    background-clip: padding-box;
+     border: 1px solid var(--primary-color-dark);
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    display: table-footer-group;
+    font-size: 12px;
+}
+#wedding-form-container .label-container{
+    display: flex
+;
+    align-items: center;
+}
+#wedding-form-container #dresscode-inputs, #wedding-form-container #details-inputs, #wedding-form-container #rsvp-container, #wedding-form-container #timeline-block, #wedding-form-container #questions-block{
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: block;
+}
+#dresscodeColorsContainer .brif-descr{
+ padding-top: 10px;   
+}
+#wedding-form-container #colors-container, #wedding-form-container #colors-container-men, #wedding-form-container #colors-container-women {
+    display: flex
+;
+    gap: 15px;
+    margin-bottom: 0px;
+}
+#wedding-form-container .color-input {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 0px;
+}
+#wedding-form-container button {
+    background-color: var(--secondary-color-dark);
+    color: #a1a0a0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    min-height: 35px;
+}
+#dresscodeColorsContainer, #menDresscode, #womenDresscode{
+    display: block;
+    padding-bottom: 0px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+ #menDresscode, #womenDresscode {
+        margin-bottom: 0px;
+        padding: 15px 0 10px 0;
+    }
+    #wedding-form-container .modal-content{
+   width: 90%;
+    margin: auto;
+    top: 10px;
+}
+#wedding-form-container #timeline-container select{
+    display: inline-block;
+    width: calc(100% - 90px);
+}
+#wedding-form-container #timeline-container input {
+    display: inline-block;
+       width: 80px;
+               font-size: 13px;
+        padding: 8px;
+}
+}

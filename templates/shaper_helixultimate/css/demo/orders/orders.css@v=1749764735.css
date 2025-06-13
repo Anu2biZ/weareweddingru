@@ -1,0 +1,990 @@
+@font-face {
+  font-family: 'SLOOP-SCRIPT';
+  src:  url(https://wow-card.ru/templates/shaper_helixultimate/css/demo/fonts/SLOOP-SCRIPT.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+
+#order-0360 {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: black;
+    --headerLIGHT-color: white; /* используется где в макете на зеленом фоне светлый текст*/
+    --text-color: #050505;/* используется, где в макете нет фона*/
+    --secondary-textBG-color: white; /* используется, где в макете дефолтный зеленый фон*/
+    --main-font: 'ALETHIANEXT', sans-serif; /* Основной шрифт */
+    --beauty-font: 'SLOOP-SCRIPT', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#paper #order-0360 .title_text {
+    font-family: var(--beauty-font);
+    font-size: 56px;
+    line-height: 120%;
+}
+    #paper #order-0360 .timetable__block-time, #paper #order-0360 .timetable__block-name {
+        font-family: var(--main-font);
+    }
+#paper #order-0360 .timetable__block-descr, #paper #order-0360 .details__text{
+    
+        color: var(--secondary-textBG-color);
+}
+  #paper #order-0360 .header-block-center {
+    font-family: var(--beauty-font);
+    font-size: 54px;
+    line-height: 120%;
+}
+#paper #order-0360 .footer-block-center{
+    text-transform: initial;
+}
+#paper #order-0360 .details-button{
+    background-color: white;
+    color: var(--background-color);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 70%;
+}
+ #paper #order-0360 .footer-block-center {
+        font-size: 54px;
+    }
+    #paper #order-0360 #question input {
+    margin-bottom: 40px;
+}
+#paper #order-0360 .details-block {
+    padding: 5px 20px 20px;
+}
+#paper #order-0360 .timetable__block-date{
+    font-size: 24px;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+#paper #order-0360  h3 {
+    color: var(--headerLIGHT-color);
+}
+#paper #order-0360  .dresscode__color{
+        border: 1px solid black;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    #paper  #order-0360 .title_text {
+        font-family: var(--beauty-font);
+        font-size: 46px;
+        line-height: 130%;
+    }
+    #paper #order-0360 .title_text-BG {
+        font-family: var(--beauty-font);
+        font-size: 46px;
+        line-height: 130%;
+        color: var(--secondary-textBG-color);
+    }
+    #paper #order-0360 .dresscode__colors {
+    display: flex
+;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 30px 0;
+}
+    #paper #order-0360 .header-block-center {
+    font-family: var(--beauty-font);
+    font-size: 34px;
+    line-height: 100%;
+}
+    #paper #order-0360 .footer-block-center {
+        font-size: 40px;
+         line-height: 100%;
+    }
+    #paper #order-0360 .header-block-center p{
+            margin: 0px 0 0;
+    line-height: 100%;
+    }
+    #paper #order-0360 .footer-block-center{
+        margin: 0 0 5px;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* 0364 25-02-25*/
+ #order-0364 #zhemchug .dresscode-color-1{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-1-01.png);
+}
+ #order-0364 #zhemchug .dresscode-color-2{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-4-01.png);
+}
+ #order-0364 #zhemchug .dresscode-color-3{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-5-01.png);
+}
+ #order-0364 #zhemchug .dresscode-color-4{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-8-01.png);
+}
+ #order-0364 #zhemchug .dresscode-color-5{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-10-01.png);
+}
+ #order-0364 #zhemchug .dresscode-color-6{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-2-01.png);
+}
+ #order-0364 #zhemchug .dresscode-color-7{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-3-01.png);
+}
+ #order-0364 #zhemchug .dresscode-color-8{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-6-01.png);
+}
+ #order-0364 #zhemchug .dresscode-color-9{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-7-01.png);
+}
+ #order-0364 #zhemchug .dresscode-color-10{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-9-01.png);
+}
+@media screen and (max-width: 800px) {
+#order-0364 #zhemchug .header-block-center-and {
+    left: 50%;
+    font-size: 120px;
+}
+#order-0364 #zhemchug #groom, #order-0364 #zhemchug #bride {
+    font-size: 54px;
+}}
+
+
+#lovestory-0368 p.question__string{
+    border-right: 1px solid var(--background-color);
+       padding: 0px 10px 0px 0;
+}
+#lovestory-0368 .question__label-input{
+    font-weight: bold;
+    line-height: 100%;
+    padding-bottom: 10px;
+}
+
+
+
+
+/* 0373 14-03-25*/
+ #order-0373 #bezmyatezhnost .dresscode-color-1{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-3-01.png);
+}
+ #order-0373  #bezmyatezhnost .dresscode-color-2{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-2-01.png);
+}
+ #order-0373 #bezmyatezhnost .dresscode-color-3{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-0-01.png);
+}
+ #order-0373 #bezmyatezhnost .dresscode-color-4{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-7-01.png);
+}
+ #order-0373 #bezmyatezhnost .dresscode-color-5{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-10-01.png);
+}
+ #order-0373 #bezmyatezhnost .dresscode-color-6{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-4-01.png);
+}
+ #order-0373 #bezmyatezhnost .dresscode-color-7{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-8-01.png);
+}
+ #order-0373 #bezmyatezhnost .dresscode-color-8{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-18-01.png);
+}
+ #order-0373 #bezmyatezhnost .dresscode-color-9{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-19-01.png);
+}
+ #order-0373 #bezmyatezhnost .dresscode-color-10{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-20-01.png);
+}
+ #order-0373 #bezmyatezhnost .dresscode-color-11{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-21-01.png);
+}
+ #order-0373 #bezmyatezhnost .dresscode-color-12{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-22-01.png);
+}
+ #order-0373 #bezmyatezhnost .dresscode-color-13{
+    
+    background-image: url(../../../../../images/sites/zhemchug/order/00364/color-23-01.png);
+}
+
+
+
+/* 0373 14-03-25*/
+/* #forest-0381 #forest .dresscode-color-1{
+    
+    background-image: url(/images/sites/zhemchug/order/00364/color-31-01.png);
+}
+#forest-0381 #forest .dresscode-color-2{
+    
+    // background-image: url(/images/sites/zhemchug/order/00364/color-8-01.png);
+}
+#forest-0381 #forest .dresscode-color-3{
+    
+    background-image: url(/images/sites/zhemchug/order/00364/color-10-01.png);
+}
+#forest-0381 #forest .dresscode-color-4{
+    
+    background-image: url(/images/sites/zhemchug/order/00364/color-3-01.png);
+}
+#forest-0381 #forest .dresscode-color-5{
+    
+    background-image: url(/images/sites/zhemchug/order/00364/color-32-01.png);
+}
+#forest-0381 #forest .dresscode-color-6{
+    
+    background-image: url(/images/sites/zhemchug/order/00364/color-33-01.png);
+}
+*/
+#forest-0381 #forest .dresscode__color{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50px;
+}
+  #forest-0381  #forest .dresscode__color {
+        max-width: 120px;
+        max-height: 120px;
+    }
+    
+  #forest-0381  #forest   .dresscode__row{
+            display: flex
+;
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+    gap: 10px;
+    justify-content: center;
+    padding: 5px 0;
+    }
+    #forest-0381  #forest  .dresscode__colors{
+        display: flex
+;    width: 60%;
+    flex-direction: column;
+    gap: 0px;
+    }
+      #forest-0381  #forest .timetable__block {
+    display: flex
+;
+    flex-direction: column;
+    gap: 0;
+}
+    #forest-0381  #forest .timetable__block-stroke {
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+}
+ #forest-0381  #forest .timetable__block-img img {
+    max-width: 300px;
+    width: 300px;
+    max-height: 200px;
+}
+ #forest-0381  #forest .timetable__block-line{
+        height: 50px;
+    border-right: 1px solid black;
+    display: block;
+}
+ #forest-0381  #forest .timetable__block-descr{
+    font-size: 24px;
+    /* width: 90%; */
+    /* margin: auto; */
+    line-height: 100%;
+    padding: 10px 0;
+}
+ #forest-0381  #forest #plan{
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+}
+   #forest-0381  #forest  #rsvp .rsvp__string{
+    width: 100%;
+    display: flex
+;
+    flex-direction: column;
+        
+    }
+   #forest-0381  #forest   #rsvp .rsvp__string .rsvp__label{
+ width: 100%;
+        
+    }
+    #forest-0381  #forest  #rsvp .rsvp__string input{
+             width: 100%;
+    display: block;
+     }
+      #forest-0381  #forest #question{
+             width: 80%;
+    margin: auto;
+    max-width: 600px;
+     }
+@media screen and (max-width: 800px) {
+  #forest-0381  #forest .timetable__block {
+        display: flex
+;
+        flex-direction: column;
+        gap: 15px;
+        margin: 60px auto;
+    }
+   #forest-0381  #forest .timetable__block-stroke {
+        display: flex
+;
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    #forest-0381  #forest .timetable__block-img img {
+        max-width: 200px;
+        width: 300px;
+        max-height: 120px;
+        width: 200px;
+    }
+    #forest-0381 #forest .timetable__block-descr {
+    font-size: 18px;
+    /* width: 90%; */
+    /* margin: auto; */
+    line-height: 100%;
+    padding: 10px 0;
+}
+}
+
+#monochrome-0364 #monochrome {
+    --beauty-font: 'Rosamunda', sans-serif;
+     --text-color: black;/* используется, где в макете нет фона*/
+         color: black;
+        
+}
+#monochrome-0364 #monochrome #welcome-text, #monochrome-0364 #monochrome #day-week-wedding-date, #monochrome-0364 #monochrome .dresscode__description, #monochrome-0364 #monochrome .rsvp__textm, #monochrome-0364 #monochrome .footer__text, #monochrome-0364 #monochrome .rsvp__string label, #monochrome-0364 #monochrome .info-date__our-wedding-text,  #monochrome-0364 #monochrome .info-date__our-wedding, #monochrome-0364 #monochrome .rsvp__text , #monochrome-0364 #monochrome .timer__text span{
+    font-weight: bold;
+}
+  #monochrome-0364  #monochrome .font-beauty,   #monochrome-0364 #monochrome .dresscode__title,   #monochrome-0364 #monochrome .title__header,   #monochrome-0364 #monochrome .title__title,   #monochrome-0364 #monochrome .info-date__our-wedding-text-font-beauty,  #monochrome-0364 #monochrome .footer__name {
+        font-size: 48px;
+        line-height: 100%;
+    }
+     #monochrome-0364  #monochrome .info-date__our-wedding-text-font-beauty,  #monochrome-0364  #monochrome .info-date__our-wedding-text-title{
+        font-weight: 200;
+    }
+    
+    @media screen and (max-width: 850px) and (orientation: portrait) {
+#monochrome-0364 #monochrome .info-date__our-wedding-text-font-beauty {
+            font-size: 48px;
+        }
+        
+       #monochrome-0364 #monochrome .question {
+            padding: 0px 0 0;
+        }
+        #monochrome-0364 #monochrome .header__info_names-mobile{
+            padding-top: 20px;
+        }
+    }
+   #monochrome-0364 #monochrome.yellow-green-theme {
+    --primary-color: #bbc6e4;
+    --secondary-color: #bbc6e4;
+    --background-color: #fdf9f4;
+     --header-color: #5b6a93;
+    --text-color: black;
+}
+#monochrome-0364 #monochrome.blue-theme {
+    --primary-color: #bbc6e4;
+    --secondary-color: #bbc6e4;
+    --background-color: #fdf9f4;
+     --header-color: #5b6a93;
+    --text-color: black;
+}
+#monochrome-0364 #monochrome.purple-theme {
+     --primary-color: #bbc6e4;
+    --secondary-color: #bbc6e4;
+    --background-color: #fdf9f4;
+     --header-color: #5b6a93;
+    --text-color: black;
+}
+#monochrome-0364 #monochrome.white-gray-theme {
+    --primary-color: #bbc6e4;
+    --secondary-color: #bbc6e4;
+    --background-color: #fdf9f4;
+     --header-color: #5b6a93;
+    --text-color: black;
+}
+
+   #monochrome-0412 #monochrome.yellow-green-theme,  #monochrome-0420 #monochrome.yellow-green-theme {
+   --primary-color: #333;
+    --secondary-color: #555;
+    --background-color: #f0f0f0;
+    --header-color: #555;
+    --text-color: black;
+}
+#monochrome-0412 #monochrome.blue-theme, #monochrome-0420 #monochrome.blue-theme  {
+   --primary-color: #333;
+    --secondary-color: #555;
+    --background-color: #f0f0f0;
+    --header-color: #555;
+    --text-color: black;
+}
+#monochrome-0412 #monochrome.purple-theme, #monochrome-0420 #monochrome.purple-theme {
+   --primary-color: #333;
+    --secondary-color: #555;
+    --background-color: #f0f0f0;
+    --header-color: #555;
+    --text-color: black;
+}
+#monochrome-0412 #monochrome.white-gray-theme, #monochrome-0420 #monochrome.white-gray-theme {
+   --primary-color: #333;
+    --secondary-color: #555;
+    --background-color: #f0f0f0;
+    --header-color: #555;
+    --text-color: black;
+}
+    
+  #fotobudka-393   #fotobudka    .dresscode-color-color21{
+        background-image: url(../../../../../images/sites/fotobudka/order/393/color-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    }
+#fotobudka-393      #fotobudka  .dresscode-color-color31{
+        background-image: url(../../../../../images/sites/fotobudka/order/393/color-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    }
+ #fotobudka-393     #fotobudka  .dresscode-color-color41{
+        background-image: url(../../../../../images/sites/fotobudka/order/393/color-3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    }
+#vmeste-0396 #vmeste{
+    
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #66754c;
+
+}
+#vmeste-0396 #vmeste .footer {
+    background-image: url(../../../../../images/sites/mig/footer-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0 60px;
+}
+@media screen and (max-width: 800px) {
+    #vmeste-0396 #vmeste .footer {
+        padding: 20px 0 60px;
+    }
+}
+#vmeste-0396 #vmeste .footer .title_text {
+    font-family: var(--beauty-font);
+    font-size: 64px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+@media screen and (max-width: 800px) {
+    #vmeste-0396 #vmeste .footer .title_text {
+        font-family: var(--beauty-font);
+        font-size: 72px;
+        line-height: 130%;
+        color: var(--text-color);
+    }
+}
+#vmeste-0396 #vmeste .text-white .title_text{
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#vmeste-0396 #vmeste .name-footer-first {
+    display: flex
+;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: center;
+    gap: 20px;
+}
+@media screen and (max-width: 800px) {
+    #vmeste-0396 #vmeste .name-footer-first {
+        gap: 20px;
+    }
+}
+#vmeste-0396 #vmeste .name-footer {
+   font-family: var(--main-font);
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 48px;
+}
+@media screen and (max-width: 800px) {
+    #vmeste-0396 #vmeste .name-footer {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+     #vmeste-0396 #vmeste .and-footer {
+    font-family: var(--beauty-font);
+    font-size: 74px;
+}
+@media screen and (max-width: 800px) {
+    #vmeste-0396 #vmeste .timetable__block-name {
+        font-size: 13px;
+    }
+    #vmeste-0396 #vmeste .timetable__block-descr{
+        padding: 5px 0 40px;
+    }
+}
+#vmeste-0396 #vmeste .dresscode_woman {
+    padding-bottom: 10px;
+}
+#vmeste-0396 #vmeste .dresscode_woman .dresscode_title_text, #vmeste-0396 #vmeste .dresscode_man .dresscode_title_text {
+    text-align: center;
+    /* line-height: 150%; */
+    padding: 10px 0 0px;
+    font-family: var(--main-font);
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+}
+#vmeste-0396 #vmeste .dresscode-color-5 svg{
+        stroke: #4c5649;
+    stroke-width: 1px;
+}
+#vmeste-0396 #vmeste .names-footer{
+    color: white;
+    text-transform: inherit;
+    line-height: 120%;
+    font-size: 18px;
+}
+#vmeste-0396 #vmeste .footer__text{
+    text-transform: inherit;
+}
+
+
+#soul-401 .dresscode-color-color6{
+   /* border: 1px solid black;*/
+}
+#vmeste-403 #vmeste .header-text-simple{
+        text-transform: uppercase;
+}
+
+
+
+#loveis-400
+    #loveis {
+    --header-color: #ff7900;
+   
+}
+  #loveis-400  #loveis .timer__circle {
+        background-image: url(../../../../../images/sites/loveis/order/orange/timer-circle-01-01.svg);
+    }
+    
+    
+    
+    
+    #rancho-405   #rancho .dresscode__color{
+    background-position: center;
+    background-size: contain;
+    border-radius: 50px;
+    }
+    
+    #rancho-405   #rancho .dresscode-color-color11{
+            background-image: url(../../../../../images/sites/rancho/colors/405/1-01.png);
+    }
+     #rancho-405   #rancho .dresscode-color-color21{
+            background-image: url(../../../../../images/sites/rancho/colors/405/2-01.png);
+    }
+     #rancho-405   #rancho .dresscode-color-color31{
+            background-image: url(../../../../../images/sites/rancho/colors/405/3-01.png);
+    }
+     #rancho-405   #rancho .dresscode-color-color41{
+            background-image: url(../../../../../images/sites/rancho/colors/405/4-01.png);
+    }
+     #rancho-405   #rancho .dresscode-color-color51{
+            background-image: url(../../../../../images/sites/rancho/colors/405/5-01.png);
+    }
+      #rancho-405   #rancho .dresscode-color-color110{
+            background-image: url(../../../../../images/sites/rancho/colors/405/11-01.png);
+    }  #rancho-405   #rancho .dresscode-color-color210{
+            background-image: url(../../../../../images/sites/rancho/colors/405/4-01.png);
+    }  #rancho-405   #rancho .dresscode-color-color310{
+            background-image: url(../../../../../images/sites/rancho/colors/405/13-01.png);
+    }
+        
+        #malenkiemy-407 #malenkiemy {
+    --header-color: #52161e;
+    --text-color: #52161e;
+}
+        #malenkiemy-430 #malenkiemy {
+    --header-color: #85a8bc;
+    --text-color: #85a8bc;
+}
+ #malenkiemy-430  #malenkiemy .timer__number::before {
+    background-image: url(../../../../../images/sites/malenkie-my/heart-blue-01.svg);
+}
+         #malenkiemy-407 #malenkiemy .timer__number::before {
+   
+    background-image: url(../../../../../images/sites/malenkie-my/heart-red-dark.svg);
+}
+
+
+#malenkiemy-407  #malenkiemy #groom-footer, #malenkiemy-407 #malenkiemy #bride-footer  {
+    font-size: 40px;
+}
+#malenkiemy-407 #malenkiemy .question__string input[type="text"] {
+    font-size: 10px;
+}
+#loveis-415 #loveis .dresscode_woman-img{
+    display: flex
+;
+    /* grid-template-columns: repeat(auto-fill, minmax(0, 1fr)); */
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom:10px;
+    gap: 1%;
+}
+#loveis-415 #loveis .dresscode_woman-img div{
+      
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center center;
+    width: 24%;
+}
+#loveis-415 #loveis .dresscode_woman-img img{
+    width: 24%;
+    height: 100%;
+}
+
+#malenkiemy-419  #malenkiemy .dresscode__color{
+   width: 50px;
+    height: 50px;
+  border-radius: 50%; /* Делает элемент круглым */
+  display: inline-block; /* Необходимо, если не используете flexbox */
+  vertical-align: middle; /* Выравнивание по вертикали при inline-block */
+  border: 1px solid #cccccc; /* Необязательная рамка для лучшей видимости светлых цветов */
+  box-sizing: border-box; /* Учитывает рамку в общем размере элемента */
+  /* background-color устанавливается через JavaScript */
+  flex-shrink: 0;
+}
+#malenkiemy-419 #malenkiemy .footer-name {
+    padding-top: 20px;
+    width: 70%;
+    max-width: 600px;
+    margin: auto;
+    display: flex
+;
+    flex-direction: column;
+    max-width: 350px;
+    align-items: center;
+}
+#malenkiemy-419 #malenkiemy .footer-name-row1 {
+    gap: 20px;
+    display: flex
+;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+#malenkiemy-419 #malenkiemy #bride-footer {
+    font-family: var(--beauty-font);
+    font-size: 40px;
+}
+#malenkiemy-419 #malenkiemy #groom-footer {
+    font-family: var(--beauty-font);
+    font-size: 40px;
+}
+#loveis-422 #loveis .cross{
+        text-decoration-line: line-through;
+    text-decoration-color: #f92828;
+    text-decoration-thickness: 1px;
+}
+   #loveis-422 #loveis .dresscode__colors {
+        gap: 5px;
+    }
+    
+         #loveis-422 #loveis .rsvp__button-no::before {
+        height: 100%;
+        background-image: url(../../../../../images/sites/loveis/button-red-01.svg);
+    }
+    @font-face {
+  font-family: 'GROTESK';
+  src:  url(https://wow-card.ru/templates/shaper_helixultimate/css/fonts/GROTESK.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+   #forest-398 #forest {
+    --primary-color: #465526;
+    --secondary-color: #eee;
+    --background-color: #fff;
+    --header-color: #465526;
+    --text-color: #000;
+    --main-font: 'gabriola', sans-serif; /* Основной шрифт */
+    --beauty-font: 'GROTESK', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+         #forest-398   #forest .title__title, #forest-398 #forest .dresscode__title, #forest-398 #forest .timer-title {
+               font-size: 32px;
+        padding-bottom: 0px;
+        line-height: 100%;
+        color: var(--header-color);
+    }
+         #forest-398 #forest .footer__name {
+       color: var(--header-color);
+        font-size: 32px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+         #forest-398 #forest .info-date__our-wedding-text-font-beauty {
+        font-size: 32px;
+        line-height: 100%;
+         color: var(--header-color);
+    }
+         #forest-398 #forest .info-date__who-title {
+       font-size: 32px;
+        line-height: 100%;
+         color: var(--header-color);
+            margin: 0px 0 20px 0;
+}
+     #forest-398 #forest .header__info_names {
+        font-family: var(--beauty-font);
+        font-size: 40px;
+        padding-bottom: 30px;
+          color: var(--header-color);
+        line-height: 100%;
+    }
+    #forest-398 #forest #day-main {
+       font-family: var(--beauty-font);
+    font-size: 45px;
+       line-height: 130%;
+    color: var(--header-color);
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+  #forest-398  #forest .info-date__our-wedding-text-title {
+        font-size: 30px;
+        line-height: 100%;
+        margin: 40px 0 20px;
+    color: var(--header-color);
+    }
+    #yarkaya-lyubov-420 #yarkaya-lyubov {
+    --header-color: #128b48;/* желтый */
+    
+}
+#yarkaya-lyubov-420 #yarkaya-lyubov button{
+        color: white;
+}
+#bow-447 #bow {
+   
+    --header-color: #751718;
+}
+   #bow-447  #bow .header-blocks {
+        background: var(--header-color);
+        padding-bottom: 50px;
+    }
+   #bow-447 #bow .header-block-name, #bow-447 #bow .header-block-love, #bow-447 #bow .header-block-name-and, #bow-447  #bow .header-block-text,    #bow-447  #bow .date-main-small {
+    color: #ffffff;
+}
+#bow-447 #bow .dresscode_woman, #bow-447 #bow .dresscode_man {
+        padding-top: 20px;
+    }
+    
+    
+    #zhemchug-463  #zhemchug .dresscode-color-1 {
+    background-image: url(../../../../../images/sites/zhemchug/colors/463-1.jpeg);
+}
+ #zhemchug-463  #zhemchug .dresscode-color-2 {
+    background-image: url(../../../../../images/sites/zhemchug/colors/463-2.jpeg);
+}
+ #zhemchug-463  #zhemchug .dresscode-color-3 {
+    background-image: url(../../../../../images/sites/zhemchug/colors/463-3.jpeg);
+}
+ #zhemchug-463  #zhemchug .dresscode-color-4 {
+    background-image: url(../../../../../images/sites/zhemchug/colors/463-4.jpeg);
+}
+#soul-465 #soul .dresscode__color{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50px;
+}
+#soul-465 #soul .dresscode__color1{
+   background-image: url(../../../../../images/sites/zhemchug/colors/color-1.png);
+}
+#soul-465 #soul .dresscode__color2{
+   background-image: url(../../../../../images/sites/zhemchug/order/00364/color-4-01.png);
+}
+#soul-465 #soul .dresscode__color3{
+   background-image: url(../../../../../images/sites/zhemchug/colors/color-2.png);
+}
+#soul-465 #soul .dresscode__color4{
+   background-image: url(../../../../../images/sites/zhemchug/order/00364/color-2-01.png);
+}
+#soul-465 #soul .dresscode__color5{
+  background-image: url(../../../../../images/sites/zhemchug/order/00364/color-3-01.png);
+}
+
+
+
+ #semejnyj-albom-474 #semejnyj-albom .dresscode-color-1{
+    
+    background-image: url(../../../../../images/sites/semejnyj-albom/order/474/dr1-01.png);
+}
+  #semejnyj-albom-474 #semejnyj-albom .dresscode-color-2{
+    
+    background-image: url(../../../../../images/sites/semejnyj-albom/order/474/dr2-01.png);
+}
+ #semejnyj-albom-474 #semejnyj-albom .dresscode-color-3{
+    
+    background-image: url(../../../../../images/sites/semejnyj-albom/order/474/dr3-01.png);
+}
+ #semejnyj-albom-474 #semejnyj-albom .dresscode-color-4{
+    
+    background-image: url(../../../../../images/sites/semejnyj-albom/order/474/dr4-01.png);
+}
+ #semejnyj-albom-474 #semejnyj-albom .dresscode-color-5{
+    
+    background-image: url(../../../../../images/sites/semejnyj-albom/order/474/dr5-01.png);
+}
+ #semejnyj-albom-474 #semejnyj-albom .dresscode-color-6{
+    
+    background-image: url(../../../../../images/sites/semejnyj-albom/order/474/dr6-01.png);
+}
+ #semejnyj-albom-474 #semejnyj-albom .dresscode-color-7{
+    
+    background-image: url(../../../../../images/sites/semejnyj-albom/order/474/dr7-01.png);
+}
+ #semejnyj-albom-474 #semejnyj-albom .dresscode__row {
+    display: flex
+;
+    width: 90%;
+    margin: auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 5px 0;
+}
+ #semejnyj-albom-474 #semejnyj-albom  .dresscode__color {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50px;
+}
+ #semejnyj-albom-474 #semejnyj-albom .dresscode__colors {
+    display: flex
+;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+}
+ #semejnyj-albom-474 #semejnyj-albom .dresscode__color {
+    max-width: 70px;
+}
+
+@font-face {
+font-family: 'TRAJAN';
+src: url('../../../fonts/TRAJAN.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+  font-family: 'TIMES';
+  src:  url(../../../fonts/OFONT.RU_THEANO.ttf);
+       font-style: normal;
+       font-weight: normal;
+}
+#paper-506 #paper {
+    --main-font: 'TIMES', sans-serif; /* Основной шрифт */
+    --beauty-font: 'TRAJAN', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+    --background-color: #A89B8B;
+}
+#paper-506 #paper .timetable__block-name {
+    font-size: 16px;
+}
+#paper-506 #paper tbody, #paper-506 #paper td, #paper-506 #paper tfoot, #paper-506 #paper th, #paper-506 #paper thead, #paper-506 #paper tr {
+    font-size: 14px;
+}
+#paper-506 #paper .timetable__block-name {
+    padding-bottom: 0px;
+}
+@media screen and (max-width: 800px) {
+#paper-506 #paper{
+    font-size: 16px;
+}
+
+ #paper-506 #paper .descr_text{
+    font-size: 16px;
+}
+#paper-506 #paper .descr_text-BG{
+    font-size: 16px;
+}
+  #paper-506  #paper .timetable__block-descr {
+        font-size: 14px;
+    }
+}
+#paper-506 #paper .details-block {
+    margin: 0 auto 20px;
+}
+
+#bezmyatezhnost-505 #bezmyatezhnost {
+    --header-color: #021A64;
+}
+
+#mig-516 #mig .dresscode-color-color41{
+        border: 1px solid black;
+}
+#mig-511 #mig .info-date {
+    background-image: url(../../../../../images/sites/mig/order/511-3-02.jpg);
+}
+#mig-511 #mig .timetable {
+    background-image: url(../../../../../images/sites/mig/order/511-3-01.jpg);
+}
+
+#childhood-545 #childhood .dresscode-color-3{
+        background-image: url(../../../../../images/colors-dress-code/silver3-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#paper-513 #paper {
+    --background-color: #B3A4D0;
+}
+#childhood-485 #childhood{
+        --element-color-yellow: #bccdd7;
+        --element-color-green: #312394;
+        color: #000000;
+    
+}
+  #childhood-485  #childhood .title_text {
+        font-size: 36px;
+        color: #2b698e;
+    }
+    
+    #modern-570 #modern #question fieldset {
+    display: flex
+;
+    gap: 0px;
+    flex-direction: column;
+}

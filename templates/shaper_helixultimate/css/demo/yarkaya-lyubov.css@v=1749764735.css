@@ -1,0 +1,759 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@font-face {
+  font-family: 'INKFREE';
+  src:  url(../../fonts/INKFREE.ttf);
+       font-style: normal;
+       font-weight: normal;
+}
+
+@font-face {
+  font-family: 'KOM-POST';
+  src:  url(../../fonts/KOM-POST.ttf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+  font-family: 'SLOOP-SCRIPT';
+  src:  url(https://wow-card.ru/templates/shaper_helixultimate/css/fonts/SLOOP-SCRIPT.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+
+#yarkaya-lyubov {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #e6307a;/* розовый */
+    --header-color: #eeee02;/* желтый */
+    --text-color: #050505;/* черный */
+     --light-color: #ffffff; /* белый */
+    --main-font: 'INKFREE', sans-serif; /* Основной шрифт */
+    --beauty-font: 'KOM-POST', sans-serif; /* Шрифт для заголовков */
+    
+}
+
+#yarkaya-lyubov{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+    overflow: hidden;
+}
+#yarkaya-lyubov p{
+   margin-bottom: 0px;
+}
+
+ #yarkaya-lyubov .title_text{
+    font-family: var(--beauty-font);
+    font-size: 64px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ #yarkaya-lyubov .descr_text{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+    text-align: center;
+}
+ #yarkaya-lyubov  .info-date, #yarkaya-lyubov  .places{
+    padding: 30px 0;
+    width: 90%;
+    margin: auto;
+    max-width: 800px;
+}
+ #yarkaya-lyubov #bride-letter,  #yarkaya-lyubov #groom-letter{
+    color: var(--light-color);
+    font-size: 42px;
+    font-family: var(--beauty-font);
+    line-height: 48px;
+}
+ #yarkaya-lyubov .header__img-heart{
+    width: 100px;
+}
+
+ #yarkaya-lyubov .header-blocks{
+   min-height: calc(100vh - 0px);
+    position: relative;
+}
+#yarkaya-lyubov .header-block-bg-main{
+       min-height: calc(100vh - 30vh);
+    background: var(--background-color);
+}
+
+ #yarkaya-lyubov .header-block-inside{
+   display: flex;
+    flex-direction: column;
+    /* margin-top: 10px; */
+    gap: 0px;
+    width: 90%;
+    min-height: calc(100vh - 170px);
+    justify-content: space-between;
+    margin: auto;
+}
+#yarkaya-lyubov .header-block-bg{
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 70px);
+    z-index: -1000;
+}
+#yarkaya-lyubov .header-block-bg{
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 70px);
+    z-index: -1000;
+}
+#yarkaya-lyubov .header-block-bg-bottom{
+    fill: var(--background-color);
+}
+#yarkaya-lyubov .date-main-small{
+        margin-bottom: 30px;
+    margin-top: 8vh;
+    font-size: 38px;
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+}
+#yarkaya-lyubov .menu_site{
+    display: none;
+}
+#yarkaya-lyubov .header-block-small-heart{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    display: none;
+}
+#yarkaya-lyubov .footer__container .header-block-small-heart {
+     display: flex;
+}
+#yarkaya-lyubov #clockdiv{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+#yarkaya-lyubov .question__string{
+    text-align: left;
+    padding: 3px 0;
+}
+#yarkaya-lyubov .question__label{
+    display: flex
+;
+    gap: 5px;
+    align-items: center;
+}
+#yarkaya-lyubov .question__text-mini{
+    font-size: 14px;
+    padding-top: 10px;
+}
+#yarkaya-lyubov .question__container #question{
+    padding: 10px 10px;
+}
+#yarkaya-lyubov .timer__text{
+    text-transform: uppercase;
+    font-family: var(--beauty-font);
+    font-size: 18px;
+}
+#yarkaya-lyubov .timer__block-info{
+    display: flex
+;
+    width: auto;
+    align-items: center;
+    flex-direction: row;
+}
+ #yarkaya-lyubov .timer__block-info img{
+    width: 20px;
+}
+#yarkaya-lyubov .timer__number{
+    font-size: 32px;
+    font-family: var(--beauty-font);
+    line-height: 32px;
+}
+}
+#yarkaya-lyubov .header-img{
+    width: 90%;
+    margin: 0px auto 0;
+}
+#yarkaya-lyubov .welcome_title_text, #yarkaya-lyubov .rsvp_title_text, #yarkaya-lyubov .question_title_text{
+    color: var(--background-color);
+}
+#yarkaya-lyubov .timer-title{
+    color: var(--header-color);
+}
+#yarkaya-lyubov .timer-title-white{
+    color: var(--light-color);
+}
+#yarkaya-lyubov .welcome_title_text-colors{
+    color: var(--header-color);
+    text-shadow: 2px 2px 0px var(--background-color);
+}
+
+
+#yarkaya-lyubov #welcome-text{
+    padding: 10px 0;
+}
+
+#yarkaya-lyubov .date-calendar {
+        position: relative;
+    width: 90%;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+#yarkaya-lyubov .calendar-line {
+      position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transform: translate(0%, -65%);
+}
+
+#yarkaya-lyubov .calendar-header {
+    margin: 55px auto 40px;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+
+
+#yarkaya-lyubov .calendar-days-of-week {
+    display: flex
+;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+#yarkaya-lyubov .calendar-days-of-week span {
+    width: 40px; /* Adjust as needed */
+    text-align: center;
+}
+
+#yarkaya-lyubov .calendar-days {
+    display: flex;
+        justify-content: space-around;
+}
+
+#yarkaya-lyubov .calendar-days span {
+    width: 40px; /* Same width as days of week */
+    height: 30px; /* Adjust height as needed */
+    text-align: center;
+    line-height: 30px; /* Center text vertically */
+    margin: 2px; /* Spacing between day numbers */
+}
+
+
+#yarkaya-lyubov .wedding-day-highlight {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    top: 65%;
+    width: 120px;
+    height: auto;
+    transform: translate(10%, -50%);
+}
+#yarkaya-lyubov .calendar-days span.wedding-day {
+   
+    position: relative;
+    z-index: 1;
+}
+
+
+
+#yarkaya-lyubov .calendar-days-of-week {
+    font-family: var(--beauty-font);
+    font-size: 32px;
+    color: var(--background-color);
+    width: 90%;
+}
+
+
+#yarkaya-lyubov .calendar-days {
+    font-family: var(--beauty-font);
+    font-size: 48px;
+    width: 90%;
+    color: var(--background-color);
+    margin: auto;
+    padding-top: 30px;
+}
+#yarkaya-lyubov .info-place__text-beauty{
+    font-size: 38px;
+    color: var(--background-color);
+    font-family: var(--beauty-font);
+    padding: 20px 0;
+}
+   #yarkaya-lyubov #place_img-separate img {
+        margin: auto;
+        padding: 20px 0 0;
+        width: 40px;
+    }
+       #yarkaya-lyubov  #rsvp .error-rsvp{
+        padding: 20px 0 0;
+        font-size: 18px;
+    }
+    #yarkaya-lyubov  #question .error-rsvp{
+        padding: 0 0 10px;
+        font-size: 18px;
+    }
+   #yarkaya-lyubov .plan__place{
+        background: var(--background-color);
+    }
+   #yarkaya-lyubov .timetable_title_text{
+        color: var(--header-color);
+    }
+   #yarkaya-lyubov  .timetable__block{
+        display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+        padding: 20px 0;
+    }
+   #yarkaya-lyubov .timetable__block-name{
+        font-size: 28px;
+    line-height: 100%;
+    padding-bottom: 5px;
+    margin: 0;
+    }
+    #yarkaya-lyubov .timetable__block-descr{
+        color: var(--text-color);
+    padding-bottom: 5px;
+    }
+    #yarkaya-lyubov .timetable__block-stroke img{
+        width: 20px;
+    margin: auto;
+    padding: 10px 0;
+    }
+   #yarkaya-lyubov .timetable__block-time{
+        font-size: 36px;
+    font-family: var(--beauty-font);
+    line-height: 36px;
+    }
+   #yarkaya-lyubov .header-block-bg-top{
+    transform: rotate(180deg);
+    fill: var(--background-color);
+    }
+    #yarkaya-lyubov .dresscode_title_text{
+        color: var(--background-color);
+    }
+    #yarkaya-lyubov .timetable__block-stroke{
+        width: 90%;
+    margin: auto;
+    }
+     #yarkaya-lyubov #plan{
+        padding: 30px 0;
+    }
+   #yarkaya-lyubov #dresscode, #yarkaya-lyubov #rsvp, #yarkaya-lyubov #questions {
+        padding: 30px 0;
+    width: 90%;
+    margin: auto;
+    max-width: 800px;
+    }
+    
+     #yarkaya-lyubov #rsvp, #yarkaya-lyubov #questions {
+    max-width: 600px;
+    }
+    #yarkaya-lyubov .dresscode__colors{
+        display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 0px;
+    }
+    #yarkaya-lyubov .dresscode__color{
+        max-width: 50px;
+    }
+    #yarkaya-lyubov  #details, #yarkaya-lyubov #counter{
+        padding: 30px 0;
+    }
+    #yarkaya-lyubov .details__header{
+        color: var(--header-color);
+    }
+    #yarkaya-lyubov .details-block-left{
+        padding: 20px 0;
+    width: 80%;
+    margin: auto;
+    }
+     #yarkaya-lyubov .details-block, #yarkaya-lyubov .timer, #yarkaya-lyubov .footer__container{
+        background: var(--background-color);
+        border: 1px solid var(--background-color);
+    }
+    #yarkaya-lyubov .separator-image{
+        width: 80px;
+    margin: auto;
+    padding: 20px 0;
+    }
+    #yarkaya-lyubov .rsvp__buttons{
+        display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    }
+    #yarkaya-lyubov button {
+        background: var(--header-color);
+    color: var(--background-color);
+    text-transform: uppercase;
+    font-family: var(--beauty-font);
+    font-size: 20px;
+    border-radius: 5px;
+    width: 50%;
+    }
+   #yarkaya-lyubov input[type="text"], #yarkaya-lyubov input[type="number"]{
+    width: 100%;
+    border-color: var(--background-color);
+        
+    }
+    #yarkaya-lyubov .footer__container{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+    }
+    
+    #yarkaya-lyubov .footer__text{
+        color: var(--text-color);
+    }
+    
+    
+   #yarkaya-lyubov .names-footer{
+        font-family: var(--beauty-font);
+    font-size: 48px;
+    color: var(--header-color);
+    line-height: 100%;
+    }
+    
+   #yarkaya-lyubov .footer__container .header-block-small-heart{
+        padding: 0px 0;
+    }
+    #yarkaya-lyubov .header-img img{
+            max-height: calc(100vh - 150px);
+    margin: auto;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*  Пример класса для текстовых элементов, появляющихся справа */
+#yarkaya-lyubov .animate-from-right {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    transform: translateX(50px); /* Сдвигаем вправо */
+}
+
+#yarkaya-lyubov .animate-from-right.aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/*  Пример класса для элементов, появляющихся снизу */
+#yarkaya-lyubov .animate-from-bottom {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    transform: translateY(50px); /* Сдвигаем вниз */
+}
+
+#yarkaya-lyubov .animate-from-bottom.aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#yarkaya-lyubov .swing {
+  animation: swingAnimation 5s linear infinite alternate;
+}
+
+
+
+/* Дополнительные анимации (примеры) */
+#yarkaya-lyubov .fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0; /* Скрываем элемент изначально */
+}
+
+
+
+#yarkaya-lyubov .slide-up {
+    animation: slideUp 1s ease-out forwards;
+    transform: translateY(50px); /* Сдвигаем элемент вниз изначально */
+    opacity: 0;
+}
+
+
+
+#yarkaya-lyubov .slide-down {
+    animation: slideDown 1s ease-out forwards;
+    transform: translateY(-50px); /* Сдвигаем элемент вверх изначально */
+    opacity: 0;
+}
+#yarkaya-lyubov .pulse {
+  animation: pulse 3s linear infinite; /* 3 секунды, линейно, бесконечно */
+}
+#yarkaya-lyubov .pulse-slow {
+  animation: pulse-slow 7s linear infinite; /* 3 секунды, линейно, бесконечно */
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes swingAnimation {
+  0% {
+    transform: rotate(-15deg); /* Наклон влево */
+  }
+  100% {
+    transform: rotate(15deg); /* Наклон вправо */
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.95); /* Исходный размер */
+  }
+  50% {
+    transform: scale(1.15); /* Увеличение на 5% */
+  }
+  100% {
+    transform: scale(0.85); /* Возврат к исходному размеру */
+  }
+}
+@keyframes pulse-slow {
+  0% {
+    transform: scale(0.95); /* Исходный размер */
+  }
+  50% {
+    transform: scale(1.05); /* Увеличение на 5% */
+  }
+  100% {
+    transform: scale(0.95); /* Возврат к исходному размеру */
+  }
+}
+
+
+
+#yarkaya-lyubov .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px; /* Adjust as needed */
+    height: 16px; /* Adjust as needed */
+    border: 1px solid var(--background-color); /* Black border */
+    border-radius: 50%; /* Makes it circular */
+       margin-left: 8px;
+    vertical-align: middle; /* Important for proper alignment */
+    box-sizing: border-box;
+}
+
+#yarkaya-lyubov .question__unvisible:checked + .question__visible-radio::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;  /* Adjust as needed - this is the size of the inner dot */
+    height: 8px; /* Adjust as needed */
+    border-radius: 50%;
+    background-color: var(--background-color); /* Black fill */
+}
+#yarkaya-lyubov .question__unvisible{
+display: none;
+}
+
+/* For checkboxes */
+#yarkaya-lyubov .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px; /* Adjust as needed */
+    height: 16px; /* Adjust as needed */
+    border: 1px solid var(--background-color); /* Black border */
+        margin-left: 8px;
+    vertical-align: middle;
+     box-sizing: border-box;
+}
+
+#yarkaya-lyubov .question__unvisible:checked + .question__visible-checkbox::before {
+    content: '✔'; /* Use a checkmark character */
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px; /* Adjust as needed */
+    color: #000;    /* Black checkmark */
+}
+#yarkaya-lyubov .rsvp-message, #mig .error-rsvp{
+   
+}
+
+   #yarkaya-lyubov .menu__button {
+        display: none;
+    }
+    
+    
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#yarkaya-lyubov{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#yarkaya-lyubov .header-block-small-heart{
+    text-align: right;
+    display: flex
+;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+#yarkaya-lyubov .header__img-heart{
+    width: 60px;
+}
+ #yarkaya-lyubov .title_text{
+    font-family: var(--beauty-font);
+    font-size: 48px;
+    line-height: 130%;
+}
+#yarkaya-lyubov .descr_text{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ #yarkaya-lyubov #bride-letter,  #yarkaya-lyubov #groom-letter{
+    color: var(--light-color);
+    font-size: 36px;
+    font-family: var(--beauty-font);
+    line-height: 40px;
+}
+ #yarkaya-lyubov #welcome-text{
+    padding: 10px 0;
+}
+
+#yarkaya-lyubov .calendar-days-of-week{
+    font-size: 24px;
+}
+
+#yarkaya-lyubov .calendar-days{
+    font-size: 32px;
+    padding-top: 10px;
+}
+ #yarkaya-lyubov .header-blocks{
+   min-height: calc(100vh - 170px);
+    position: relative;
+}
+#yarkaya-lyubov .calendar-header{
+   margin: 35px auto 20px;
+}
+#yarkaya-lyubov .wedding-day-highlight{
+  position: absolute;
+    z-index: 2;
+    display: block;
+    
+    top: 50%;
+    width: 80px;
+    height: auto;
+    transform: translate(-10%, -40%);
+}
+#yarkaya-lyubov .calendar-days{
+    font-family: var(--beauty-font);
+    font-size: 28px;
+    color: var(--background-color);
+    width: 90%;
+    margin: auto;
+        padding-bottom: 0px;
+}
+#yarkaya-lyubov .calendar-days-of-week{
+    font-family: var(--beauty-font);
+    font-size: 24px;
+    color: var(--background-color);
+    width: 90%;
+}
+#yarkaya-lyubov .calendar-days {
+    font-family: var(--beauty-font);
+    
+    width: 90%;
+    color: var(--background-color);
+    margin: auto;
+    padding-top: 0px;
+}
+#yarkaya-lyubov .dresscode__colors{
+    gap: 5px;
+    padding-top: 0px;
+    padding:20px 0;
+    }
+    #yarkaya-lyubov  #rsvp .error-rsvp{
+        padding: 20px 0 0;
+    }
+    #yarkaya-lyubov  #question .error-rsvp{
+        padding: 0 0 10px;
+    }
+  
+}
+#yarkaya-lyubov  .music-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 50px 0;
+}
+#yarkaya-lyubov #playButton{
+    max-width: 50px;
+}
+
+#yarkaya-lyubov #music-text{
+    padding-top: 10px;
+}
+
+#yarkaya-lyubov p.question__string {
+    padding: 10px 0;
+}

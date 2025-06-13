@@ -1,0 +1,578 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+@font-face {
+  font-family: 'ZapfCalligr';
+  src:  url(../../fonts/ZapfCalligr.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+  font-family: 'HELLO-JANUARY';
+  src:  url(../../fonts/HELLO-JANUARY.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+#evkalipt {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #f0f8ed;
+    --header-color: #688573;
+    --text-color: #303030;
+    --second-color: #606060;
+    --opacity-color: #90a2a6;
+    --main-font: 'ZapfCalligr', sans-serif; /* Основной шрифт */
+    --beauty-font: 'HELLO-JANUARY', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#evkalipt{
+    max-width: 600px;
+    margin: auto;
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+    overflow: hidden;
+}
+ #evkalipt .title_text{
+    font-family: var(--beauty-font);
+    font-size: 64px;
+    line-height: 120%;
+   color: var(--header-color);
+}
+ #evkalipt .descr_text{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    padding: 0 10%;
+    color: var(--text-color);
+}
+ #evkalipt .header-block-text{
+     background: var(--background-color);
+    min-height: 100vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ #evkalipt  .header-text-simple{
+         text-transform: uppercase;
+    color: var(--second-color);
+ }
+  #evkalipt  .header-text-beauty{
+     font-family: var(--beauty-font);
+    font-size: 84px;
+    line-height: 100%;
+        color: var(--header-color);
+ }
+ #evkalipt .header-block-top{
+         display: flex
+;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 0;
+ }
+  #evkalipt .header-block-small-heart{
+     padding: 50px 0 35px;
+    background: var(--background-color);
+ }
+ #evkalipt #playButton{
+         cursor: pointer;
+    max-width: 70px;
+    margin: auto;
+    width: 15%;
+    padding-bottom: 10px;
+ }
+ #evkalipt .info-date{
+         background-image: url(../../../../images/sites/evkalipt/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 10px 0px 50px;
+ }
+  #evkalipt .info-invitation-block-text{
+    padding: 40px 0% 50px;
+    width: 90%;
+        margin: 50px auto;
+    background: #ffffffd9;
+    border-radius: 10px;
+ }
+#evkalipt .welcome_title_text{
+       font-size: 48px;
+           line-height: 70%;
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+    padding-bottom: 20px;
+ }
+#evkalipt .welcome-text-beauty{
+     font-size: 64px;
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+ }
+#evkalipt #welcome-text{
+     text-align: center;
+ }
+#evkalipt h3{
+         font-family: var(--beauty-font);
+    font-size: 64px;
+    line-height: 100%;
+    color: var(--header-color);
+    margin-bottom: 30px;
+ }
+#evkalipt table{
+     margin: auto;
+ }
+  
+#evkalipt tr{
+    
+    font-weight: 100;
+    padding: 10px;
+ }
+ 
+#evkalipt th{
+         padding: 10px;
+    background: var(--header-color);
+     color: white;
+    text-transform: uppercase;
+ }
+ 
+#evkalipt  .title_text-beauty{
+     font-size: 32px;
+    text-transform: uppercase;
+    color: #90a2a64a;
+    line-height: 30%;
+    padding-bottom: 30px;
+ }
+ #evkalipt  .info-place__text{
+   color: var(--text-color);
+    margin: 0;  
+ }
+#evkalipt #registration-title, #evkalipt #banquet-title{
+         text-transform: uppercase;
+    margin-bottom: 10px;
+    color: var(--header-color);
+
+ }
+ #evkalipt #registration-time, #evkalipt #banquet-time{
+         text-transform: uppercase;
+    margin-top: 10px;
+    color: var(--header-color);
+
+ }
+ #evkalipt  .info-date__img{
+         width: 90%;
+    margin: auto;
+        position: relative;
+ }
+  #evkalipt .button-block{
+     position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+ }
+#evkalipt .rsvp__button{
+     text-transform: uppercase;
+    background: var(--header-color);
+    padding: 10px 20px;
+    min-width: 200px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px #00000096;
+ }
+  #evkalipt  .info-date__img img{
+         border: 1px solid var(--header-color);
+ }
+ #evkalipt #places{
+         padding: 50px 0 70px;
+ }
+ #evkalipt #plan {
+    background-image: url(../../../../images/sites/evkalipt/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 10px 0px 50px;
+}
+#evkalipt .plan__place{
+    padding: 40px 5% 50px;
+    width: 90%;
+    margin: 20px auto;
+    background: #ffffffd9;
+    border-radius: 10px;
+}
+ #evkalipt .timetable__block-stroke{
+     display: flex
+;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    gap: 20px;
+ }
+#evkalipt .timetable__block-img{
+width: 20%;     
+
+}
+#evkalipt .timetable__block-lines{
+    width: 16px;
+    position: relative;
+    height: 100%;
+}
+#evkalipt .timetable__circle{
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    background: var(--header-color);
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 8px);
+}
+#evkalipt .timetable__line{
+    border-left: 1px solid var(--header-color);
+    margin-left: 8px;
+    position: relative;
+    min-height: 180px;
+}
+#evkalipt .timetable__text{
+    text-align: left;
+    width: calc(80% - 56px);
+        display: flex
+;
+    flex-direction: column;
+    gap: 8px;
+}
+#evkalipt .timetable__block-descr{
+        font-size: 16px;
+    line-height: 100%;
+}
+#evkalipt .timetable__block-time{
+    text-transform: uppercase;
+    color: var(--header-color);
+    font-size: 30px;
+    line-height: 100%;
+}
+#evkalipt .timetable__block-name{
+        text-transform: uppercase;
+    color: var(--header-color);
+}
+#evkalipt #details, #evkalipt #questions{
+        background-image: url(../../../../images/sites/evkalipt/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 10px 0px 50px;
+}
+#evkalipt .details-block, #evkalipt  .question__bloks  {
+    width: 90%;
+    background: #ffffffd9;
+    border-radius: 10px;
+    margin: 50px 0;
+    box-shadow: 2px 2px 10px #000000ab;
+}
+#evkalipt .details-block .title__place-right{
+        text-align: left;
+    padding-left: 5%;
+}
+#evkalipt #details-container {
+    text-align: left;
+    padding: 0 5%;
+}
+#evkalipt .question__container{
+    text-align: left;
+    padding: 50px 5%;
+}
+#evkalipt  .question__text-mini{
+    font-size: 14px;
+    padding-top: 10px;
+}
+#evkalipt .dresscode__colors {
+    display: flex
+;
+        justify-content: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+#evkalipt .dresscode__color{
+    border-radius: 100px;
+    max-height: 90px;
+    max-width: 90px;
+}
+#evkalipt  .details-block-left{
+        padding: 50px 5%;
+}
+#evkalipt .question__label {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+}
+#evkalipt .question__string{
+    margin-bottom: 20px;
+}
+#evkalipt .question__label{
+        margin-bottom: 0px;
+}
+#evkalipt .question__unvisible {
+    display: none;
+}
+#evkalipt .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+    border-radius: 50%;
+}
+#evkalipt  .question__unvisible:checked + .question__visible-radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: var(--header-color);
+    border-radius: 50%;
+}
+#evkalipt  .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+}
+#evkalipt .question__unvisible:checked + .question__visible-checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: var(--header-color);
+}
+#evkalipt .question__string input[type="text"]{
+    border: 0;
+    background-color: #f0f8ff00;
+    border-bottom: 1px solid var(--header-color);
+    border-radius: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 5px 0 !important;
+}
+   #evkalipt .wedding-day:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35px;
+    height: 30px;
+    background-image: url(../../../../images/sites/evkalipt/heart-green-01.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -10;
+}
+#evkalipt .wedding-day {
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 10;
+}
+#evkalipt #dresscode{
+        background-image: url(../../../../images/sites/evkalipt/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 10px 0px 50px;
+}
+#evkalipt .dresscode_common {
+     padding: 60px 0% 70px;
+    width: 90%;
+    margin: 20px auto;
+    background: #ffffffd9;
+    border-radius: 10px;   
+}
+#evkalipt .separator-image{
+    width: 12%;
+    max-width: 70px;
+    padding: 0px 0 20px;
+}
+#evkalipt  #question .rsvp__button{
+    margin-top: 20px;
+}
+#evkalipt .counter{
+        background-image: url(../../../../images/sites/evkalipt/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 0px 20px;
+}
+
+#evkalipt .timer{
+    padding: 40px 5% 50px;
+    width: 90%;
+    margin: 20px auto;
+    background: #ffffffd9;
+    border-radius: 10px;
+        box-shadow: 2px 2px 10px #000000ab;
+}
+#evkalipt .footer__container{
+    padding: 40px 5% 50px;
+    width: 90%;
+    margin: 20px auto;
+    background: #ffffffd9;
+    border-radius: 10px;
+        box-shadow: 2px 2px 10px #000000ab;
+}
+#evkalipt .timer-title{
+        font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--header-color);
+}
+#evkalipt .timer__number::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../../images/sites/evkalipt/timer-time-01.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+}
+#evkalipt #clockdiv{
+    display: flex
+;
+    flex-direction: row;
+        justify-content: center;
+    gap: 2%;
+}
+#evkalipt .timer__block-inside{
+        display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+#evkalipt .timer__block {
+    position: relative;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    line-height: 300%;
+    color: var(--background-color);
+    /* font-family: var(--beauty-font); */
+    font-size: 20px;
+}
+#evkalipt .footer__text  {
+        font-family: var(--main-font);
+        font-size: 20px;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: var(--header-color);
+    }
+  #evkalipt .names-footer{
+        font-family: var(--beauty-font);
+    font-size: 64px;
+    line-height: 100%;
+    /* box-shadow: 2px 2px 10px #000000ab; */
+    color: var(--header-color);
+    text-shadow: 2px 2px 4px #000000ab;
+    }
+   #evkalipt  .footer {
+        position: relative;
+    }
+   #evkalipt  .footer-img-up{
+            position: absolute;
+    bottom: 0%;
+    left: 0;
+    transform: translate(-15%, 60%) rotate(-90deg);
+    z-index: 3;
+    }
+   #evkalipt  .footer-img-down{
+        position: absolute;
+    bottom: 0%;
+    right: 0;
+    transform: translate(60%, 30%) rotate(-90deg);
+    z-index: -3;
+    }
+#evkalipt td {
+    padding: 5px 0px;
+}
+#evkalipt .separate-block-mid{
+        width: 8%;
+    max-width: 70px;
+    margin: auto;
+    padding: 70px 0 35px;
+}
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#evkalipt {
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#evkalipt  .title_text{
+           padding-top: 30px;
+        font-family: var(--beauty-font);
+        font-size: 56px;
+        line-height: 60%;
+        color: var(--header-color);
+}
+#evkalipt .descr_text{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0 5%;
+}
+#evkalipt .timer-title{
+        font-family: var(--main-font);
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--header-color);
+}
+#evkalipt .footer__text  {
+        font-family: var(--main-font);
+        font-size: 20px;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: var(--header-color);
+    }
+}
+
+#evkalipt .dresscode__row{
+        display: flex
+;
+    gap: 5px;
+    justify-content: center;
+}

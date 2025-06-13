@@ -1,0 +1,711 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+#bow {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #f4e9e1;
+    --header-color: #c49da2;
+    --text-color: #231f20;
+     --elements-color: #8d8d8d;
+    
+    --main-font: 'gotham', sans-serif; /* Основной шрифт */
+    --beauty-font: 'Alayarosa', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'cmu_ital', sans-serif; /* Второй шрифт */
+}
+
+#bow p{
+    margin: 0;
+}
+
+#bow #home{
+    
+   /* height: calc(100vh - 70px);*/
+}
+#bow{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+    background:var(--background-color);
+    overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+    #bow{
+    font-size: 18px;
+    line-height: normal;
+    
+}
+}
+
+#bow .header-block-name, #bow .header-block-name-and, #bow .header-block-name, #bow .header-block-love{
+     font-family: var(--beauty-font);
+}
+
+    
+
+#bow .header-block-name, #bow .header-block-name, #bow .header-block-love{
+    color: var(--header-color);
+}
+#bow .title_text{
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+    font-size: 64px;
+    
+}
+#bow .footer__text-name{
+    line-height: 150%;
+}
+        #bow .footer {
+            padding-bottom: 50px;
+        }
+    
+#bow .header-block-name, #bow .header-block-name{
+    line-height: 84px;
+        font-size: 64px;
+}
+#bow .header-block-love{
+     font-size: 20px;
+}
+#bow .info-date{
+        max-width: 600px;
+    margin: auto;
+    width: 90%;
+}
+#bow .header-blocks{
+    max-width: 1000px;
+    margin: auto;
+    display: flex
+;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    min-height: calc(100vh - 70px);
+}
+#bow .info-date{
+    max-width: 600px;
+    margin: auto;
+    width: 90%;
+}
+#bow .header-block-name-and{
+   font-size: 58px;
+        color: var(--elements-color);
+        line-height: 58px;
+    
+}
+#bow .header-block-love{
+        font-size: 68px;
+    line-height: 58px;
+    text-align: left;
+}
+#bow .header-block-text{
+    text-align: right;
+    font-size: 20px;
+}
+#bow .header-block-up-inside{
+    position: relative;
+}
+#bow .header-block-names{
+           position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+#bow .date-main-small{
+ padding: 20px 0 10px 0;
+        font-family: mak;
+        font-weight: 600;
+        font-size: 24px;
+        color: var(--elements-color);
+        text-transform: uppercase;
+}
+#bow .welcome_descr_text-beauty{
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+    font-size: 36px;
+    padding-top: 20px;
+}
+#bow .descr_text{
+    line-height: 150%;
+}
+#bow .detail-img{
+    width: 60px;
+    margin: auto;
+    padding: 15px 0;
+}
+       #bow .timetable_mine {
+            position: relative;
+        }
+                #bow .left-plan__img {
+           position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    transform: translate(50%, 0%);
+        }
+      #bow  .rsvp, #bow .details{
+            width: 90%;
+    max-width: 1000px;
+    margin: auto;
+        }
+#bow .slash__img{
+            width: 100px;
+    margin: auto;
+    padding: 80px 0;
+    }
+    #bow .welcome_title_text{
+    text-align: center;
+        width: 80%;
+        font-family: var(--beauty-font);
+        color: var(--header-color);
+        font-size: 48px;
+        line-height: 36px;
+        padding-bottom: 20px;
+        margin: auto;
+    }
+   #bow .date-full-welcome-block{
+        padding-top: 40px;
+    font-size: 24px;
+    line-height: 36px;
+    }
+    #bow .date-full-welcome .day-welcome{
+        text-transform: uppercase;
+    }
+    #bow .registration_title_text, #bow .banquet_title_text{
+        font-size: 48px;
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+    padding-bottom: 10px;
+    }
+  #bow  .registration_descr_text{
+     padding-bottom: 40px;   
+    }
+   #bow .timetable_mine{
+        position: relative;
+    }
+  #bow  .timetable{
+        max-width: 1000px;
+    width: 90%;
+    margin: auto;
+
+    }
+  #bow  .timetable__block-name{
+            font-family: var(--text-font);
+            text-transform: none;
+            font-size: 20px;
+    text-transform: uppercase;
+    }
+  #bow  .timetable__block-line{
+        border-left: 1px solid var(--header-color);
+    margin-left: 8px;
+    }
+  #bow  .timetable__block-circle{
+            text-align: center;
+    width: 16px;
+    height: 16px;
+    background: var(--header-color);
+    border-radius: 50%;
+    margin: auto;
+    }
+  #bow  .timetable__block-lines{
+        display: grid;
+    width: 16px;
+    grid-template-rows: 15px 1fr;
+    }
+  #bow  .timetable_block{
+    text-align: right;
+        padding-right: 0%;
+        margin: auto;
+        max-width: 500px;
+        display: grid;
+        justify-content: end;
+;
+    }
+   #bow .error-rsvp{
+        padding-bottom: 20px;
+    }
+#bow .timer__block-info{
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+   #bow .timetable__block-stroke{
+        display: flex
+;
+    gap: 15px;
+    }
+   #bow .timetable__block-texts{
+        width: 90%;
+    padding: 0px 0 30px 0;
+    }
+   #bow .dresscode__colors{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    }
+   #bow .dresscode{
+        width: 90%;
+    margin: auto;
+    }
+    #bow .dresscode p{
+         width: 90%;
+    margin: auto;
+     }
+    #bow .dresscode_woman, #bow .dresscode_man{
+         padding-top: 50px;
+     }
+     #bow .rsvp__form{       
+         min-width: 40%;
+        margin: 28px 0 0;
+        display: flex
+;
+        flex-direction: column;
+        align-items: center;
+     }
+     #bow .rsvp__string{
+        display: flex
+;
+        flex-direction: column;
+        margin: 0 0 15px;
+        align-items: flex-end;
+        gap: 10px;
+        justify-content: flex-start;
+     }
+     #bow .rsvp__label{
+               line-height: 35px;
+        margin: 0 10px 0 0;
+     }
+             #bow .rsvp__buttons {
+            display: flex
+;
+            justify-content: center;
+            gap: 30px;
+        }
+             #bow .rsvp__button {
+            background: var(--header-color);
+            color: white;
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 20px;
+            width: 180px;
+        }
+   #bow  .rsvp__input{
+         width: 175px;
+    height: 35px;
+    font-size: 16px;
+     }
+    #bow .timer-title{
+         font-size: 42px;
+         padding-bottom: 20px;
+     }
+    #bow #clockdiv{
+         display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+     }
+    #bow .timer__block{
+         font-size: 18px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--elements-color);
+     }
+     #bow .timer{
+         padding: 70px 0;
+    position: relative;
+    margin: 20px 0;
+     }
+    #bow .timer{
+         width: 90%;
+    max-width: 1000px;
+    margin: auto;
+     }
+    #bow .right-plan__img{position: absolute;
+        top: 0%;
+        right: 0%;
+        width: 20%;
+        transform: translate(0%, 10%);
+     }
+    #bow .rsvp__container-column{
+         display: flex
+;
+    flex-direction: row;
+     }
+    #bow .info-invitation{
+         position: relative;
+     }
+    #bow .info-date__img{
+       position: absolute;
+        top: -5%;
+        right: -10%;
+        width: 30%;
+     }
+       #bow   #playButton{
+            cursor: pointer;
+    position: absolute;
+    width: 60px;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    }
+   #bow .pc-right{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* width: auto; */
+    width: 40%;
+    }
+    #bow .pc-left{
+    width: 40%;
+    }
+@media screen and (max-width: 800px) {
+  #bow  .timetable_mine{
+        position: relative;
+    }
+     #bow .right-plan__img{
+         position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 40%;
+    transform: translate(40%, -0%);
+     }
+    #bow .timetable__block-name{
+            font-size: 16px;
+    text-transform: uppercase;
+    }
+   #bow  .pc-right{
+        display: block;
+    width: 100%;
+    }
+    #bow .pc-left{
+    width: 100%;
+    }
+       #bow .menu__button {
+        display: none;
+    }
+   #bow .header-blocks{
+        display: flex;
+              flex-direction: column;
+        min-height: calc(100vh - 70px);
+        justify-content: center;
+}
+ #bow .timetable_block{
+       /* width: 75%;*/
+    text-align: right;
+    padding-right: 5%;
+    margin: auto;
+    max-width: 500px;
+    display: grid
+;
+    }
+   #bow .footer{
+        padding-bottom: 50px;
+    }
+   #bow #playButton{
+            cursor: pointer;
+    position: absolute;
+    width: 50px;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    }
+    #bow .info-date__img{
+         position: absolute;
+    top: -10%;
+    right: -10%;
+    width: 40%;
+     }
+  #bow .header-img img{
+      margin: 30px auto 0;
+  }
+    #bow .dresscode__colors{
+    padding: 30px 0;
+    }
+  #bow  .header{
+        /*: calc(100vh - 50px);*/
+    }
+  #bow  .slash__img{
+            width: 80px;
+    margin: auto;
+    padding: 50px 0;
+    }
+   #bow .title_text{
+    font-size: 64px;
+}
+#bow .left-plan__img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    transform: translate(-40%, -10%);
+}
+#bow .header-block-name, #bow .header-block-name{
+    font-size: 90px;
+            line-height: 106px;
+}
+#bow .header-block-love{
+     font-size: 20px;
+}
+#bow .header-block-name-and{
+    font-size: 68px;
+    color: var(--elements-color);
+    line-height: 58px;
+}
+#bow .header-block-love{
+        font-size: 68px;
+    line-height: 58px;
+}
+#bow .header-block-down{
+    width: 80%;
+    margin: auto;
+}
+ #bow .welcome_title_text{
+     text-align: left;
+    width: 100%;
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+    font-size: 56px;
+    line-height: 48px;
+    padding-bottom: 20px;   
+    }
+#bow .date-main-small{
+    
+    padding: 40px 0 10px 0;
+        font-size: 24px;
+}
+ #bow .date-full-welcome-block{
+        padding-top: 40px;
+    font-size: 24px;
+    line-height: 36px;
+    }
+#bow .header-block-names{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    left: calc(50vw);
+    transform: translate(-50%, -50%);
+}
+#bow .info-date{
+    width: 80%;
+   margin: 100px auto 0;
+}
+#bow .registration_title_text, #bow .banquet_title_text{
+        font-size: 36px;
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+    padding-bottom:5px;
+    }
+    #bow .registration_descr_text{
+     padding-bottom: 40px;   
+    }
+    #bow .dresscode_woman, #bow .dresscode_man{
+         padding-top: 50px;
+     }
+    #bow .dresscode .title_text{
+         line-height: 50%;
+     }
+   #bow  #details-container{
+         width: 90%;
+    margin: auto;
+     }
+   #bow  .detail-img{
+            width: 60px;
+            margin: auto;
+            padding: 15px 0;
+     }
+    #bow .rsvp-block{
+         width: 100%;
+    margin: auto;
+     }
+    #bow .rsvp__buttons{
+         display: flex;
+    justify-content: center;
+    gap: 10px;
+     }
+    #bow .rsvp__button{
+         background: var(--header-color);
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    width: 150px;
+     }
+      #bow .rsvp__form{
+        min-width: 40%;
+            margin: 28px 0 0;
+            display: flex
+;
+            flex-direction: column;
+            align-items: center;
+     }
+    #bow .rsvp__string{
+       display: flex;
+            flex-direction: column;
+            margin: 0 0 15px;
+            align-items: flex-end;
+            gap: 10px;
+            justify-content: center;
+     }
+    #bow .rsvp__label{
+       font-size: 14px;
+            line-height: 35px;
+            margin: 0 10px 0 0;
+     }
+     #bow .rsvp__input{
+                    width: 175px;
+            height: 35px;
+            font-size: 16px;
+            margin: 0;
+     }
+     #bow .rsvp__container-column{
+         min-width: 40%;
+     }
+     #bow   .timer-title{
+         font-size: 42px;
+     }
+   #bow  #clockdiv{
+    gap: 20px;
+     }
+     #bow .timer__block{
+         font-size: 18px;
+    width: 50px;
+    height: 50px;
+     }
+     #bow .timer{
+         
+     }
+}
+/*  Общие анимации для плавного появления при прокрутке (используя AOS) */
+
+/*  Пример класса для текстовых элементов, появляющихся слева */
+#bow .animate-from-left {
+    opacity: 0; /* Сначала делаем элемент невидимым */
+    transition: opacity 1s ease, transform 1s ease; /* Плавный переход */
+    transform: translateX(-50px); /* Сдвигаем влево */
+}
+
+#bow .animate-from-left.aos-animate {
+    opacity: 1; /* Когда AOS активирует анимацию, делаем видимым */
+    transform: translateX(0); /* Возвращаем на место */
+}
+
+/*  Пример класса для текстовых элементов, появляющихся справа */
+#bow .animate-from-right {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    transform: translateX(50px); /* Сдвигаем вправо */
+}
+
+#bow .animate-from-right.aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/*  Пример класса для элементов, появляющихся снизу */
+#bow .animate-from-bottom {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    transform: translateY(50px); /* Сдвигаем вниз */
+}
+
+#bow .animate-from-bottom.aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#bow .swing {
+  animation: swingAnimation 5s linear infinite alternate;
+}
+
+
+
+/* Дополнительные анимации (примеры) */
+#bow .fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0; /* Скрываем элемент изначально */
+}
+
+
+
+#bow .slide-up {
+    animation: slideUp 1s ease-out forwards;
+    transform: translateY(50px); /* Сдвигаем элемент вниз изначально */
+    opacity: 0;
+}
+
+
+
+#bow .slide-down {
+    animation: slideDown 1s ease-out forwards;
+    transform: translateY(-50px); /* Сдвигаем элемент вверх изначально */
+    opacity: 0;
+}
+#bow .pulse {
+  animation: pulse 4s linear infinite; /* 3 секунды, линейно, бесконечно */
+}
+
+#bow  #welcome-text {
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes swingAnimation {
+  0% {
+    transform: rotate(-15deg); /* Наклон влево */
+  }
+  100% {
+    transform: rotate(15deg); /* Наклон вправо */
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.95); /* Исходный размер */
+  }
+  50% {
+    transform: scale(1.05); /* Увеличение на 5% */
+  }
+  100% {
+    transform: scale(0.95); /* Возврат к исходному размеру */
+  }
+}

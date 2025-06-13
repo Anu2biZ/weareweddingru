@@ -1,0 +1,534 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+@font-face {
+  font-family: "HITCH-HIKE";
+  src:
+  url(../../fonts/HITCH-HIKE.otf);
+       font-style: normal;
+       font-weight: 200;
+}
+#ty-ya {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #E8E8E8;
+     --background-color2: white;
+      --background-color3: white;
+    --header-color: black;
+    --text-color: black;
+    --main-font: 'ALETHIANEXT', sans-serif; /* Основной шрифт */
+    --beauty-font: 'HITCH-HIKE', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'mak', sans-serif; /* Второй шрифт */
+}
+
+#ty-ya{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 100%;
+    color: var(--text-color);
+    overflow: hidden;
+    max-width: 500px;
+    margin: auto;
+}
+#ty-ya p{
+    margin: 0;
+    
+}
+#ty-ya .title_text{
+    font-family: var(--beauty-font);
+    font-size: 64px;
+    line-height: 100%;
+    color: var(--text-color);
+    padding-bottom: 20px;
+}
+#ty-ya .descr_text{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#ty-ya .bow-header{
+   min-height: 100vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+       padding: 50px 0 22vh;
+}
+#ty-ya #groom-bride{
+     text-transform: uppercase;
+    font-family: var(--secondary-font);
+    font-size: 30px;
+    line-height: 100%;
+ }
+#ty-ya .date-header{
+     display: flex
+;
+    flex-direction: column;
+    gap: 20px;
+ }
+#ty-ya #date-title{
+     text-transform: uppercase;
+    font-family: var(--secondary-font);
+    font-size: 100px;
+    line-height: 100%;
+ }
+#ty-ya #month-title{
+     text-transform: uppercase;
+    font-family: var(--secondary-font);
+    font-size: 50px;
+ }
+#ty-ya .header-block-bg-main img{
+     width: 30%;
+    margin: auto;
+    max-width: 300px;
+    padding-top: 20px;
+ }
+#ty-ya #music-block {
+    padding: 20px 0 40px;
+}
+#ty-ya #playButton {
+    cursor: pointer;
+    width: 15%;
+    max-width: 100px;
+    margin: auto;
+}
+#ty-ya #music-text {
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+#ty-ya .info-date{
+        width: 90%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 30px;
+}
+#ty-ya .welcome_title_text{
+    font-family: var(--beauty-font);
+}
+#ty-ya  .info_invitation{
+       position: relative;
+    display: flex
+;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+#ty-ya  .info-date_invitation{
+        display: flex
+;
+    flex-direction: column;
+    gap: 0px;
+    width: 60%;
+}
+#ty-ya #date-info{
+    font-family: var(--secondary-font);
+    font-size: 84px;
+    line-height: 100%;
+}
+#ty-ya  #month-info{
+        font-family: var(--secondary-font);
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+#ty-ya  #time-info{
+        font-family: var(--main-font);
+    font-size: 18px;
+    line-height: 100%;
+    padding-top: 10px;
+}
+#ty-ya .welcome_title_text{
+        font-size: 64px;
+    line-height: 150%;
+}
+#ty-ya #welcome-text{
+    width: 60%;
+}
+#ty-ya .info-img img{
+    position: absolute;
+    top: 20px;
+    z-index: -1;
+    right: -5%;
+    /* width: 100%; */
+    max-width: 60%;
+}
+#ty-ya .info_save {
+    text-align: right;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+        padding-bottom: 30px;
+}
+#ty-ya .calendar-block{
+    position: relative;
+}
+#ty-ya .calendar-img{
+        position: absolute;
+    width: 20%;
+    top: -20px;
+}
+#ty-ya .date-calendar{
+        background: var(--background-color);
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 20px;
+}
+#ty-ya  h3{
+    text-align: right;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#ty-ya  table{
+    margin: auto;
+}
+#ty-ya  tbody, #ty-ya  td, #ty-ya  tfoot, #ty-ya  th, #ty-ya  thead, #ty-ya  tr {
+    padding: 5px 8px;
+}
+#ty-ya  th{
+        text-transform: uppercase;
+}
+#ty-ya .wedding-day{
+    /*color: var(--background-color2);
+    background: var(--text-color);
+    border-radius: 100px;*/
+}
+#ty-ya .info-place{
+    margin: auto;
+    padding: 30px 5%;
+    max-width: 500px;
+}
+#ty-ya #registration-title,#ty-ya  #banquet-title{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+#ty-ya #place{
+        display: flex
+;
+    flex-direction: column;
+    gap: 100px;
+}
+#ty-ya .info-date__with-map iframe{
+    position: relative;
+    border: 1px solid var(--text-color);
+    border-radius: 10px;
+    filter: grayscale(100%);
+    min-height: 200px;
+    margin-top: 20px;
+    position: relative;
+    width: 90%;
+    margin: 20px 0 0;
+}
+#ty-ya .map-img{
+    position: absolute;
+    width: 15%;
+    right: 10%;
+    top: 92%;
+}
+#ty-ya .info-date__with-map{
+    position: relative;
+}
+#ty-ya .timetable__block-lines img{
+    width: 15%;
+    margin: auto;
+    padding: 20px 0;
+}
+#ty-ya #plan{
+        background-image: url(../../../../images/sites/ty-ya/bg-bows-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px 0;
+    margin-top: 70px;
+}
+#ty-ya .plan__place{
+        background: white;
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 50px 10px;
+}
+#ty-ya .timetable__block-texts{
+    display: flex
+;
+    flex-direction: column;
+    gap: 10px;
+}
+#ty-ya .timetable__block-time{
+        font-size: 20px;
+    font-family: var(--secondary-font);
+}
+#ty-ya .timetable__block-name{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#ty-ya .timetable__block-descr{
+        max-width: 90%;
+    margin: auto;
+}
+#ty-ya .separate-block{
+    width: 30%;
+    max-width: 200px;
+    margin: auto;
+    padding: 50px 0;
+}
+#ty-ya .grey-block{
+    margin: auto;
+    width: 90%;
+    position: relative;
+}
+#ty-ya .details-block{
+    background: var(--background-color);
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 20px;
+    text-align: right;
+}
+#ty-ya .detail-stroke{
+        text-align: right;
+    display: flex
+;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#ty-ya .separator-image-details{
+    width: 15%;
+    padding: 20px 0;
+        max-width: 50px;
+
+}
+#ty-ya  #dresscode{
+        width: 90%;
+    margin: auto;
+    max-width: 500px;
+}
+#ty-ya  .dresscode__colors {
+    display: flex
+;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 0;
+}
+#ty-ya  .dresscode__color{
+    max-width: 70px;
+}
+#ty-ya .timer{
+   background: var(--background-color);
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 20px 0px;
+    text-align: right;
+    margin-bottom: 40px;
+}
+#ty-ya #clockdiv {
+    display: flex
+;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-bottom: 30px;
+    padding-bottom: 30px;
+}
+#ty-ya .timer__block-info {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+#ty-ya .timer__block-inside {
+    display: flex
+;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+#ty-ya .timer__number {
+   width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: var(--text-color);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+#ty-ya .timer__block span {
+   color: var(--background-color2);
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 100%;
+    margin: auto;
+    text-align: center;
+}
+#ty-ya .timer__text {
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#ty-ya .question{
+    background-image: url(../../../../images/sites/ty-ya/bg-bows-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px 0;
+    margin-top: 70px;
+}
+#ty-ya .question__bloks {
+        background: white;
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 50px 10px 20px;
+}
+#ty-ya .question__label {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 5px;
+}
+#ty-ya .question__string{
+    margin-bottom: 15px;
+}
+#ty-ya .question__label{
+        margin-bottom: 0px;
+}
+#ty-ya  .question__unvisible {
+    display: none;
+}
+#ty-ya .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+    border-radius: 50%;
+}
+#ty-ya  .question__unvisible:checked + .question__visible-radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: var(--header-color);
+    border-radius: 50%;
+}
+#ty-ya  .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--header-color);
+}
+#ty-ya .question__unvisible:checked + .question__visible-checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: var(--header-color);
+}
+#ty-ya .question__string input[type="text"]{
+    border: 0;
+   
+    border-bottom: 1px solid var(--header-color);
+    border-radius: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 5px 0 !important;
+}
+#ty-ya .rsvp__button{
+      background: var(--header-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 100%;
+    color: var(--background-color);
+    padding: 12px 20px 12px;
+    min-width: 180px;
+    margin: 10px 0;
+}
+#ty-ya #question{
+        display: flex
+;
+    text-align: left;
+    flex-direction: column;
+}
+#ty-ya  .question__text-mini{
+        font-size: 12px;
+    padding: 10px 0;
+}
+#ty-ya  .footer {
+        padding: 50px 0;
+}
+#ty-ya  .names-footer{
+    font-size: 24px;
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+#ty-ya  .footer-block-bg-main{
+    width: 30%;
+    margin: auto;
+}
+ #ty-ya  .wedding-day:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35px;
+    height: 30px;
+    background-image: url(../../../../images/sites/fotobudka/heart-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -10;
+}
+ #ty-ya  .wedding-day {
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 10;
+}
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#ty-ya{
+    font-size: 16px;
+}
+#ty-ya .title_text{
+    font-size: 48px;
+}
+#ty-ya .descr_text{
+    font-size: 16px;
+}
+}
+

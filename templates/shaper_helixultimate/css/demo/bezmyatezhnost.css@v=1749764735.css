@@ -1,0 +1,452 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@font-face {
+font-family: 'mak';
+src: url('https://wow-card.ru/templates/shaper_helixultimate/css/fonts/MAK.otf');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+  font-family: 'CYGRE-THIN';
+  src:  url(../../fonts/CYGRE-THIN.ttf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+  font-family: "WonderScript";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/WonderGardenScript-Regular.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("https://wow-card.ru/fonts/WonderGardenScript-Regular.woff") format("woff");
+}
+#bezmyatezhnost {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #D9D9D9;
+    --header-color: #7c1417;
+    --text-color: black;
+    --main-font: 'CYGRE-THIN', sans-serif; /* Основной шрифт */
+    --beauty-font: 'mak', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'WonderScript', sans-serif; /* Второй шрифт */
+}
+
+#bezmyatezhnost{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+        overflow: hidden;
+        text-align: center;
+}
+   #bezmyatezhnost p{
+     margin: 5px 0;  
+   } 
+#bezmyatezhnost .title_text{
+    font-family: var(--beauty-font);
+    font-size: 64px;
+    line-height: 120%;
+    
+        color: var(--header-color);
+     text-align: center;
+}
+#bezmyatezhnost .separate-block-mid{
+        width: 40%;
+    margin: auto;
+    padding: 40px 0;
+    max-width: 150px;
+}
+#bezmyatezhnost .descr_text{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+     text-align: center;
+}
+ 
+#bezmyatezhnost  .header{
+     height: 100vh;
+ }
+#bezmyatezhnost .header-blocks{
+     height: 100vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+  gap: 10vh;
+    max-width: 400px;
+    margin: auto;
+ }
+ #bezmyatezhnost .header-block-bg-main{
+     width: 90%;
+    margin: 0 auto;
+ }
+#bezmyatezhnost .header-block-bottom{
+     position: relative;
+ }
+ #bezmyatezhnost .header-text-simple{
+     position: absolute;
+    right: calc(10% + 20px);
+    top: 30px;
+    font-size: 28px;
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+ }
+#bezmyatezhnost .header-block-bg-main{
+     width: 90%;
+    position: relative;
+    margin: 0 auto;
+ }
+#bezmyatezhnost .menu__button{
+     display: none;
+ }
+ #bezmyatezhnost #playButton{
+     width: 20%;
+    max-width: 100px;
+    margin: auto;
+ }
+  #bezmyatezhnost  .info-date, #bezmyatezhnost  #places, #bezmyatezhnost  #plan,  #bezmyatezhnost #dresscode,  #bezmyatezhnost #details,  #bezmyatezhnost .rsvp,  #bezmyatezhnost .counter,  #bezmyatezhnost  #questions,  #bezmyatezhnost .footer{
+         width: 90%;
+    margin: auto;
+    max-width: 600px;
+        padding: 50px 0;
+ }
+#bezmyatezhnost #music-block{
+     padding: 50px 0 0;
+ }
+ #bezmyatezhnost .welcome_title_text{
+         font-size: 34px;
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+    text-transform: uppercase;
+ }
+#bezmyatezhnost .date-welcome-two{
+     color: var(--main-color);
+ }
+#bezmyatezhnost .info-invitation{
+     display: flex
+;
+    gap: 40px;
+    flex-direction: column;
+ }
+#bezmyatezhnost .block-img-frame{
+         display: flex
+;
+    gap: 50px;
+    flex-direction: column;
+ }
+ #bezmyatezhnost .info-invitation-block-text{
+         display: flex
+;
+    gap: 10px;
+    flex-direction: column;
+ }
+#bezmyatezhnost .info-text-simple{
+     font-family: var(--secondary-font);
+    font-size: 130px;
+    color: var(--header-color);
+    line-height: 40%;
+    margin-bottom: 50px;
+ }
+ #bezmyatezhnost .separate-block-big{
+         width: 100%;
+    padding: 30px 0;
+    max-width: 600px;
+    margin: auto;
+ }
+  #bezmyatezhnost #registration-title,  #bezmyatezhnost #banquet-title{
+         font-size: 28px;
+    font-family: var(--beauty-font);
+    color: var(--header-color);
+    text-transform: uppercase;
+    line-height: 100%;
+    padding-bottom: 10px;
+ }
+ #bezmyatezhnost .timetable__block{
+     display: flex
+;
+    flex-direction: column;
+    align-items: center;
+ }
+ #bezmyatezhnost  .timetable__block-line{
+     width: 30px;
+ }
+ #bezmyatezhnost .timetable__block-stroke{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ #bezmyatezhnost .timetable__block-first{
+     width: calc(50% - 15px);
+     text-align: right;
+ } 
+ #bezmyatezhnost .timetable__block-last{
+     width: calc(50% - 15px);
+     text-align: left;
+ }
+ #bezmyatezhnost  .timetable__block-stroke-first,  #bezmyatezhnost .timetable__block-stroke-end{
+         width: 150px;
+ }
+ #bezmyatezhnost .timetable__block-stroke-separate{
+     width: 150px;
+ }
+  #bezmyatezhnost  .timetable__block-descr{
+     font-size: 14px;
+    line-height: 100%;
+ }
+  #bezmyatezhnost .timetable__block-time{
+     font-family: var(--beauty-font);
+    color: var(--header-color);
+    font-size: 24px;
+ }
+  #bezmyatezhnost .timetable__block-name{
+         text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 100%;
+ }
+#bezmyatezhnost #plan .separate-block-mid, #bezmyatezhnost #dresscode .separate-block-mid, #bezmyatezhnost #details .separate-block-mid,  #bezmyatezhnost .rsvp .separate-block-mid{
+         padding-top: 80px;
+ }
+#bezmyatezhnost .separator-image{
+     width: 40px;
+    margin: auto;
+    padding: 20px 0;
+ }
+#bezmyatezhnost .timer-title{
+     font-size: 24px;
+    padding-bottom: 20px;
+ }
+ #bezmyatezhnost #clockdiv{
+     display: flex
+;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+ #bezmyatezhnost .timer__block-info{
+     display: flex
+;
+    flex-direction: column;
+    align-items: center;
+ }
+ #bezmyatezhnost .timer__block{
+     border: 2px solid var(--header-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: var(--text-color);
+    line-height: 50px;
+    font-size: 18px;
+    font-family: var(--beauty-font);
+    font-size: 20px;
+ }
+  #bezmyatezhnost .timer-title{
+     font-size: 24px;
+    padding-bottom: 20px;
+ }
+  #bezmyatezhnost .question__unvisible {
+        display: none;
+    }
+        #bezmyatezhnost .question__visible-radio {
+        position: relative;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        border: 1px solid var(--header-color);
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+        #bezmyatezhnost .question__unvisible:checked + .question__visible-radio::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 12px;
+        height: 12px;
+        background-color: var(--header-color);
+        border-radius: 50%;
+    }
+         #bezmyatezhnost .question__visible-checkbox {
+        position: relative;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        border: 1px solid var(--header-color);
+        margin-right: 5px;
+    }    
+    
+    #bezmyatezhnost .question__unvisible:checked + .question__visible-checkbox::before {
+        content: "✔";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 12px;
+        color: rgb(0, 0, 0);
+    }
+     #bezmyatezhnost  .rsvp__buttons{
+        display: flex
+;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    }
+   #bezmyatezhnost    button{
+        background-color: var(--header-color);
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 50%;
+    }
+#bezmyatezhnost input[type="text"], #bezmyatezhnost input[type="number"]{
+        border: 1px solid var(--header-color);
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 10px 15px !important;
+}
+#bezmyatezhnost #question{
+    text-align: left;
+}
+#bezmyatezhnost .question__text-mini{
+        font-size: 12px;
+    padding-bottom: 10px;
+}
+#bezmyatezhnost .rsvp__form{
+        padding-top: 10px;
+}
+#bezmyatezhnost .names-footer{
+    font-family: var(--beauty-font);
+    font-size: 42px;
+    color: var(--header-color);
+    line-height: 120%;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+#bezmyatezhnost .dresscode__row{
+        display: flex
+;
+    width: 90%;
+    margin: auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 5px 0;
+}
+#bezmyatezhnost .dresscode__color{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50px;
+}
+#bezmyatezhnost .timer__block-inside{
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+#bezmyatezhnost #question p.question__string{
+        margin: 30px 0;
+}
+#bezmyatezhnost #question .dresscode__colors{
+    padding: 30px 0;
+}
+#bezmyatezhnost iframe{
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    filter: grayscale(100%);
+}
+#bezmyatezhnost .map-place{
+        width: 100%;
+    padding: 20px 0;
+}
+#bezmyatezhnost .rsvp-message{
+    padding-bottom: 20px;
+}
+#bezmyatezhnost .dresscode__colors {
+    display: flex
+;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#bezmyatezhnost{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#bezmyatezhnost iframe{
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+    filter: grayscale(100%);
+}
+#bezmyatezhnost #question .dresscode__colors{
+    padding: 15px 0;
+}
+#bezmyatezhnost .header-blocks{
+     height: 100vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20vh;
+ }
+#bezmyatezhnost #question p.question__string{
+        margin: 20px 0;
+}
+ #bezmyatezhnost .title_text{
+   font-family: var(--beauty-font);
+        font-size: 42px;
+        line-height: 130%;
+        color: var(--header-color);
+        text-transform: uppercase;
+}
+ #bezmyatezhnost .descr_text{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+  #bezmyatezhnost  .info-date,  #bezmyatezhnost  #places, #bezmyatezhnost  #plan,  #bezmyatezhnost #dresscode,  #bezmyatezhnost #details,  #bezmyatezhnost .rsvp,  #bezmyatezhnost .counter,  #bezmyatezhnost  #questions,  #bezmyatezhnost .footer{
+           padding: 30px 0;
+ }
+ #bezmyatezhnost #music-block{
+     padding: 30px 0 0;
+ }
+ #bezmyatezhnost .timer-title {
+    font-size: 24px;
+
+}
+}

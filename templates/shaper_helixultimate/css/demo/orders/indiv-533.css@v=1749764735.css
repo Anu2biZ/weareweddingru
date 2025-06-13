@@ -1,0 +1,190 @@
+#indiv-533{
+    
+}
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@font-face {
+  font-family: "BEERMONEY";
+  src:
+  url(https://wow-card.ru/templates/shaper_helixultimate/css/fonts/BEERMONEY.ttf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+  font-family: "UnivrstyRoman";
+  src:
+  url(https://wow-card.ru/templates/shaper_helixultimate/css/fonts/UnivrstyRoman.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+  font-family: 'grotesk';
+  src:  url(https://wow-card.ru/templates/shaper_helixultimate/css/fonts/CYGROTESK-GRANDREGULAR.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+font-family: 'mak';
+src: url('https://wow-card.ru/templates/shaper_helixultimate/css/fonts/MAK.otf');
+font-weight: normal;
+font-style: normal;
+}
+#indiv-533 #loveis {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #E6E0D0;
+    --header-color: #7F193B;
+    --text-color: #000000;
+    --main-font: 'grotesk', sans-serif; /* Основной шрифт */
+    --beauty-font: 'BEERMONEY', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'mak', sans-serif; /* Второй шрифт */
+}
+
+#indiv-533 #loveis{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+    overflow: hidden;
+    background: var(--background-color);
+}
+#indiv-533 #loveis p{
+    margin: 0;
+}
+#indiv-533 #loveis .title_text {
+    font-family: var(--beauty-font);
+    font-size: 40px;
+    line-height: 120%;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+#indiv-533 #loveis .descr_text{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+    text-align: center;
+}
+    #indiv-533 #loveis .header-text-small {
+        font-size: 18px;
+        padding: 30px 0;
+        line-height: 120%;
+        color: var(--header-color);
+    }
+     #indiv-533   #loveis .welcome_title_text {
+        text-transform: uppercase;
+        /* font-size: 32px; */
+        color: var(--header-color);
+        font-size: 20px;
+    }
+       #indiv-533 #loveis .info-date__invitation {
+            text-align: center;
+    margin: auto;
+    width: 100%;
+           
+       }
+      #indiv-533 #loveis .registration_descr_text {
+               text-align: right;
+       }
+           #indiv-533   #loveis #registration-time,  #indiv-533  #loveis #banquet-time {
+           color: var(--header-color);
+    font-size: 32px;
+               
+           }
+          #indiv-533    #loveis #place-one, #loveis #place-two {
+    padding: 0;
+}
+     #indiv-533  #loveis .place_beauty_text {
+        text-align: right;
+        color: var(--header-color);
+        padding-bottom: 0;
+    }
+       #indiv-533 #loveis .info-date,#indiv-533 #loveis .places, #indiv-533 #loveis #plan, #indiv-533 #loveis .dresscode, #indiv-533 #loveis .details, #indiv-533 #loveis .rsvp, #indiv-533 #loveis .counter, #indiv-533 #loveis .question, #indiv-533 #loveis .footer {
+        max-width: 800px;
+        width: 90%;
+        margin: auto;
+    }
+  #indiv-533  #loveis #place-one .info-date__check-in {
+            width: 90%;
+    margin: auto;
+    }
+         #indiv-533 #loveis .timetable__block-name {
+       font-size: 24px;
+    text-transform: uppercase;
+    color: var(--header-color);
+    }
+      #indiv-533  #loveis .timetable__block-time {
+        font-family: var(--main-font);
+        font-size: 28px;
+        color: #7F9177;
+        font-weight: bold;
+        line-height: 120%;
+    }
+      #indiv-533  #loveis .timetable__block-texts {
+        padding: 50px 35px;
+        z-index: 3;
+        position: relative;
+    }
+      #indiv-533  #loveis .timetable__block-stroke img {
+        width: 15px;
+        margin: auto;
+        padding: 20px 0;
+    }
+     #indiv-533 #loveis .timetable__block-imgFrame img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+       #indiv-533  #loveis .rsvp__button-yes::before,   #indiv-533  #loveis .rsvp__button-no::before,  #indiv-533   #loveis #question .rsvp__button::before {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../../../../../images/sites/indiv/533/button-01.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        z-index: 1;
+    }
+       #indiv-533  #loveis .rsvp__button {
+        position: relative;
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        font-size: 12px;
+        line-height: 60px;
+        font-family: inherit;
+        color: black;
+        width: 200px;
+        height: 60px;
+        display: flex
+;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+    }
+        #indiv-533  #loveis input[type="text"],  #indiv-533  #loveis input[type="number"] {
+          height: 50px;
+    text-transform: uppercase;
+    border: 1px solid var(--header-color);
+    }
+       #indiv-533 #loveis .footer .header-block-small-heart {
+        padding: 30px 0;
+        width: 90%;
+        margin: auto;
+        max-width: 400px;
+    }

@@ -1,0 +1,718 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+@font-face {
+  font-family: 'HELLO-JANUARY';
+  
+  src: 
+   url(../../fonts/hello_january_script_cyrillic_script-webfont.woff2) format('woff2'),
+    url(../../fonts/hello_january_script_cyrillic_script-webfont.woff) format('woff'),
+    url(../../fonts/HELLO-JANUARY.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+  font-family: 'ZapfCalligr';
+  src:  url(../../fonts/ZapfCalligr.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+
+
+
+
+#vmeste{
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #a80202;
+    --header-color: #ebe3d0;
+     --white-color: white;
+    --text-color: #0c0700;
+    --main-font: 'ZapfCalligr', sans-serif; /* Основной шрифт */
+    --beauty-font: 'HELLO-JANUARY', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#vmeste{
+    font-family: var(--main-font);
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--text-color);
+    overflow: hidden;
+}
+#vmeste .title_text{
+    font-family: var(--beauty-font);
+    color: var(--text-color);
+        text-align: left;
+    color: var(--background-color);
+    font-size: 56px;
+    line-height: 80%;
+    margin: 0;
+}
+ #vmeste .descr_text{
+    font-family: var(--main-font);
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--text-color);
+        text-align: center;
+}
+  #vmeste .header-blocks{
+     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vh;
+    color: var(--white-color);
+ }
+#vmeste .header-block-bg-main img{
+     margin: auto;
+    width: auto;
+    max-width: 45vh;
+ }
+ #vmeste .header-text-beauty{
+     font-family: var(--beauty-font);
+    font-size: 56px;
+    line-height: 120%;
+ }
+#vmeste .header{
+         height: 100vh;
+    background: var(--background-color);
+ }
+ #vmeste .date-welcome{
+     text-transform: uppercase;
+ }
+#vmeste #music-block{
+     padding: 50px 0;
+    background: var(--header-color);
+ }
+#vmeste #music-block img{
+         padding: 10px 0;
+    cursor: pointer;
+    width: 10%;
+    margin: auto;
+    max-width: 70px;
+ }
+#vmeste .info-date{
+     background: var(--header-color);
+   padding: 0px 0 50px;
+ }
+#vmeste .block-img-frame{
+         width: 90%;
+    max-width: 600px;
+    margin: auto;
+ }
+ #vmeste .welcome_title_text{
+     color: var(--background-color);
+    font-family: var(--beauty-font);
+    font-size: 72px;
+    line-height: 120%;
+    padding-bottom: 20px;
+ }
+  #vmeste .welcome_beauty_text{
+         color: var(--background-color);
+    font-family: var(--beauty-font);
+    font-size: 72px;
+    /* line-height: 120%; */
+    padding-bottom: 50px;
+    text-align: center;
+ }
+ #vmeste  .date-calendar{
+     background: var(--background-color);
+    border-radius: 10px;
+    padding: 20px;
+ }
+ #vmeste  h3{
+     color: var(--white-color);
+    font-family: var(--beauty-font);
+    font-size: 52px;
+    /* line-height: 120%; */
+    padding-bottom: 20px;
+    text-align: center;
+ }
+  #vmeste  .date-calendar table{
+         margin: auto;
+    color: var(--white-color);
+ }
+  #vmeste  tbody,  #vmeste td,  #vmeste  tfoot,  #vmeste th,  #vmeste thead,  #vmeste  tr {
+    padding: 5px 8px;
+    border-width: 0;
+}
+#vmeste  th {
+    text-transform: uppercase; 
+    font-weight: 100;
+}
+#vmeste .wedding-day:before {
+        content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 40px;
+    background-image: url(../../../../images/sites/vmeste/heart-white-01.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -10;
+}
+#vmeste .info-date__img{
+        width: 90%;
+    margin: auto;
+    max-width: 600px;
+}
+#vmeste .separate-block-mid{
+    width: 7%;
+    margin: auto;
+    padding: 50px 0;
+    max-width: 50px;
+}
+#vmeste .rsvp__button{
+    text-transform: uppercase;
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto -1px;
+    padding: 15px 20px;
+    background: var(--white-color);
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+}
+#vmeste .info-date__img{
+        width: 90%;
+    margin: auto;
+    max-width: 600px;
+}
+
+#vmeste .wedding-day {
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 10;
+    color: var(--background-color);
+}
+#vmeste .title_text-block{
+    display: flex
+;
+    width: 90%;
+    flex-direction: column;
+    align-items: stretch;
+    margin: auto;
+        max-width: 500px;
+}
+#vmeste .info-date__img img{
+        margin: auto;
+}
+#vmeste .title_text-beauty{
+        color: var(--header-color);
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+#vmeste .info-date__place{
+        padding: 50px 0;
+}
+#vmeste .info-place__text{
+        margin: 0 auto;
+    line-height: 150%;
+}
+#vmeste  #registration-title{
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+#vmeste  #banquet-title{
+    text-transform: uppercase;
+}
+#vmeste  #plan{
+            padding: 50px 0 80px;
+    background: var(--background-color);
+    color: var(--white-color);
+}
+#vmeste  .plan__place .title_text-block{
+    width: 60%;
+    color: var(--white-color);
+    max-width: 300px;
+}
+#vmeste  .timetable_title_text{
+    color: var(--header-color);
+}
+#vmeste .timetable__block-stroke{
+    display: flex
+;
+    flex-direction: row;
+    gap: 10px;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+#vmeste  .timetable__block-stroke-right{
+    flex-direction: row-reverse;
+}
+#vmeste  .timetable__block-text{
+    width: 50%;
+    text-align: left;
+}
+#vmeste .timetable__block-name{
+    text-transform: uppercase;
+}
+#vmeste .timetable__block-descr{
+    font-size: 14px;
+    line-height: 100%;
+    padding: 10px 0 40px;
+}
+#vmeste .timetable__block-stroke-right .timetable__block-text{
+    text-align: right;
+}
+#vmeste .timetable__block-time{
+    width: 50%;
+    text-align: right;
+    font-size: 24px;
+}
+#vmeste .timetable__block-stroke-right .timetable__block-time{
+    text-align: left;
+}
+#vmeste .timetable__block-lines{
+    display: grid
+;
+    width: 16px;
+    grid-template-rows: 15px 1fr;
+}
+#vmeste .timetable__line{
+    border-left: 1px solid var(--header-color);
+    margin-left: 8px;
+}
+#vmeste .timetable__circle{
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    background: var(--header-color);
+    border-radius: 50%;
+}
+#vmeste  .timetable__block{
+    padding-top: 50px;
+}
+#vmeste .dresscode__header .title_text-block{
+        width: 70%;
+}
+#vmeste .dresscode_title_text{
+    font-size: 68px;
+}
+#vmeste #details{
+    background: var(--header-color);
+    padding: 80px 0;
+}
+#vmeste .dresscode__header{
+        width: 90%;
+    margin: auto;
+    max-width: 600px;
+}
+#vmeste .dresscode__header .title_text-block{
+    width: 70%;
+        max-width: 300px;
+}
+#vmeste .dresscode_title_text{
+    font-size: 68px;
+}
+#vmeste .title_text-block .title_text-beauty{
+    color: var(--white-color);
+}
+#vmeste .dresscode_descr_text{
+    padding-top: 30px;
+}
+#vmeste .dresscode__row{
+        display: flex
+;
+    /* margin: auto; */
+    gap: 10px;
+    justify-content: center;
+    padding: 20px 0 10px;
+}
+#vmeste #dresscode{
+    padding: 80px 0;
+}
+#vmeste #details .title_text-block{
+        width: 60%;
+       max-width: 300px;
+}
+#vmeste #details .details__header{
+    font-size: 68px;
+}
+#vmeste #dresscode  .title_text-beauty{
+    color: var(--header-color);
+}
+#vmeste #details-container{
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+    padding-top: 20px;
+}
+#vmeste #details-container .separator-image{
+        width: 6%;
+    padding: 20px 0;
+    margin: auto;
+}
+#vmeste .counter{
+        background-image: url(../../../../images/sites/vmeste/timer-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+        max-width: 600px;
+    margin: auto;
+}
+#vmeste .timer{
+    background: var(--background-color);
+    border-radius: 15px;
+}
+#vmeste .timer-title{
+    font-family: var(--main-font);
+    color: var(--header-color);
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 40px 0 20px;
+    margin: auto;
+    text-align: center;
+}
+#vmeste #clockdiv{
+    display: flex
+;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-bottom: 30px;
+    padding-bottom: 30px;
+}
+#vmeste #questions{
+        background: var(--header-color);
+    padding: 80px 0;
+}
+#vmeste .opros-inside{
+ text-align: left;
+    padding-top: 30px;   
+}
+#vmeste .question__text-mini{
+    font-size: 14px;
+}
+#vmeste .question__form{
+    font-size: 16px;
+}
+#vmeste p.question__string{
+    padding: 10px 0;
+}
+#vmeste input[type="text"]{
+        border: 0px;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 14px;
+    background: var(--header-color);
+    text-transform: uppercase;
+}
+#vmeste .question__bloks{
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+   
+}
+#vmeste .question__container .title_text-block{
+    width: 70%;
+     max-width: 250px;
+}
+#vmeste .question_title_text{
+    font-size: 68px;
+}
+
+#vmeste .timer__block-info{
+        display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+#vmeste .timer__block-inside{
+    display: flex
+;
+    gap: 5px;
+    flex-direction: column;
+}
+#vmeste .timer__number{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: var(--header-color);
+    border-radius: 50%;
+    font-size: 18px;
+}
+#vmeste .timer__text{
+    color: var(--header-color);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#vmeste .question__label {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+}
+
+#vmeste .question__label{
+        margin-bottom: 0px;
+}
+#vmeste .question__unvisible {
+    display: none;
+}
+#vmeste .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#vmeste  .question__unvisible:checked + .question__visible-radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: var(--background-color);
+    border-radius: 50%;
+}
+#vmeste  .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+#vmeste .question__unvisible:checked + .question__visible-checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: var(--background-color);
+}
+#vmeste #question .button-container{
+    text-align: center;
+    margin: 0 auto;
+}
+#vmeste #question .rsvp__button{
+        margin: 0 auto;
+}
+#vmeste  .place-right{
+    position: relative;
+}
+#vmeste  .img-newspaper-1{
+    position: absolute;
+    transform: translate(-65%, 0px);
+    max-width: 300px;
+    z-index: 10;
+}
+#vmeste  #registration-title, #vmeste  #registration-place{
+        z-index: 11;
+    position: relative;
+}
+#vmeste #plan{
+    position: relative;
+}
+#vmeste #plan .img-newspaper-1{
+    position: absolute;
+    transform: translate(55%, 40%);
+    max-width: 300px;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+}
+#vmeste #dresscode{
+    position: relative;
+}
+#vmeste #dresscode .img-newspaper-1{
+        position: absolute;
+    transform: translate(-65%, 50%);
+    max-width: 300px;
+    z-index: 10;
+    bottom: 0;
+}
+#vmeste .dresscode_woman{
+    padding-bottom: 40px;
+}
+#vmeste .dresscode_woman .dresscode_title_text, #vmeste .dresscode_man .dresscode_title_text{
+        text-align: center;
+    /* line-height: 150%; */
+    padding: 20px 0 10px;
+}
+#vmeste .places .title_text-beauty{
+    color: var(--header-color);
+}
+#vmeste  .question_descr_text{
+        text-align: left;
+}
+#vmeste #registration-time{
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+#vmeste .img-footer{
+       width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -100;
+    max-width: 300px;
+}
+#vmeste .names-footer{
+   font-size: 42px;
+    font-family: var(--main-font);
+    color: var(--background-color);
+    line-height: 120%;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+#vmeste .names-footer2{
+min-height: 300px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+        font-size: 42px;
+    font-family: var(--main-font);
+    color: var(--background-color);
+    line-height: 120%;
+    text-transform: uppercase;
+    position: relative;
+}
+#vmeste .timetable__block-name{
+        font-size: 14px;
+}
+#vmeste  .names-footer{
+    position: relative;
+}
+#vmeste .names-footer-inside{
+ display: flex
+;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    align-content: space-between;
+    align-items: stretch;   
+}
+#vmeste .footer__text{
+        text-transform: uppercase;
+    padding-top: 40px;
+}
+#vmeste #groom-footer{
+        text-align: left;
+}
+#vmeste #bride-footer{
+    text-align: right;
+}
+#vmeste #registration-place, #vmeste #banquet-place{
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+}
+#vmeste .rsvp-message{
+        padding-bottom: 20px;
+}
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#vmeste{
+    font-family: var(--main-font);
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+#vmeste .title_text{
+    font-family: var(--beauty-font);
+        text-align: left;
+    color: var(--background-color);
+    font-size: 56px;
+    line-height: 80%;
+    margin: 0;
+}
+#vmeste .descr_text{
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 120%;
+    color: var(--text-color);
+        text-align: center;
+}
+#vmeste  .timetable_title_text{
+    color: var(--header-color);
+    font-size: 60px;
+}
+#vmeste .dresscode_title_text{
+    font-size: 60px;
+}
+#vmeste .dresscode_title_text{
+    font-size: 60px;
+}
+#vmeste .title_text-block .title_text-beauty{
+    color: var(--white-color);
+}
+#vmeste .question_title_text{
+    font-size: 60px;
+}
+#vmeste .info-date__place .title_text-beauty{
+    color: var(--header-color);
+}
+#vmeste .header-block-bg-main img{
+     margin: auto;
+    width: 90%;
+    max-width: 90vh;
+ }
+  #vmeste .welcome_title_text{
+    font-size: 52px;
+ }
+   #vmeste .welcome_beauty_text{
+    font-size: 52px;
+ }
+ #vmeste .wedding-day:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35px;
+    height: 30px;
+    background-image: url(../../../../images/sites/vmeste/heart-white-01.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -10;
+}
+#vmeste  .question_descr_text{
+        text-align: left;
+}
+
+#vmeste  #places .title_text{
+    font-size: 48px;
+}
+}
+

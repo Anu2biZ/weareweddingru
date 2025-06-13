@@ -1,0 +1,442 @@
+
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src:  url(../../fonts/Montserrat-Light.ttf);
+       font-style: normal;
+       font-weight: normal;
+}
+
+@font-face {
+  font-family: "WonderScript";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/WonderGardenScript-Regular.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("https://wow-card.ru/fonts/WonderGardenScript-Regular.woff") format("woff");
+}
+
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+#love {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #ebe3e3;
+    --header-color: #AD0E2B;
+    --text-color: #151515;
+    --main-font: 'Montserrat-Light', sans-serif; /* Основной шрифт */
+    --beauty-font: 'WonderScript', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#love{
+    overflow: hidden;
+    font-family: var(--main-font);
+    font-size: 20px;
+    line-height: 120%;
+    background: var(--background-color);
+    color: var(--text-color);
+}
+#love p{
+  margin: 0;
+}
+#love .title_text{
+    font-family: var(--beauty-font);
+    font-size: 120px;
+    line-height: 120%;
+    color: var(--header-color);
+}
+#love .descr_text{
+    font-family: var(--main-font);
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+#love .header{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 600px;
+         
+ }
+#love .header-block-small-heart{
+     padding-bottom: 70px;
+ }
+#love #music-text{
+     font-size: 18px;
+    padding-top: 10px;
+ }
+ #love .header-block-bottom{
+        height: 70vh;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 5vh; */
+    margin: 15vh 0;
+ }
+ #love .header-text-simple{
+     text-transform: uppercase;
+     
+ }
+ #love .header-text-beauty{
+     font-family: var(--beauty-font);
+    color: var(--header-color);
+        font-size: 180px;
+    line-height: 60%;
+ }
+  #love  .header-block-names{
+     display: flex
+;
+    flex-direction: column;
+    gap: 15px;
+ }
+ #love  .header-text-name{
+     text-transform: uppercase;
+    font-size: 24px;
+    line-height: 100%;
+ }
+ #love  .header-text-date{
+     text-transform: uppercase;
+    font-size: 20px;
+    line-height: 100%;
+ }
+ #love  .header-block-img{
+         width: 50%;
+    max-width: 400px;
+    margin: 0 auto;
+ }
+ #love #playButton {
+    cursor: pointer;
+    max-width: 100px;
+    width: 15%;
+    margin: auto;
+}
+ #love .info-date{
+        width: 90%;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+    padding: 70px 0;
+}
+ #love .welcome_title_text{
+          font-family: var(--beauty-font);
+    color: var(--header-color);
+    font-size: 120px;
+    line-height: 40%;
+    margin-bottom: 30px;
+    margin-left: 5%;
+}
+ #love .date-welcome-two{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+ #love .info-invitation-block-text{
+        display: flex
+;
+    gap: 40px;
+    flex-direction: column;
+}
+ #love #registration-title,  #love #banquet-title{
+    font-size: 100px;
+    color: var(--header-color);
+    font-family: var(--beauty-font);
+    margin-bottom: 50px;
+    border-bottom: 1px solid var(--text-color);
+    line-height: 60%;
+        display: inline-block;
+    padding: 0 15px;
+}
+ #love  #places .rsvp__button{
+        padding: 10px 10px;
+    border: 1px solid var(--text-color);
+    /* min-width: 200px; */
+    width: 200px;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-weight: 800;
+        background: var(--background-color);
+    border-radius: 0;
+
+}
+ #love  #place-one,  #love  #place-two{
+    padding: 50px;
+}
+ #love #banquet-time,  #love #registration-time{
+         padding: 20px 0 30px;
+ }
+  #love .timetable__block-stroke{
+           display: flex
+;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 30px auto;
+    gap: 5px;
+    max-width: 600px;
+ }
+ #love .timetable__block-time{
+        text-align: right;
+    width: 50px;
+    transform: rotate(-90deg);
+    font-size: 24px;
+    font-weight: 600;
+ }
+  #love .timetable__block-texts{
+     text-align: left;
+    padding-left: 10px;
+    border-left: 1px solid var(--header-color);
+    padding: 10px 0px 10px 20px;
+    display: flex
+;
+    width: 80%;
+    flex-direction: column;
+    gap: 10px;
+ }
+  #love .timetable__block-name{
+     font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+ }
+  #love .timetable__block-descr{
+         text-transform: uppercase;
+    font-size: 14px;
+    line-height: 100%;
+ }
+ #love #dresscode,  #love #details,  #love .rsvp,  #love #questions, #love  .counter {
+         width: 90%;
+    margin: auto;
+    max-width: 600px;
+        padding: 50px 0;
+ }
+ #love .dresscode__color{
+         max-width: 70px;
+    max-height: 70px;
+ }
+#love .dresscode__colors {
+     display: flex
+;justify-content: center;
+    margin: auto;
+    gap: 10px;
+    padding: 30px 0;
+ }
+ 
+#love  #details-container{
+     display: flex
+;
+    flex-direction: column;
+    gap: 30px;
+ }
+#love .question__text-mini{
+    font-size: 16px;
+    padding: 10px 0 15px;
+}
+#love #question{
+        display: flex
+;
+    text-align: left;
+    flex-direction: column;
+}
+#love .question__label {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+}
+#love .question__string{
+    margin-bottom: 10px;
+}
+#love .question__label{
+        margin-bottom: 0px;
+}
+#love  .question__unvisible {
+    display: none;
+}
+#love .question__visible-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+}
+#love  .question__unvisible:checked + .question__visible-radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: var(--header-color);
+    border-radius: 50%;
+}
+#love .question__visible-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+   
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid var(--text-color);
+}
+#love .question__unvisible:checked + .question__visible-checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: var(--header-color);
+}
+#love .question__string input[type="text"], #love .rsvp__string input{
+    border: 0;
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--header-color);
+    border-radius: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+        width: 100%;
+    padding: 5px 0 !important;
+}
+#love .rsvp__form{
+        display: flex
+;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    margin: auto;
+    gap: 20px;
+    padding-top: 40px;
+}
+#love .rsvp__form .rsvp__buttons{
+    display: flex
+;
+    gap: 10px;
+}
+#love .rsvp__form .rsvp__buttons button{
+        /* display: flex
+; */
+    padding: 10px 10px;
+    border: 1px solid var(--text-color);
+    /* min-width: 200px; */
+    width: 50%;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-weight: 800;
+    background: var(--background-color);
+    border-radius: 0;
+}
+#love #question .rsvp__button{
+        /* display: flex
+; */
+    padding: 10px 10px;
+    border: 1px solid var(--text-color);
+    /* min-width: 200px; */
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-weight: 800;
+    background: var(--background-color);
+    border-radius: 0;
+}
+#love  #clockdiv{
+    display: flex
+;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+}
+#love  .timer__block-info{
+        border: 1px solid var(--text-color);
+        padding: 25px 0px;
+    width: 80px;
+}
+#love  .timer__block-inside{
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+#love  .timer__number {
+        font-size: 24px;
+    font-weight: 600;
+}
+#love .footer {
+    padding: 50px 0;
+    width: 80%;
+    margin: auto;
+}
+#love .footer__text {
+        color: var(--header-color);
+    font-family: var(--beauty-font);
+    font-size: 120px;
+    line-height: 70%;
+    text-align: left;
+}
+#love  #groom-bride-footer{
+        text-transform: uppercase;
+    font-size: 20px;
+    text-align: right;
+}
+#love  .header-block-img img{
+    margin: auto;
+}
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#love{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ #love .title_text{
+    font-family: var(--beauty-font);
+    font-size: 120px;
+    line-height: 130%;
+    color: var(--header-color);
+}
+#love .descr_text{
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 120%;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+#love .timer-title{
+            font-size: 100px;
+}
+}
+

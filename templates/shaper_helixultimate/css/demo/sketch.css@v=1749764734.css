@@ -1,0 +1,598 @@
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+}
+@font-face {
+  font-family: 'HELLO-JANUARY';
+  src:  url(../../fonts/HELLO-JANUARY.otf);
+       font-style: normal;
+       font-weight: normal;
+}
+@font-face {
+  font-family: 'CYGRE-THIN';
+  src:  url(../../fonts/CYGRE-THIN.ttf);
+       font-style: normal;
+       font-weight: normal;
+}
+#sketch {
+    /*--primary-color: #333;
+    --secondary-color: #eee;*/
+    --background-color: #D9D9D9;
+    --header-color: #303030;
+    --text-color: #303030;
+    --main-font: 'CYGRE-THIN', sans-serif; /* Основной шрифт */
+    --beauty-font: 'HELLO-JANUARY', sans-serif; /* Шрифт для заголовков */
+    --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
+}
+
+#sketch{ 
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+    text-align: center;
+        overflow: hidden;
+}
+#sketch p{
+    margin: 0;
+}
+ #sketch .title_text{
+    font-family: var(--beauty-font);
+    font-size: 84px;
+    line-height: 120%;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 30px;
+}
+ #sketch .descr_text{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--text-color);
+    text-align: center;
+}
+#sketch  .menu__button{
+    display: none;
+}
+ #sketch  .header{
+     height: calc(100vh - 30px);
+ }
+ #sketch  .header-blocks{
+     display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: cacl(100vh - 30px);
+    gap: 3vh;
+ }
+  #sketch #dresscode{
+      max-width: 600px;
+    margin: auto;
+ }
+ #sketch  .header-text-beaty{
+         font-family: var(--beauty-font);
+    font-size: 60px;
+    line-height: 100%;
+}
+
+ #sketch  .header-block-bg-main img{
+     width: 80%;
+    margin: auto;
+    max-width: 400px;
+    padding: 20px 0 20px;
+ }
+ #sketch .header-text-simple{
+         text-transform: uppercase;
+         line-height: 100%;
+ }
+ #sketch #music-block{
+     padding: 20px 0 40px;
+ }
+ #sketch #playButton{
+         cursor: pointer;
+    width: 15%;
+    max-width: 100px;
+    margin: auto;
+ }
+#sketch #music-text{
+     padding-top: 20px;
+    text-transform: uppercase;
+ }
+#sketch .block-img-frame{
+         position: relative;
+ }
+#sketch .block-img-sketch-frame{
+     position: absolute;
+    width: 20px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+ }
+ #sketch .block-img-sketch-frame-right{
+     right: calc(5% - 10px);
+ }
+ #sketch .block-img-sketch-frame-left{
+    left: calc(5% - 10px);
+ }
+ #sketch .block-img-sketch-frame img{
+         height: 100%;
+             margin: auto;
+  }
+ #sketch .info-invitation{
+      position: relative;
+    padding: 20px 5%;
+  }
+ #sketch .info-date__invitation{
+      display: flex
+;
+    gap: 15px;
+    flex-direction: column;
+  }
+#sketch  .welcome_title_text{
+          font-size: 20px;
+    text-transform: uppercase;
+  }
+ #sketch #welcome-text{
+          width: 90%;
+    margin: auto;
+  }
+ #sketch .info-date__place{
+      position: relative;
+    padding: 20px 0px 0 20px;
+    width: 80%;
+    margin: auto;
+  }
+#sketch  .place-right{
+      padding-bottom: 30px;
+  }
+ #sketch #registration-title, #sketch #banquet-title{
+      text-align: left;
+    font-family: var(--beauty-font);
+    font-size: 54px;
+    line-height: 120%;
+  }
+ #sketch .registration_descr_text, #sketch .banquet_descr_text{
+          text-align: left;
+    padding: 0 0 0 40px;
+    width: auto;
+  }
+  #sketch  #groom-bride{
+      padding-top: 20px;
+  }
+#sketch  #plan{
+      padding: 50px 0;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+  }
+ #sketch .timetable__block-stroke{
+      display: flex
+;
+    gap: 20px;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+  }
+ #sketch .timetable__block-time{
+      font-size: 24px;
+    font-weight: bold;
+  }
+ #sketch .timetable__block-line{
+      width: 25px;
+  }
+#sketch  .timetable__block-texts{
+      text-align: left;
+    width: 50%;
+    display: flex
+;
+    flex-direction: column;
+    gap: 10px;
+  }
+#sketch  .timetable__block-name{
+          font-size: 20px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+  }
+ #sketch .dresscode__header, #sketch .dresscode_woman, #sketch .dresscode_man{
+          padding: 0 10%;
+  }
+  #sketch .dresscode__color{
+     max-width: 50px;
+  }
+  #sketch .dresscode__colors{
+      display: flex
+;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0;
+  }
+ #sketch #details{
+      width: 80%;
+    margin: auto;
+    max-width: 600px;
+  }
+  #sketch .separator-image{
+          width: 15%;
+    margin: auto;
+    max-width: 70px;
+    padding: 30px 0;
+  }
+ #sketch  .block-img-separate-detail{
+      width: 40%;
+    margin: auto;
+    padding-top: 40px;
+  }
+   #sketch  #details, #sketch  #dresscode{
+          padding: 30px 0;
+  }
+  
+      #sketch .rsvp__buttons {
+        display: flex
+;
+        justify-content: center;
+        gap: 15px;
+            padding-top: 15px;
+    }
+        #sketch .rsvp__button {
+        position: relative;
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+            font-size: 12px;
+        font-family: inherit;
+        color: black;
+        width: 200px;
+        height: 60px;
+        display: flex
+;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        padding-top: 15px;
+    }
+       #sketch .rsvp__button-yes::before {
+        content: "";
+        position: absolute;
+            top: 4px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../../../../images/sites/loveis/button-01.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        z-index: 1;
+    }
+  #sketch  .info-date{
+            max-width: 600px;
+    margin: auto;
+    }
+     #sketch .block-img-separate-timetable{
+         max-width: 600px;
+    margin: auto;
+    }
+       #sketch .rsvp__button span {
+        position: relative;
+        z-index: 2;
+    }
+        #sketch .rsvp__button-no::before {
+        content: "";
+        position: absolute;
+           top: 4px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../../../../images/sites/loveis/button-01.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        z-index: 1;
+    }
+       #sketch input[type="text"], #sketch input[type="number"] {
+        border: 1px solid black;
+        width: 100%;
+        margin: 10px 0;
+        height: 50px;
+    }
+  #sketch   #rsvp{
+        width: 80%;
+    max-width: 600px;
+    margin: auto;
+    }
+    #sketch  .timer-title{
+        font-size: 50px;
+    }
+         #sketch  #clockdiv {
+        display: flex
+;
+        gap: 10px;
+        justify-content: center;
+        padding: 25px 0;
+    }
+         #sketch  .timer__block-inside {
+        display: flex
+;
+        flex-direction: column;
+        align-items: center;
+    }
+         #sketch  .timer__number {
+        z-index: 2;
+    }
+         #sketch  .timer__block {
+        position: relative;
+        width: 65px;
+        height: 65px;
+        display: flex
+;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+        #sketch  .timer__circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../../../../images/sites/sketch/timer-circle-01.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        z-index: 1;
+    }
+  #sketch  .counter, #sketch .rsvp{
+            padding: 30px 0;
+    }
+        #sketch  .question__string {
+        padding: 5px 0;
+    }
+        #sketch .question__label {
+        display: flex
+;
+        align-items: center;
+        gap: 5px;
+    }
+        #sketch .question__unvisible {
+        display: none;
+    }
+        #sketch .question__visible-radio {
+        position: relative;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        border: 1px solid var(--header-color);
+        border-radius: 50%;
+    }
+        #sketch .question__unvisible:checked + .question__visible-radio::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 12px;
+        height: 12px;
+        background-color: var(--header-color);
+        border-radius: 50%;
+    }
+         #sketch .question__visible-checkbox {
+        position: relative;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        border: 1px solid var(--header-color);
+    }    
+    
+    #sketch .question__unvisible:checked + .question__visible-checkbox::before {
+        content: "✔";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 12px;
+        color: rgb(0, 0, 0);
+    }
+    #sketch #questions{
+        width: 80%;
+    margin: auto;
+    max-width: 600px;
+    text-align: left;
+        padding: 30px 0;
+    }
+        #sketch #question .rsvp__button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../../../../images/sites/loveis/button-01.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        z-index: 1;
+            top: 4px;
+    }
+       #sketch .button-container {
+        text-align: left;
+        display: flex
+;
+        flex-direction: column;
+        align-items: center;
+    }
+    #sketch .rsvp__text{
+            padding-bottom: 15px;
+    }
+   #sketch .block-img-separate-footer{
+        width: 25%;
+    margin: auto;
+    padding-top: 20px;
+    max-width: 600px;
+    }
+    #sketch .footer {
+        padding: 30px 0;
+    }
+    #sketch .footer__text{
+        text-transform: uppercase;
+    }
+    #sketch .names-footer{
+        font-family: var(--beauty-font);
+    font-size: 54px;
+    line-height: 120%;
+    padding-top: 20px;
+    }
+    #sketch .block-img-separate-timetable{
+            padding-top: 30px;
+    }
+   #sketch .link-block{
+        width: 90%;
+    margin: auto;
+    }
+   #sketch .link-block h2{
+        line-height: 60%;
+    font-size: 54px;
+    padding: 0 10px;
+    }
+   #sketch  .counter{
+            width: 90%;
+    margin: auto;
+    }
+   #sketch .question__text-mini{
+        font-size: 14px;
+    padding-top: 10px;
+    }
+  
+@media screen and (max-width: 1700px) {
+ 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+}
+
+@media screen and (max-width: 800px) {
+#sketch{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ #sketch .title_text{
+    font-family: var(--beauty-font);
+            font-size: 72px;
+        line-height: 120%;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+ #sketch .descr_text{
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+}
+ #sketch  .timer-title{
+        font-size: 50px;
+                margin-bottom: 0;
+    }
+     #sketch  .header{
+     height: calc(100vh - 20px);
+ }
+ #sketch  .header-blocks{
+     display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 20px);
+    gap: 3vh;
+ }
+}
+#splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 1;
+   transition: opacity 1s ease-out; /* Плавное исчезновение */
+}
+
+#splash-screen.hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+   transition: opacity 3s ease-out, visibility 3s ease-out; /* Добавили transition для visibility */
+}
+
+#splash-screen p {
+    font-size: 24px;
+    font-family: 'CYGRE-THIN', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    border-right: .15em solid black; /* Курсор */
+}
+  #splash-screen .splash-screen-img img{
+        width: 50%;
+    margin: auto;
+    padding-bottom: 50px;
+    max-width: 300px;
+    }
+   #splash-screen  .splash-screen-img{
+        display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    #splash-screen .pulse {
+  animation: pulse-load 5s linear infinite; /* 3 секунды, линейно, бесконечно */
+}
+
+
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        @keyframes erasing {
+            from { width: 100%; }
+            to { width: 0; }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: black; }
+        }
+
+       @keyframes pulse-load {
+  0% {
+    transform: scale(0.85); /* Исходный размер */
+  }
+  50% {
+    transform: scale(1.25); /* Увеличение на 5% */
+  }
+  100% {
+    transform: scale(0.85); /* Возврат к исходному размеру */
+  }
+}
