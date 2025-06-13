@@ -84,7 +84,12 @@
     <script language="JavaScript" type="text/javascript" src="templates/shaper_helixultimate/js/demo/timer.js"></script>
     <script type="module" src="templates/shaper_helixultimate/js/google-script-rsvp-base.js"></script>
     <script src="templates/shaper_helixultimate/js/order-info.js"></script>
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=Your API key&lang=en_US" type="text/javascript"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=Your API key&lang=ru_RU" type="text/javascript"></script>
+<script>
+function openMap() {
+    window.open(`https://yandex.ru/maps/?pt=${23.748186},${52.359667}&z=17&l=map`);
+}
+</script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
@@ -254,29 +259,6 @@
                                             <div id="wedding_time" style="display: none;">15:00</div>
                                             <div id="timezone_offset" style="display: none;">-180</div>
                                             <div class="App">
-                                                <!-- <nav class="menu_site">
-                                                    <ul class="menu__links">
-                                                        <li class="menu__link"><a href="modern-demo-versiya.html#home"
-                                                                                  class="menu__ancor">Главная</a></li>
-                                                        <li class="menu__link"><a href="modern-demo-versiya.html#place"
-                                                                                  class="menu__ancor">Где</a></li>
-                                                        <li class="menu__link"><a href="modern-demo-versiya.html#plan"
-                                                                                  class="menu__ancor">План дня</a></li>
-                                                        <li class="menu__link"><a
-                                                                href="modern-demo-versiya.html#dresscode"
-                                                                class="menu__ancor">Дресс-код</a></li>
-                                                        <li class="menu__link"><a
-                                                                href="modern-demo-versiya.html#details"
-                                                                class="menu__ancor">Детали</a></li>
-                                                        <li class="menu__link"><a href="modern-demo-versiya.html#rsvp"
-                                                                                  class="menu__ancor">RSVP</a></li>
-                                                        <li class="menu__link"><a
-                                                                href="modern-demo-versiya.html#questions"
-                                                                class="menu__ancor">Опрос</a></li>
-                                                    </ul>
-                                                </nav> -->
-
-                                                <!-- 1 -->
                                                 <section class="header" id="home">
                                                     <div class="header-blocks">
                                                         <div class="header-block-left">
@@ -338,7 +320,7 @@
                                                                            id="registration-time"></p>
                                                                     </div>
                                                                     <div>
-                                                                        <button>На карте</button>
+                                                                        <button onclick="openMap()">На карте</button>
                                                                     </div>
                                                                 </div>
                                                                 <div class="info-date__img">
@@ -444,56 +426,7 @@
                                                         </div>
                                                     </div>
                                                 </section>
-                                                <!-- 4 -->
-                                                <!--                                                <section class="dresscode" id="dresscode">-->
-
-                                                <!--                                                    <div class="dresscode_common">-->
-                                                <!--                                                        <div class="dresscode__header"><h2-->
-                                                <!--                                                                class="title_text dresscode_title_text">Dress code</h2>-->
-                                                <!--                                                        </div>-->
-                                                <!--                                                        <p class="descr_text dresscode_descr_text"-->
-                                                <!--                                                           id="dresscode__description">Для нас главное - ваше-->
-                                                <!--                                                            присутствие. Но нам будет очень приятно, если вы учтете наши-->
-                                                <!--                                                            пожелания при выборе нарядов:</p>-->
-                                                <!--                                                        <div class="dresscode__colors">-->
-                                                <!--                                                            &lt;!&ndash; Здесь будут динамически генерироваться кружки &ndash;&gt;-->
-                                                <!--                                                        </div>-->
-                                                <!--                                                    </div>-->
-                                                <!--                                                    <div class="dresscode_woman" id="dresscode_woman">-->
-                                                <!--                                                        <div class="dresscode__header"><h2-->
-                                                <!--                                                                class="title_text dresscode_title_text">Девушки</h2>-->
-                                                <!--                                                        </div>-->
-                                                <!--                                                        <p class="descr_text dresscode_descr_text"-->
-                                                <!--                                                           id="dresscode__description_woman">Для нас главное - ваше-->
-                                                <!--                                                            присутствие. Но нам будет очень приятно, если вы учтете наши-->
-                                                <!--                                                            пожелания при выборе нарядов:</p>-->
-                                                <!--                                                        <div class="dresscode-foto" id="dresscode-foto-woman">-->
-
-                                                <!--                                                            <img src="images/sites/modern/woman1.png"-->
-                                                <!--                                                                 alt="зеленое облако" class="dresscode__img">-->
-                                                <!--                                                            <img src="images/sites/modern/woman2.png"-->
-                                                <!--                                                                 alt="зеленое облако" class="dresscode__img">-->
-                                                <!--                                                            <img src="images/sites/modern/woman3.png"-->
-                                                <!--                                                                 alt="зеленое облако" class="dresscode__img">-->
-                                                <!--                                                        </div>-->
-                                                <!--                                                    </div>-->
-                                                <!--                                                    <div class="dresscode_man" id="dresscode_man">-->
-                                                <!--                                                        <div class="dresscode__header"><h2-->
-                                                <!--                                                                class="title_text dresscode_title_text">Мужчины</h2>-->
-                                                <!--                                                        </div>-->
-                                                <!--                                                        <p class="descr_text dresscode_descr_text"-->
-                                                <!--                                                           id="dresscode__description_man">Для нас главное - ваше-->
-                                                <!--                                                            присутствие. Но нам будет очень приятно, если вы учтете наши-->
-                                                <!--                                                            пожелания при выборе нарядов:</p>-->
-                                                <!--                                                        <div class="dresscode-foto" id="dresscode-foto-man">-->
-                                                <!--                                                            <img src="images/sites/modern/man1.png" alt="зеленое облако"-->
-                                                <!--                                                                 class="dresscode__img">-->
-                                                <!--                                                            <img src="images/sites/modern/man2.png" alt="зеленое облако"-->
-                                                <!--                                                                 class="dresscode__img">-->
-                                                <!--                                                            <img src="images/sites/modern/man3.png" alt="зеленое облако"-->
-                                                <!--                                                                 class="dresscode__img"></div>-->
-                                                <!--                                                    </div>-->
-                                                <!--                                                </section>-->
+            
                                                 <!-- 5 -->
                                                 <section class="details" id="details">
                                                     <div class="details-block">
@@ -584,34 +517,7 @@
                                                         </div>
                                                     </div>
                                                 </section>
-                                                <!-- <section class="question" id="questions">
-                                                    <div class="question__bloks">
-                                                        <div class="question__container">
-
-                                                            <h2 class="title_text question_title_text">Опрос</h2>
-
-                                                            <div class="">
-
-                                                                <p class="descr_text question_descr_text">Чтобы все
-                                                                    прошло идеально и этот день запомнился надолго,
-                                                                    пожалуйста, ответьте на несколько вопросов</p></br>
-                                                                <p class="question__text-mini">*Заполните форму для
-                                                                    каждого гостя отдельно.</p>
-                                                            </div>
-                                                            <form name="question" id="question" method="post"
-                                                                  onsubmit="return false;" class="question__form">
-                                                                <p class="question__string"><input type="text"
-                                                                                                   name="Имя и фамилия"
-                                                                                                   id="who" required=""
-                                                                                                   class="question__input"
-                                                                                                   placeholder="Имя и фамилия">
-                                                                </p>
-
-
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                </section> -->
+                            
                                                 <section class="counter">
                                                     <div class="counter__header">
                                                         <div class="counter__trait"></div>
