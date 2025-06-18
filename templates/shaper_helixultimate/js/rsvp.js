@@ -1,0 +1,77 @@
+// URL нужно будет заменить на реальный после публикации скрипта
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxpdM4LFoiCLVLZhrI5roo2fgrEUwTWA3MyNqhT_gLOeGAepxuAyTl2nMk0c6SrbEGiCg/exec';
+
+function validateForm() {
+    const nameInput = document.querySelector('input[name="Имя и фамилия"]');
+    const guestsInput = document.getElementById('quantity');
+    const rsvpErrors = document.getElementById('rsvp_errors');
+    const rsvpNull = document.getElementById('rsvp_null');
+
+    if (!nameInput.value || !guestsInput.value) {
+        rsvpNull.style.display = 'block';
+        rsvpErrors.style.display = 'none';
+        return false;
+    }
+
+    const guests = parseInt(guestsInput.value);
+    if (isNaN(guests) || guests < 0 || guests > 10) {
+        rsvpErrors.style.display = 'block';
+        rsvpNull.style.display = 'none';
+        return false;
+    }
+
+    rsvpErrors.style.display = 'none';
+    rsvpNull.style.display = 'none';
+    return true;
+}
+
+async function submitRSVP(status) {
+    if (!validateForm()) return;
+
+    const nameInput = document.querySelector('input[name="Имя и фамилия"]');
+    const guestsInput = document.getElementById('quantity');
+    const rsvpContainer = document.getElementById('rsvp_container');
+    const rsvpAnswYes = document.getElementById('rsvp-answ-yes');
+    const rsvpAnswNo = document.getElementById('rsvp-answ-no');
+
+    const data = {
+        name: nameInput.value,
+        guests: parseInt(guestsInput.value),
+        status: status
+    };
+
+    try {
+        const response = await fetch(SCRIPT_URL, {
+            method: 'POST',
+            redirect: 'follow',
+            headers: {
+                'Content-Type': 'text/plain;charset=utf-8',
+            },
+            body: JSON.stringify(data)
+        });
+
+        const result = await response.json();
+
+        if (result.status === 'success') {
+            rsvpContainer.style.display = 'none';
+            if (status === 'Принято') {
+                rsvpAnswYes.style.display = 'block';
+            } else {
+                rsvpAnswNo.style.display = 'block';
+            }
+        } else {
+            alert('Произошла ошибка при отправке формы. Пожалуйста, попробуйте позже.');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        alert('Произошла ошибка при отправке формы. Пожалуйста, попробуйте позже.');
+    }
+}
+
+function submityes() {
+    submitRSVP('Принято');
+}
+
+function submitno() {
+    submitRSVP('Отклонено');
+}

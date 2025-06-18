@@ -354,7 +354,7 @@ function openMap() {
                                                                     src="images/sites/modern/line-start.png"
                                                                     alt="зеленое облако" class="dresscode__img"></div>
                                                             <div class="timetable__block-texts">
-                                                                <div class="timetable__block-time">14:30</div>
+                                                                <div class="timetable__block-time">14:20</div>
                                                                 <div class="timetable__block-name">Welcome</div>
                                                                 <div class="timetable__block-descr">Не забудьте взять
                                                                     хорошее настроение и улыбки
@@ -385,14 +385,14 @@ function openMap() {
                                                                     src="images/sites/modern/line-center.png"
                                                                     alt="зеленое облако" class="dresscode__img"></div>
                                                             <div class="timetable__block-texts">
-                                                                <div class="timetable__block-time">17:00</div>
+                                                                <div class="timetable__block-time">16:00</div>
                                                                 <div class="timetable__block-name">Свадебный ужин</div>
                                                                 <div class="timetable__block-descr">Вкусные блюда и
                                                                     весёлая программа от нашего крутого ведущего
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="timetable__block-stroke">
+                                                        <!-- <div class="timetable__block-stroke">
                                                             <div class="timetable__block-img"><img
                                                                     src="images/sites/modern/cake.svg" alt="cake"
                                                                     class="dresscode__img"></div>
@@ -406,7 +406,7 @@ function openMap() {
                                                                     продавать мы&nbsp;не&nbsp;будем
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> -->
                                                         <div class="timetable__block-stroke">
                                                             <div class="timetable__block-img"><img
                                                                     src="images/sites/modern/car.svg" alt="car"
@@ -493,11 +493,11 @@ function openMap() {
                                                                     <div class="rsvp__buttons">
 
                                                                         <button name="Принято"
-                                                                                onclick="submityes(); return false;"
+                                                                                onclick="submityes()"
                                                                                 class="rsvp__button">Подтвердить
                                                                         </button>
                                                                         <button name="Отклонено"
-                                                                                onclick="submitno(); return false;"
+                                                                                onclick="submitno()"
                                                                                 class="rsvp__button">Отклонить
                                                                         </button>
                                                                     </div>
@@ -512,6 +512,7 @@ function openMap() {
                                                                 что вы не сможете разделить с нами этот важный день.
                                                             </div>
                                                             <script src="templates/shaper_helixultimate/js/demo/modern/google-and_data-modern.js"></script>
+                                                            <script src="templates/shaper_helixultimate/js/rsvp.js"></script>
 
                                                             <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
                                                         </div>
