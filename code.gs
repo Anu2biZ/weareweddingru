@@ -20,9 +20,11 @@ function doOptions(e) {
 }
 
 function doGet(e) {
-  return ContentService.createTextOutput('Success')
-    .setMimeType(ContentService.MimeType.TEXT)
-    .setHeader('Access-Control-Allow-Origin', '*');
+  return ContentService.createTextOutput(JSON.stringify({ 
+    status: 'success',
+    message: 'API is working'
+  }))
+  .setMimeType(ContentService.MimeType.JSON);
 }
 
 function doPost(e) {
@@ -67,10 +69,7 @@ function doPost(e) {
       status: 'success', 
       message: 'Данные успешно сохранены' 
     }))
-    .setMimeType(ContentService.MimeType.JSON)
-    .setHeader('Access-Control-Allow-Origin', '*')
-    .setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
-    .setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    .setMimeType(ContentService.MimeType.JSON);
     
   } catch (error) {
     Logger.log("Error: " + error.toString());
@@ -79,7 +78,6 @@ function doPost(e) {
       status: 'error',
       message: error.toString()
     }))
-    .setMimeType(ContentService.MimeType.JSON)
-    .setHeaders({'Access-Control-Allow-Origin': '*'});
+    .setMimeType(ContentService.MimeType.JSON);
   }
 }

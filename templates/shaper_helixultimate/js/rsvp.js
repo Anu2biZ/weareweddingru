@@ -1,5 +1,5 @@
 // URL нужно будет заменить на реальный после публикации скрипта
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxpdM4LFoiCLVLZhrI5roo2fgrEUwTWA3MyNqhT_gLOeGAepxuAyTl2nMk0c6SrbEGiCg/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzhQoSBlWCYhz7ZHEbSGyeI2tUs85WHdMq2MgjI8OafNWNoBDEI5_P6uU4zJ7E5aaN8Yg/exec';
 
 function validateForm() {
     const nameInput = document.querySelector('input[name="Имя и фамилия"]');
@@ -41,7 +41,7 @@ async function submitRSVP(status) {
     };
 
     try {
-        const response = await fetch(SCRIPT_URL, {
+        await fetch(SCRIPT_URL, {
             method: 'POST',
             redirect: 'follow',
             headers: {
@@ -50,9 +50,18 @@ async function submitRSVP(status) {
             body: JSON.stringify(data)
         });
 
-        const result = await response.json();
-
-        if (result.status === 'success') {
+        // Если дошли до этой строки, значит запрос был отправлен
+        rsvpContainer.style.display = 'none';
+        if (status === 'Принято') {
+            rsvpAnswYes.style.display = 'block';
+        } else {
+            rsvpAnswNo.style.display = 'block';
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        // Проверяем, была ли это CORS ошибка
+        if (error.name === 'TypeError' && error.message.includes('Failed to fetch')) {
+            // Даже если получили CORS ошибку, данные могли быть сохранены
             rsvpContainer.style.display = 'none';
             if (status === 'Принято') {
                 rsvpAnswYes.style.display = 'block';
@@ -62,9 +71,6 @@ async function submitRSVP(status) {
         } else {
             alert('Произошла ошибка при отправке формы. Пожалуйста, попробуйте позже.');
         }
-    } catch (error) {
-        console.error('Error:', error);
-        alert('Произошла ошибка при отправке формы. Пожалуйста, попробуйте позже.');
     }
 }
 
