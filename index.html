@@ -40,8 +40,16 @@
     <link href="templates/shaper_helixultimate/css/template.css" rel="stylesheet"/>
     <link href="templates/shaper_helixultimate/css/presets/preset6.css" rel="stylesheet"/>
     <link href="templates/shaper_helixultimate/css/custom.css" rel="stylesheet"/>
+
+
     <style>.logo-image {
         height: 50px;
+    }
+
+    .open-map {
+        margin-top: 12px;
+        width: 100%;
+        background: #4c5649;
     }
 
     .logo-image-phone {
@@ -187,7 +195,7 @@
                                                         <div class="header-block-small-heart">
                                                             <audio id="backgroundAudio" autoplay loop preload="auto"
                                                                    style="display:none;">
-                                                                <source src="../../music/0341.aac" type="audio/mpeg">
+                                                                <source src="../../music/mot.mp3" type="audio/mpeg">
                                                             </audio>
                                                             <img id="playButton" src="../../images/sites/music-on2.png"
                                                                  alt="Включить музыку" style="cursor: pointer;">
@@ -254,6 +262,7 @@
                                                                                      alt="облака"
                                                                                      class="info-date__background">
                                                                             </div>
+                                                                            <button onclick="openMap()" class="open-map">На карте</button>
                                                                         </div>
                                                                     </div>
 
@@ -471,5 +480,11 @@
         </section>
     </div>
 </div>
+
+<script type="text/javascript">
+    function openMap() {
+        window.open(`https://yandex.ru/maps/?pt=${23.748186},${52.359667}&z=17&l=map`);
+    }
+</script>
 </body>
 </html>

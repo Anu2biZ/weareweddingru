@@ -169,7 +169,7 @@ body {
     margin: auto;
  }
  #malenkiemy .places-inside{
-         padding: 60px 10px 40px;
+         padding: 60px 40px 40px;
  }
  #malenkiemy .registration_descr_text,  #malenkiemy .banquet_descr_text{
      padding-bottom: 20px;
@@ -179,7 +179,7 @@ body {
     margin-bottom: 10px;
  }
   #malenkiemy .info-date__img{
-         width: 80%;
+         width: 100%;
     margin: auto;
 
  }
