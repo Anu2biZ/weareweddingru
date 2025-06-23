@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Маленькие мы - Свадебное приглашение</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* ПРОСТЫЕ РАБОЧИЕ СТИЛИ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0a0a;
+            color: white;
+            overflow-x: hidden;
+        }
+
+        /* ЧАСТИЦЫ */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: #c9a96e;
+            border-radius: 50%;
+            opacity: 0.6;
+            animation: float 20s infinite linear;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) translateX(0px);
+                opacity: 0;
+            }
+            10%, 90% {
+                opacity: 0.6;
+            }
+            100% {
+                transform: translateY(-100px) translateX(50px);
+                opacity: 0;
+            }
+        }
+
+        /* КОНТЕНТ */
+        .content {
+            position: relative;
+            z-index: 10;
+        }
+
+        /* ХЕДЕР */
+        .header {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)),
+            url('https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+
+        .header-content {
+            max-width: 800px;
+            padding: 2rem;
+        }
+
+        .header-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 300;
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+
+        .header-subtitle {
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            font-weight: 300;
+            margin-bottom: 3rem;
+            opacity: 0.9;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+        }
+
+        .header-date {
+            display: inline-block;
+            font-size: 1.3rem;
+            color: #c9a96e;
+            font-weight: 500;
+            padding: 1.5rem 3rem;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        /* МУЗЫКАЛЬНЫЙ ПЛЕЕР */
+        .music-player {
+            position: fixed;
+            top: 2rem;
+            right: 2rem;
+            z-index: 1000;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 50px;
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+        }
+
+        .music-controls {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .play-button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #c9a96e, #e4d5b8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .music-text {
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        /* СЕКЦИИ */
+        .section {
+            padding: 6rem 2rem;
+            position: relative;
+            z-index: 5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 300;
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        /* ПРИГЛАШЕНИЕ */
+        .invitation {
+            background: linear-gradient(135deg, #fefefe 0%, #f8f7f5 100%);
+            color: #0a0a0a;
+        }
+
+        .invitation-card {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.9);
+            padding: 4rem 3rem;
+            border-radius: 30px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+        }
+
+        .invitation-text {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            color: #666;
+            margin-bottom: 3rem;
+        }
+
+        .date-showcase {
+            background: linear-gradient(135deg, #c9a96e, #e4d5b8);
+            color: white;
+            padding: 3rem 2rem;
+            border-radius: 25px;
+            margin-top: 3rem;
+        }
+
+        .date-main {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+
+        .date-details {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* МЕСТО */
+        .location {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+            color: white;
+        }
+
+        .location-showcase {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.1);
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 30px 80px rgba(0,0,0,0.3);
+        }
+
+        .location-hero {
+            height: 400px;
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)),
+            url('https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=2073&q=80');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            padding: 3rem;
+        }
+
+        .location-overlay {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(15px);
+            padding: 2rem 3rem;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .location-emoji {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .location-content {
+            padding: 3rem;
+            text-align: center;
+        }
+
+        .location-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .location-address {
+            color: rgba(255,255,255,0.8);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .location-time {
+            display: inline-block;
+            background: linear-gradient(135deg, #c9a96e, #e4d5b8);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 25px;
+            font-weight: 500;
+        }
+
+        /* ПЛАН ДНЯ */
+        .timeline {
+            background: linear-gradient(135deg, #fefefe 0%, #f8f7f5 100%);
+            color: #0a0a0a;
+        }
+
+        .timeline-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 3rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .timeline-time {
+            background: linear-gradient(135deg, #c9a96e, #e4d5b8);
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 15px;
+            font-weight: 600;
+            margin-right: 2rem;
+            min-width: 80px;
+            text-align: center;
+        }
+
+        .timeline-content h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #0a0a0a;
+        }
+
+        .timeline-content p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* ДЕТАЛИ */
+        .details {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+            color: white;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .detail-card {
+            background: rgba(255,255,255,0.1);
+            padding: 3rem 2rem;
+            border-radius: 25px;
+            text-align: center;
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .detail-icon {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            color: #c9a96e;
+        }
+
+        .detail-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .detail-text {
+            color: rgba(255,255,255,0.8);
+            line-height: 1.6;
+        }
+
+        /* СЧЕТЧИК */
+        .counter {
+            background: linear-gradient(135deg, #fefefe 0%, #f8f7f5 100%);
+            color: #0a0a0a;
+        }
+
+        .counter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .counter-item {
+            background: white;
+            padding: 2.5rem 1.5rem;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+
+        .counter-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 300;
+            color: #c9a96e;
+            margin-bottom: 1rem;
+        }
+
+        .counter-label {
+            color: #666;
+            font-size: 0.9rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        /* RSVP */
+        .rsvp {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+            color: white;
+        }
+
+        .rsvp-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.1);
+            padding: 4rem 3rem;
+            border-radius: 30px;
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .rsvp-text {
+            text-align: center;
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+            color: rgba(255,255,255,0.9);
+        }
+
+        .form-group {
+            margin-bottom: 2rem;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 1.5rem 2rem;
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 20px;
+            background: rgba(255,255,255,0.1);
+            color: white;
+            font-size: 1rem;
+            outline: none;
+        }
+
+        .form-input::placeholder {
+            color: rgba(255,255,255,0.6);
+        }
+
+        .button-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .btn {
+            padding: 1.5rem 2rem;
+            border: none;
+            border-radius: 20px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #c9a96e, #e4d5b8);
+            color: white;
+        }
+
+        .btn-secondary {
+            background: rgba(255,255,255,0.1);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        /* ФУТЕР */
+        .footer {
+            background: linear-gradient(135deg, #fefefe 0%, #f8f7f5 100%);
+            color: #0a0a0a;
+            padding: 6rem 2rem 4rem;
+            text-align: center;
+        }
+
+        .footer-text {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            color: #666;
+        }
+
+        .footer-names {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 300;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-plus {
+            color: #c9a96e;
+            font-size: 2rem;
+        }
+
+        /* МОБИЛЬНАЯ ВЕРСИЯ */
+        @media (max-width: 768px) {
+            .section {
+                padding: 4rem 1rem;
+            }
+
+            .music-player {
+                top: 1rem;
+                right: 1rem;
+                padding: 0.8rem 1.2rem;
+            }
+
+            .timeline-item {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .timeline-time {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+
+            .button-group {
+                grid-template-columns: 1fr;
+            }
+
+            .counter-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .details-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-names {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+
+        /* СКРЫТЫЕ ЭЛЕМЕНТЫ */
+        .preloader,
+        .header-blocks,
+        .header-blocks-pc,
+        #sp-section-1,
+        .row,
+        .col-lg-12,
+        .sp-column,
+        .article-details > .article-header,
+        .article-can-edit {
+            display: none !important;
+        }
+
+        /* ФИНАЛЬНЫЕ ФИКСЫ */
+        .error {
+            background: rgba(220, 53, 69, 0.1);
+            border: 1px solid rgba(220, 53, 69, 0.3);
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            color: rgba(220, 53, 69, 0.9);
+            text-align: center;
+        }
+
+        .success-message {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(15px);
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .success-message h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #c9a96e;
+        }
+
+        .loader {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .spinner {
+            width: 30px;
+            height: 30px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-top: 3px solid #c9a96e;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+<!-- Частицы -->
+<div class="particles" id="particles"></div>
+
+<!-- Основной контент -->
+<div class="content">
+    <!-- Хедер -->
+    <section class="header">
+        <div class="header-content">
+            <h1 class="header-title">Маленькие мы</h1>
+            <p class="header-subtitle">Приглашаем вас разделить с нами самый важный день в нашей жизни</p>
+            <div class="header-date">15 августа 2025</div>
+        </div>
+    </section>
+
+    <!-- Музыкальный плеер -->
+    <div class="music-player" onclick="toggleMusic()">
+        <div class="music-controls">
+            <div class="play-button" id="playButton">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M3 2L11 7L3 12V2Z" fill="white"/>
+                </svg>
+            </div>
+            <span class="music-text" id="musicText">Музыка</span>
+        </div>
+    </div>
+
+    <!-- Приглашение -->
+    <section class="invitation section">
+        <div class="container">
+            <h2 class="section-title">Дорогие гости!</h2>
+            <div class="invitation-card">
+                <p class="invitation-text">
+                    В нашей жизни предстоят счастливые перемены! Мы хотим, чтобы в этот день рядом с нами были самые близкие и дорогие для нас люди.
+                    <br><br>
+                    Будем рады разделить с вами чудесный праздник - день нашей свадьбы
+                </p>
+                <div class="date-showcase">
+                    <div class="date-main">15 августа</div>
+                    <div class="date-details">Суббота, 2025 год</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Место проведения -->
+    <section class="location section">
+        <div class="container">
+            <h2 class="section-title">Место проведения</h2>
+            <div class="location-showcase">
+                <div class="location-hero">
+                    <div class="location-overlay">
+                        <div class="location-emoji">🏰</div>
+                        <div>Место нашей мечты</div>
+                    </div>
+                </div>
+                <div class="location-content">
+                    <h3 class="location-name">Агроэкоусадьба Три Колодца</h3>
+                    <p class="location-address">Брестская область, д. Баранки 3</p>
+                    <div class="location-time">Начало в 15:00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- План дня -->
+    <section class="timeline section">
+        <div class="container">
+            <h2 class="section-title">План дня</h2>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-time">14:20</div>
+                    <div class="timeline-content">
+                        <h3>Фуршет</h3>
+                        <p>Прибытие гостей, легкие закуски и приветственные напитки</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">15:00</div>
+                    <div class="timeline-content">
+                        <h3>Церемония</h3>
+                        <p>Не исключено, что вам потребуются платочки для этого трогательного момента</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">16:00</div>
+                    <div class="timeline-content">
+                        <h3>Свадебный ужин</h3>
+                        <p>Вкусные блюда и весёлая программа от нашего крутого ведущего</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Детали -->
+    <section class="details section">
+        <div class="container">
+            <h2 class="section-title">Важные детали</h2>
+            <div class="details-grid">
+                <div class="detail-card">
+                    <div class="detail-icon">👗</div>
+                    <h3 class="detail-title">Дресс-код</h3>
+                    <p class="detail-text">Торжественная одежда в светлых тонах. Рекомендуем избегать белого цвета и слишком ярких оттенков</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-icon">🎁</div>
+                    <h3 class="detail-title">Подарки</h3>
+                    <p class="detail-text">Ваше присутствие - лучший подарок для нас. Если хотите порадовать молодоженов, будем благодарны за конверт</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-icon">🚗</div>
+                    <h3 class="detail-title">Как добраться</h3>
+                    <p class="detail-text">Парковка на территории усадьбы бесплатная. При необходимости можем организовать трансфер</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Счетчик -->
+    <section class="counter section">
+        <div class="container">
+            <h2 class="section-title">До свадьбы осталось</h2>
+            <div class="counter-grid">
+                <div class="counter-item">
+                    <div class="counter-number" id="days">123</div>
+                    <div class="counter-label">дней</div>
+                </div>
+                <div class="counter-item">
+                    <div class="counter-number" id="hours">15</div>
+                    <div class="counter-label">часов</div>
+                </div>
+                <div class="counter-item">
+                    <div class="counter-number" id="minutes">42</div>
+                    <div class="counter-label">минут</div>
+                </div>
+                <div class="counter-item">
+                    <div class="counter-number" id="seconds">18</div>
+                    <div class="counter-label">секунд</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp section">
+        <div class="container">
+            <h2 class="section-title">Подтверждение присутствия</h2>
+            <div id="rsvpContainer">
+                <div class="rsvp-container">
+                    <p class="rsvp-text">
+                        Пожалуйста, подтвердите ваше присутствие на нашем празднике до 01 августа 2025 года
+                    </p>
+                    <form id="rsvpForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Имя и фамилия" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" name="quantity" min="0" max="10" placeholder="Количество гостей" required class="form-input">
+                        </div>
+
+                        <div id="rsvpErrors" class="error" style="display:none;">
+                            Пожалуйста, заполните все поля корректно
+                        </div>
+
+                        <div class="loader" id="loader" style="display: none;">
+                            <div class="spinner"></div>
+                            <span>Отправка...</span>
+                        </div>
+
+                        <div class="button-group">
+                            <button type="button" onclick="submitYes()" class="btn btn-primary">Подтвердить</button>
+                            <button type="button" onclick="submitNo()" class="btn btn-secondary">Отклонить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="successYes" class="success-message" style="display:none;">
+                <h3>Спасибо за ответ! 💕</h3>
+                <p>До встречи на нашем празднике</p>
+            </div>
+            <div id="successNo" class="success-message" style="display:none;">
+                <h3>Спасибо за ответ</h3>
+                <p>Нам очень жаль, что вы не сможете разделить с нами этот важный день</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <section class="footer">
+        <div class="container">
+            <p class="footer-text">До встречи на нашем празднике</p>
+            <div class="footer-names">
+                <span>Жених</span>
+                <span class="footer-plus">+</span>
+                <span>Невеста</span>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    // Создание частиц
+    function createParticles() {
+        const container = document.getElementById('particles');
+        for (let i = 0; i < 20; i++) {
+            setTimeout(() => {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 20 + 's';
+                particle.style.animationDuration = (Math.random() * 10 + 15) + 's';
+                container.appendChild(particle);
+
+                setTimeout(() => {
+                    if (particle.parentNode) {
+                        particle.parentNode.removeChild(particle);
+                    }
+                }, 25000);
+            }, i * 1000);
+        }
+    }
+
+    // Музыка
+    let isPlaying = false;
+    function toggleMusic() {
+        const button = document.getElementById('playButton');
+        const text = document.getElementById('musicText');
+
+        if (isPlaying) {

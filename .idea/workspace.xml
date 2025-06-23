@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ffdef99-eeda-444c-83f1-4037d40b6925" name="Changes" comment="шрифт">
+      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wedding-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wedding-styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/malenkie-my/header-pc-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/sites/malenkie-my/header-pc-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/malenkie-my.css@v=1750624758.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/malenkie-my.css@v=1750624758.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/json/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shaper_helixultimate/json/index.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +74,7 @@
       <workItem from="1749803279029" duration="4128000" />
       <workItem from="1750064359763" duration="1312000" />
       <workItem from="1750624364453" duration="693000" />
-      <workItem from="1750682513956" duration="6980000" />
+      <workItem from="1750682513956" duration="9344000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -160,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750707929976</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="шрифт">
+      <option name="closed" value="true" />
+      <created>1750708389665</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750708389665</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

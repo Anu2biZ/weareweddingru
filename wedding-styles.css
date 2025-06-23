@@ -1,0 +1,700 @@
+/*
+🚨 ЭКСТРЕННЫЙ CSS ДЛЯ ПРИНУДИТЕЛЬНОГО ПОКАЗА КОНТЕНТА 🚨
+ЗАМЕНИ ВЕСЬ CSS ФАЙЛ НА ЭТОТ - ШЕДЕВР ТОЧНО ПОЯВИТСЯ!
+*/
+
+/* === ПРИНУДИТЕЛЬНЫЙ СБРОС === */
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* === ПРИНУДИТЕЛЬНЫЙ ПОКАЗ КОНТЕНТА === */
+.preloader {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    z-index: -9999 !important;
+}
+
+html, body {
+    width: 100% !important;
+    height: 100% !important;
+    overflow-x: hidden !important;
+    scroll-behavior: smooth !important;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    background: #0a0a0a !important;
+    color: #ffffff !important;
+}
+
+/* === ПРИНУДИТЕЛЬНЫЙ ПОКАЗ ВСЕХ ЭЛЕМЕНТОВ === */
+.App,
+.body-wrapper,
+.body-innerwrapper,
+main,
+.header,
+.section,
+.invitation,
+.location,
+.timeline,
+.details,
+.counter,
+.rsvp,
+.footer,
+.fade-in,
+.slide-in-left,
+.slide-in-right {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+    position: relative !important;
+    z-index: auto !important;
+}
+
+/* === ЗАГОЛОВОК (HEADER) === */
+.header {
+    width: 100% !important;
+    min-height: 100vh !important;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%),
+    url('https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    position: relative !important;
+}
+
+.header::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: rgba(0,0,0,0.5) !important;
+    z-index: 1 !important;
+}
+
+.header-content {
+    position: relative !important;
+    z-index: 10 !important;
+    text-align: center !important;
+    max-width: 800px !important;
+    padding: 2rem !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.header-title {
+    font-family: 'Playfair Display', serif !important;
+    font-size: clamp(3rem, 8vw, 6rem) !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    margin-bottom: 2rem !important;
+    text-shadow: 0 10px 40px rgba(0,0,0,0.8) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.header-subtitle {
+    font-size: clamp(1.2rem, 3vw, 2rem) !important;
+    color: rgba(255,255,255,0.9) !important;
+    font-weight: 300 !important;
+    margin-bottom: 3rem !important;
+    text-shadow: 0 5px 20px rgba(0,0,0,0.6) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.header-date {
+    display: inline-block !important;
+    font-size: 1.3rem !important;
+    color: #c9a96e !important;
+    font-weight: 500 !important;
+    padding: 1.5rem 3rem !important;
+    background: rgba(255,255,255,0.1) !important;
+    border-radius: 50px !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* === МУЗЫКАЛЬНЫЙ ПЛЕЕР === */
+.music-player {
+    position: fixed !important;
+    top: 2rem !important;
+    right: 2rem !important;
+    z-index: 1000 !important;
+    background: rgba(255,255,255,0.1) !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    border-radius: 50px !important;
+    padding: 1rem 1.5rem !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.music-controls {
+    display: flex !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    cursor: pointer !important;
+}
+
+.play-button {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    background: linear-gradient(135deg, #c9a96e, #e4d5b8) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.music-text {
+    color: #ffffff !important;
+    font-size: 0.9rem !important;
+}
+
+/* === СЕКЦИИ === */
+.section {
+    width: 100% !important;
+    padding: 6rem 2rem !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+
+.container {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 0 2rem !important;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif !important;
+    font-size: clamp(2.5rem, 5vw, 4rem) !important;
+    font-weight: 300 !important;
+    text-align: center !important;
+    margin-bottom: 4rem !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* === ПРИГЛАШЕНИЕ === */
+.invitation {
+    background: linear-gradient(135deg, #fefefe 0%, #f8f7f5 100%) !important;
+    color: #0a0a0a !important;
+}
+
+.invitation .section-title {
+    color: #0a0a0a !important;
+}
+
+.invitation-card {
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    background: rgba(255,255,255,0.9) !important;
+    padding: 4rem 3rem !important;
+    border-radius: 30px !important;
+    text-align: center !important;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.1) !important;
+}
+
+.invitation-text {
+    font-size: 1.3rem !important;
+    line-height: 1.8 !important;
+    color: #666 !important;
+    margin-bottom: 3rem !important;
+}
+
+.date-showcase {
+    background: linear-gradient(135deg, #c9a96e, #e4d5b8) !important;
+    color: #ffffff !important;
+    padding: 3rem 2rem !important;
+    border-radius: 25px !important;
+    margin-top: 3rem !important;
+}
+
+.date-main {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 3.5rem !important;
+    font-weight: 300 !important;
+    margin-bottom: 1rem !important;
+}
+
+.date-details {
+    font-size: 1.2rem !important;
+    opacity: 0.9 !important;
+}
+
+/* === МЕСТО ПРОВЕДЕНИЯ === */
+.location {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%) !important;
+    color: #ffffff !important;
+}
+
+.location .section-title {
+    color: #ffffff !important;
+}
+
+.location-showcase {
+    max-width: 1000px !important;
+    margin: 0 auto !important;
+    background: rgba(255,255,255,0.1) !important;
+    border-radius: 30px !important;
+    overflow: hidden !important;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.3) !important;
+}
+
+.location-hero {
+    height: 400px !important;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)),
+    url('https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=2073&q=80') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex !important;
+    align-items: flex-end !important;
+    padding: 3rem !important;
+}
+
+.location-overlay {
+    background: rgba(255,255,255,0.1) !important;
+    backdrop-filter: blur(15px) !important;
+    padding: 2rem 3rem !important;
+    border-radius: 20px !important;
+    text-align: center !important;
+}
+
+.location-emoji {
+    font-size: 3rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.location-subtitle {
+    font-size: 1.2rem !important;
+    opacity: 0.9 !important;
+}
+
+.location-content {
+    padding: 3rem !important;
+    text-align: center !important;
+}
+
+.location-name {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 2.2rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.location-address {
+    color: rgba(255,255,255,0.8) !important;
+    font-size: 1.1rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.location-time {
+    display: inline-block !important;
+    background: linear-gradient(135deg, #c9a96e, #e4d5b8) !important;
+    color: #ffffff !important;
+    padding: 1rem 2rem !important;
+    border-radius: 25px !important;
+    font-weight: 500 !important;
+}
+
+/* === ПЛАН ДНЯ === */
+.timeline {
+    background: linear-gradient(135deg, #fefefe 0%, #f8f7f5 100%) !important;
+    color: #0a0a0a !important;
+}
+
+.timeline .section-title {
+    color: #0a0a0a !important;
+}
+
+.timeline-container {
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    position: relative !important;
+}
+
+.timeline-line {
+    position: absolute !important;
+    left: 50% !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 3px !important;
+    background: linear-gradient(to bottom, #c9a96e, #e4d5b8) !important;
+    transform: translateX(-50%) !important;
+}
+
+.timeline-item {
+    display: flex !important;
+    margin-bottom: 4rem !important;
+    position: relative !important;
+}
+
+.timeline-item:nth-child(even) {
+    flex-direction: row-reverse !important;
+}
+
+.timeline-content {
+    width: 40% !important;
+    background: #ffffff !important;
+    padding: 2rem !important;
+    border-radius: 20px !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+}
+
+.timeline-time {
+    position: absolute !important;
+    left: 50% !important;
+    top: 2rem !important;
+    transform: translateX(-50%) !important;
+    background: linear-gradient(135deg, #c9a96e, #e4d5b8) !important;
+    color: #ffffff !important;
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-weight: 600 !important;
+    z-index: 10 !important;
+}
+
+.timeline-title {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+    color: #0a0a0a !important;
+}
+
+.timeline-description {
+    color: #666 !important;
+    line-height: 1.6 !important;
+}
+
+/* === ДЕТАЛИ === */
+.details {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%) !important;
+    color: #ffffff !important;
+}
+
+.details .section-title {
+    color: #ffffff !important;
+}
+
+.details-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    gap: 2rem !important;
+    max-width: 1000px !important;
+    margin: 0 auto !important;
+}
+
+.detail-card {
+    background: rgba(255,255,255,0.1) !important;
+    padding: 3rem 2rem !important;
+    border-radius: 25px !important;
+    text-align: center !important;
+    backdrop-filter: blur(15px) !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+}
+
+.detail-icon {
+    font-size: 3rem !important;
+    margin-bottom: 1.5rem !important;
+    color: #c9a96e !important;
+}
+
+.detail-title {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+    color: #ffffff !important;
+}
+
+.detail-text {
+    color: rgba(255,255,255,0.8) !important;
+    line-height: 1.6 !important;
+}
+
+/* === СЧЕТЧИК === */
+.counter {
+    background: linear-gradient(135deg, #fefefe 0%, #f8f7f5 100%) !important;
+    color: #0a0a0a !important;
+}
+
+.counter .section-title {
+    color: #0a0a0a !important;
+}
+
+.counter-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+    gap: 2rem !important;
+    max-width: 600px !important;
+    margin: 0 auto !important;
+}
+
+.counter-item {
+    background: #ffffff !important;
+    padding: 2.5rem 1.5rem !important;
+    border-radius: 20px !important;
+    text-align: center !important;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1) !important;
+}
+
+.counter-number {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 3rem !important;
+    font-weight: 300 !important;
+    color: #c9a96e !important;
+    margin-bottom: 1rem !important;
+}
+
+.counter-label {
+    color: #666 !important;
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.1em !important;
+}
+
+/* === RSVP === */
+.rsvp {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%) !important;
+    color: #ffffff !important;
+}
+
+.rsvp .section-title {
+    color: #ffffff !important;
+}
+
+.rsvp-container {
+    max-width: 600px !important;
+    margin: 0 auto !important;
+    background: rgba(255,255,255,0.1) !important;
+    padding: 4rem 3rem !important;
+    border-radius: 30px !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+}
+
+.rsvp-text {
+    text-align: center !important;
+    font-size: 1.2rem !important;
+    margin-bottom: 3rem !important;
+    color: rgba(255,255,255,0.9) !important;
+}
+
+.form-group {
+    margin-bottom: 2rem !important;
+}
+
+.form-input {
+    width: 100% !important;
+    padding: 1.5rem 2rem !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+    border-radius: 20px !important;
+    background: rgba(255,255,255,0.1) !important;
+    color: #ffffff !important;
+    font-size: 1rem !important;
+    outline: none !important;
+}
+
+.form-input::placeholder {
+    color: rgba(255,255,255,0.6) !important;
+}
+
+.button-group {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1.5rem !important;
+    margin-top: 2rem !important;
+}
+
+.btn {
+    padding: 1.5rem 2rem !important;
+    border: none !important;
+    border-radius: 20px !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #c9a96e, #e4d5b8) !important;
+    color: #ffffff !important;
+}
+
+.btn-secondary {
+    background: rgba(255,255,255,0.1) !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+}
+
+/* === ФУТЕР === */
+.footer {
+    background: linear-gradient(135deg, #fefefe 0%, #f8f7f5 100%) !important;
+    color: #0a0a0a !important;
+    padding: 6rem 2rem 4rem !important;
+    text-align: center !important;
+}
+
+.footer-content {
+    max-width: 600px !important;
+    margin: 0 auto !important;
+}
+
+.footer-text {
+    font-size: 1.3rem !important;
+    margin-bottom: 2rem !important;
+    color: #666 !important;
+}
+
+.footer-names {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 2.5rem !important;
+    font-weight: 300 !important;
+    color: #0a0a0a !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 1rem !important;
+    flex-wrap: wrap !important;
+}
+
+.footer-plus {
+    color: #c9a96e !important;
+    font-size: 2rem !important;
+}
+
+/* === ЧАСТИЦЫ === */
+.particles {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+}
+
+.particle {
+    position: absolute !important;
+    background: #c9a96e !important;
+    border-radius: 50% !important;
+    opacity: 0.1 !important;
+    animation: float 20s infinite linear !important;
+}
+
+/* === СКРЫТЫЕ ЭЛЕМЕНТЫ === */
+.header-blocks,
+.header-blocks-pc,
+#sp-section-1,
+.row,
+.col-lg-12,
+.sp-column,
+.article-details > .article-header,
+.article-can-edit {
+    display: none !important;
+}
+
+/* === АНИМАЦИИ === */
+@keyframes float {
+    0% {
+        transform: translateY(100vh) translateX(0px) rotate(0deg);
+        opacity: 0;
+    }
+    10%, 90% {
+        opacity: 0.1;
+    }
+    100% {
+        transform: translateY(-100px) translateX(50px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* === МОБИЛЬНАЯ ВЕРСИЯ === */
+@media (max-width: 768px) {
+    .section {
+        padding: 4rem 1rem !important;
+    }
+
+    .container {
+        padding: 0 1rem !important;
+    }
+
+    .music-player {
+        top: 1rem !important;
+        right: 1rem !important;
+        padding: 0.8rem 1.2rem !important;
+    }
+
+    .timeline-line {
+        left: 2rem !important;
+    }
+
+    .timeline-item {
+        flex-direction: row !important;
+        padding-left: 5rem !important;
+    }
+
+    .timeline-content {
+        width: 100% !important;
+    }
+
+    .timeline-time {
+        left: 2rem !important;
+        transform: none !important;
+    }
+
+    .button-group {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+
+    .counter-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .details-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .footer-names {
+        flex-direction: column !important;
+        gap: 0.5rem !important;
+    }
+}
+
+/* === ФИНАЛЬНЫЙ ФИКС === */
+body * {
+    box-sizing: border-box !important;
+}
+
+html {
+    font-size: 16px !important;
+}
+
+/* Убрать любые скрывающие стили */
+*[style*="display: none"]:not(.preloader) {
+    display: block !important;
+}
+
+*[style*="opacity: 0"]:not(.preloader) {
+    opacity: 1 !important;
+}
+
+*[style*="visibility: hidden"]:not(.preloader) {
+    visibility: visible !important;
+}
+
+/* === КОНЕЦ ЭКСТРЕННОГО CSS === */
