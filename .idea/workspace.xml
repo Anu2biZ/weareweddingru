@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ffdef99-eeda-444c-83f1-4037d40b6925" name="Changes" comment="натворил делов">
+    <list default="true" id="6ffdef99-eeda-444c-83f1-4037d40b6925" name="Changes" comment="добавили деталецй">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sites/malenkie-my/header-main-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/sites/malenkie-my/header-main-01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sites/malenkie-my/header-pc-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/sites/malenkie-my/header-pc-01.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/js/demo/malenkie-my/google-my.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shaper_helixultimate/js/demo/malenkie-my/google-my.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,7 @@
       <workItem from="1749803279029" duration="4128000" />
       <workItem from="1750064359763" duration="1312000" />
       <workItem from="1750624364453" duration="693000" />
-      <workItem from="1750682513956" duration="4445000" />
+      <workItem from="1750682513956" duration="5455000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -122,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750687558985</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="аменили фотки">
+      <option name="closed" value="true" />
+      <created>1750688924763</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750688924763</updated>
+    </task>
+    <task id="LOCAL-00008" summary="добавили деталецй">
+      <option name="closed" value="true" />
+      <created>1750689046876</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750689046876</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +161,8 @@
     <MESSAGE value="Вторая версия сайта" />
     <MESSAGE value="удалил лишнее" />
     <MESSAGE value="натворил делов" />
-    <option name="LAST_COMMIT_MESSAGE" value="натворил делов" />
+    <MESSAGE value="аменили фотки" />
+    <MESSAGE value="добавили деталецй" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавили деталецй" />
   </component>
 </project>
