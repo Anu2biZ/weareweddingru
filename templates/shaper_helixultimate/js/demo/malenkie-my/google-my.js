@@ -113,7 +113,7 @@ fetch(jsonFilePath)
         const monthName = monthNames[monthNumber - 1];
 
 
-          document.getElementById('welcome-text').innerHTML = `${data.texts.welcome}`;
+          // document.getElementById('welcome-text').innerHTML = `${data.texts.welcome}`;
            document.getElementById('wedding_day').textContent = data.date;
            document.getElementById('groom-footer').innerHTML = `${data.names.groom}`;
            document.getElementById('bride-footer').innerHTML = `${data.names.bride}`;
