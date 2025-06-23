@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ffdef99-eeda-444c-83f1-4037d40b6925" name="Changes" comment="финал первого">
+      <change afterPath="$PROJECT_DIR$/images/sites/malenkie-my/heart-white-01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shaper_helixultimate/js/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shaper_helixultimate/json/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wearewedding.ru.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.gs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner-bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cataloge/wedding-site/03-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cataloge/wedding-site/disco-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cataloge/wedding-site/forest-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cataloge/wedding-site/modern-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/colors-dress-code/silver.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/colors-dress-code/silver3-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicon-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo-main-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/photo/bg-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/cake.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/car.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/details-foto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/glasses.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/header-foto-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/header-foto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/line-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/line-end.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/line-start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/man1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/man2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/man3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/place1-foto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/place2-foto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/plate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/rings.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/rsvp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/welcome-foto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/woman1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/woman2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/modern/woman3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/music-on2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/prikosnovenie/heart-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/rancho/colors/405/1-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/rancho/colors/405/11-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/rancho/colors/405/13-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/rancho/colors/405/2-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/rancho/colors/405/3-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/rancho/colors/405/4-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/rancho/colors/405/5-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/rancho/figure-halfcircle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/semejnyj-albom/order/474/dr1-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/semejnyj-albom/order/474/dr2-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/semejnyj-albom/order/474/dr3-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/semejnyj-albom/order/474/dr4-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/semejnyj-albom/order/474/dr5-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/semejnyj-albom/order/474/dr6-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/semejnyj-albom/order/474/dr7-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/sketch/timer-circle-01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/soul/empty-heart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/soul/heart-01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/ty-ya/bg-bows-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/vmeste/heart-white-01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/vmeste/timer-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/bg-main-pc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/colors/463-1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/colors/463-2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/colors/463-3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/colors/463-4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/colors/color-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/colors/color-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/colors/color-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/colors/color-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/colors/color-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/colors/color-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/colors/color-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/main-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-0-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-1-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-10-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-18-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-19-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-2-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-20-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-21-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-22-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-23-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-3-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-4-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-5-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-6-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-7-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-8-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/order/00364/color-9-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sites/zhemchug/pearl-mini-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/com_jce/site/css/content.min.css@badb4208be409b1335b815dde676300e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/legacy/js/jquery-noconflict.min.js@504da4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/system/css/joomla-fontawesome.min.css@c8d8db.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/system/js/core.min.js@83f2c9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/system/js/messages.min.js@7a5169" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/system/js/showon.min.js@891646" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/bootstrap/js/alert.min.js@5.3.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/bootstrap/js/button.min.js@5.3.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/bootstrap/js/carousel.min.js@5.3.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/bootstrap/js/collapse.min.js@5.3.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/bootstrap/js/dropdown.min.js@5.3.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/bootstrap/js/modal.min.js@5.3.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/bootstrap/js/offcanvas.min.js@5.3.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/bootstrap/js/popover.min.js@5.3.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/bootstrap/js/scrollspy.min.js@5.3.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/bootstrap/js/tab.min.js@5.3.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/bootstrap/js/toast.min.js@5.3.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/fontawesome-free/webfonts/fa-brands-400.ttf@v=bb8cd0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/fontawesome-free/webfonts/fa-brands-400.woff2@v=005c9a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/fontawesome-free/webfonts/fa-regular-400.ttf@v=675809" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/fontawesome-free/webfonts/fa-regular-400.woff2@v=747442" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/fontawesome-free/webfonts/fa-solid-900.ttf@v=0248ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/fontawesome-free/webfonts/fa-solid-900.woff2@v=d5e647" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/joomla-custom-elements/css/joomla-alert.min.css@0.2.0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vendor/jquery/js/jquery.min.js@3.7.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/0341.aac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/system/helixultimate/assets/css/system-j4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/bezmyatezhnost.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/bezmyatezhnost.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/bezmyatezhnost.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/bow.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/bow.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/bow.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/brif_sites.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/brif_sites.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/brif_sites.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/burger.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/childhood.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/childhood.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/childhood.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/color.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/disco.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/evkalipt.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/evkalipt.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/evkalipt.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/forest.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/fotobudka.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/fotobudka.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/fotobudka.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/grey/style.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/grey/style.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/grey/style.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/icecream.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/icecream.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/icecream.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/klyatva.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/klyatva.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/klyatva.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/love.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/love.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/love.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/loveis.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/loveis.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/loveis.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/lovestory.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/lovestory.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/lovestory.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/malenkie-my.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/malenkie-my.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/malenkie-my.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/menu-site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/mig.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/mig.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/mig.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/modern.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/monochrome.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/monochrome.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/monochrome.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/ocharovanie.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/ocharovanie.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/ocharovanie.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/orders/389/389.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/orders/389/389.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/orders/389/389.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/orders/431.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/orders/431.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/orders/431.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/orders/elenavictor_2508.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/orders/indiv-533.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/orders/indiv-533.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/orders/indiv-533.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/orders/orders.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/orders/orders.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/orders/orders.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/otrazhenie.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/otrazhenie.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/otrazhenie.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/paper.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/paper.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/paper.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/prikosnovenie.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/prikosnovenie.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/prikosnovenie.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/rancho.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/semejnyj-albom.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/semejnyj-albom.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/semejnyj-albom.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/sketch.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/sketch.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/sketch.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/soul.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/soul.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/soul.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/spring.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/spring.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/spring.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/ty-ya.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/ty-ya.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/ty-ya.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/vdokhnovenie.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/vdokhnovenie.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/vdokhnovenie.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/vetochka.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/vmeste.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/vmeste.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/vmeste.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/yarkaya-lyubov.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/yarkaya-lyubov.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/yarkaya-lyubov.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/zhemchug.css@v=1749764723.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/zhemchug.css@v=1749764734.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/zhemchug.css@v=1749764735.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/presets/preset6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/13552.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/ALAYAROZADEMO.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/ALETHIANEXT-LIGHT.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/ARNO.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/BEERMONEY.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/BRUSNIKA.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/BetterLand.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/CALVINO-DISPLAY-VARIABLE-TRIAL.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/CYGRE-THIN.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/CYGROTESK-GRANDREGULAR.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/Caravan.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/DIPLOMA-SCRIPT-RUS.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/DISRUPTOR.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/FAKEDES.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/GARAIT.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/GROTESK.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/Gotham.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/HELLO-JANUARY.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/HISTORYPRO-TWO.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/HITCH-HIKE.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/Hagin_Caps_Thin.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/INKFREE.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/Ink.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/KOM-POST.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/KUDRY_WEIRD-HEADLINE.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/MAK.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/Montserrat-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/Montserrat-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/NewSerifC.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/OFONT.RU_THEANO.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/QuickSnack-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/RIVERHACK_CYR.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/Romul.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/Rosamunda.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/SLOOP-SCRIPT.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/SVERDLOVSK.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/SharonAP.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/SourceCodePro-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/TILDASANS-REGULAR.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/TRAJAN.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/UnivrstyRoman.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/VASEK.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/WonderGardenScript-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/WonderGardenScript-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/ZapfCalligr.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/calton.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/cmu.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/cmu_ital.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/evolve-light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/gabriola.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/gabriola.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/gabriola.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/grotesk-dark.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/hello_january_script_cyrillic_script-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/hello_january_script_cyrillic_script-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/machrie.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/machrie.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/mozart.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/oswald.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/fonts/rosamarena.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/images/menu-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/js/demo/modern/google-and_data-modern.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/js/demo/timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/js/faq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/js/google-script-rsvp-base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/js/order-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/js/order-info.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/js/rsvp.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2yQS0HgrgwTAdtDU2AUazxoj8ll" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;second-site&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/wearewedding.ru&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\wearewedding.ru" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\wearewedding.ru" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.342" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ffdef99-eeda-444c-83f1-4037d40b6925" name="Changes" comment="" />
+      <created>1749765079947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749765079947</updated>
+      <workItem from="1749765081067" duration="302000" />
+      <workItem from="1749803279029" duration="4128000" />
+      <workItem from="1750064359763" duration="1312000" />
+      <workItem from="1750624364453" duration="693000" />
+      <workItem from="1750682513956" duration="2408000" />
+    </task>
+    <task id="LOCAL-00001" summary="add">
+      <option name="closed" value="true" />
+      <created>1749816805918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749816805918</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавил открытие яндекс карты">
+      <option name="closed" value="true" />
+      <created>1749817114085</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749817114085</updated>
+    </task>
+    <task id="LOCAL-00003" summary="финал первого">
+      <option name="closed" value="true" />
+      <created>1750624425652</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750624425652</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="add" />
+    <MESSAGE value="Добавил открытие яндекс карты" />
+    <MESSAGE value="финал первого" />
+    <option name="LAST_COMMIT_MESSAGE" value="финал первого" />
+  </component>
+</project>

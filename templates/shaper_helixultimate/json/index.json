@@ -1,0 +1,142 @@
+{
+  "date": "2025-08-22",
+  "dayOfWeek": "Пятница",
+  "names": {
+    "groom": "Иван",
+    "bride": "Дарья"
+  },
+
+  "texts": {
+    "welcome": "Приглашаем присоединиться  к нашему празднику и  украсить  его  своим  присутствием!",
+    "dresscode": "Пожалуйста, приходите в красивой одежде, которая соответствует торжественному настроению.<br/><br/>Мы будем рады, если вы поддержите цветовую палитру нашей свадьбы:",
+    "details": [
+      "Пожалуйста, обратите внимание на время прихода и заранее сообщите нам, если у вас возникнут вопросы.",
+      "Не забудьте сообщить нам, если вам нужна помощь с транспортом или размещением.",
+      "Мы будем рады видеть вас в нашем любимом месте, которое особенно важно для нас."
+    ],
+    "registrationTitle": "Торжественная регистрация",
+    "banquetTitle": "Праздничный банкет",
+    "WhereTitle": "Ждём вас:",
+    "dresscodeColors": {
+      "color1": "#e7d4d4",
+      "color2": "#d55eb5",
+      "color3": "#E3DBDB",
+      "color4": "#9F9F92"
+
+    },
+    "dresscodeGendered": {
+      "men": {
+        "text": "Рубашка, брюки, пиджак",
+        "dresscodeColors": {
+          "color1": "#7b5151",
+          "color2": "#6f6d6d"
+        },
+        "pinterestLinkMan": ""
+      },
+      "women": {
+        "text": "Вечерние платья, костюмы.",
+        "dresscodeColors": {
+          "color1": "#f9d7d7",
+          "color2": "#ebe1f5"
+        },
+        "pinterestLinkWoman": ""
+      }
+    },
+    "pinterestLink": "https://wow-card.ru/brif-dlya-sajta"
+  },
+
+  "rsvpDate": "02 июня 2025",
+
+  "time": {
+    "guestsArrival": "15:30",
+    "registrationStart": "17:00",
+    "banquetStart": "18:00"
+  },
+  "placesMode": 2,
+  "places": {
+    "registration": {
+      "name": "Агроэкоусадьба Три колодца",
+      "address": "Брестская область, д. Баранки 3"
+    }
+  },
+  "timeline": [
+
+    {
+      "title": "Церемония:",
+      "time": "15.00",
+      "icon": "ceremony",
+      "descr": "Не исключено, что вам потребуются платочки для этого трогательного момента"
+    },
+
+    {
+      "title": "Свадебный ужин",
+      "time": "17.00",
+      "icon": "dinner",
+      "descr": "Вкусные блюда и весёлая программа от нашего крутого ведущего"
+    },
+
+    {
+      "title": "Свадебный торт",
+      "time": "21.00",
+      "icon": "cake",
+      "descr": "Обещаем, торт продавать мы не будем"
+    },
+
+
+    {
+      "title": "Окончание вечера",
+      "time": "23.00",
+      "icon": "music",
+      "descr": "Даже такая вечеринка может закончиться, но мы придумаем ещё поводы собраться вместе"
+    }
+
+  ],
+
+
+  "questions": [
+    {
+      "type": "radio",
+      "label": "Вы придете?",
+      "options": [
+        {"value": "Да", "text": "Да"},
+        {"value": "Нет", "text": "Нет"}
+      ]
+    },
+    {
+      "type": "radio",
+      "label": "Понадобится ли вам трансфер:",
+      "options": [
+        {"value": "Нужен", "text": "Да"},
+        {"value": "Не нужен", "text": "Нет"}
+      ]
+    },
+    {
+      "type": "checkbox",
+      "label": "Предпочтения по еде:",
+      "options": [
+        {"value": "Курица", "text": "Курица"},
+        {"value": "Рыба", "text": "Рыба"},
+        {"value": "Мясо", "text": "Мясо"}
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Пожелания по алкоголю:"
+    }
+  ],
+  "checkboxes": {
+    "showDresscodeColors": true,
+    "separateDresscode": true,
+    "showPinterestLink": true,
+    "showDresscodeColorsMen": true,
+    "menShowPinterestLink": false,
+    "showDresscodeColorsWomen": true,
+    "womenShowPinterestLink": false,
+    "showDetails": true,
+    "showRsvp": true,
+    "showTimeline": true,
+    "showQuestions": true,
+    "showTimer": true,
+    "showDresscode": true
+  }
+}

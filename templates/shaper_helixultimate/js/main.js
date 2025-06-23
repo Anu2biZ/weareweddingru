@@ -25,7 +25,7 @@ jQuery(document).ready(function() {
        jQuery('.burger-menu').toggleClass('is-open');
        jQuery('.burger-menu__link').toggleClass('is-open');
     })
-    
+
 });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -68,7 +68,6 @@ jQuery(function ($) {
 	 * Helix settings data
 	 *
 	 */
-	var settings = Joomla.getOptions('data') || {};
 
 	/**
 	 * sticky header

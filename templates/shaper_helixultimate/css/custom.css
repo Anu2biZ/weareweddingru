@@ -299,7 +299,7 @@ font-style: normal;
 
 @font-face {
   font-family: 'BRUSNIKA';
-  src:  url(../fonts/BRUSNIKA.otf);
+  src:  url(https://wow-card.ru/templates/shaper_helixultimate/fonts/BRUSNIKA.otf);
        font-style: normal;
        font-weight: normal;
 }
@@ -500,7 +500,7 @@ font-style: normal;
   font-family: "Marianna";
   font-style: normal;
   font-weight: 400;
-  src: url("https://wow-card.ru/templates/shaper_helixultimate/fonts/Marianna.woff2") format("woff2"),
+  src: url("../fonts/Marianna.woff2") format("woff2"),
        /* Если браузер не поддерживает woff2, загрузит woff */
        url("https://wow-card.ru/fonts/Marianna.woff") format("woff");
 }
