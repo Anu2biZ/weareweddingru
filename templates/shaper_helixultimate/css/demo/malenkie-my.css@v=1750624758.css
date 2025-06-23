@@ -1,27 +1,9 @@
-@media screen and (max-width: 1700px) {
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+
+body {
+    font-family: "Arial", sans-serif;
 }
-
-@media screen and (max-width: 1300px) {
-
-}
-
-@media screen and (max-width: 800px) {
-
-}
-@font-face {
-  font-family: 'ARNO';
-  src:  url(../../fonts/ARNO.ttf);
-       font-style: normal;
-       font-weight: normal;
-}
-@font-face {
-  font-family: 'FAKEDES';
-  src:  url(../../fonts/FAKEDES.otf);
-       font-style: normal;
-       font-weight: normal;
-}
-
 #malenkiemy {
     /*--primary-color: #333;
     --secondary-color: #eee;*/
@@ -34,7 +16,7 @@
 }
 
 #malenkiemy{
-    font-family: var(--main-font);
+
     font-size: 24px;
     line-height: 120%;
     color: var(--text-color);
@@ -55,14 +37,14 @@
     justify-content: center;
 }
  #malenkiemy .title_text{
-    font-family: var(--beauty-font);
+
     font-size: 64px;
     line-height: 120%;
     color: var(--text-color);
     text-align: center;
 }
 #malenkiemy .descr_text{
-    font-family: var(--main-font);
+
     font-size: 24px;
     line-height: 120%;
     color: var(--text-color);
@@ -121,7 +103,7 @@
      margin-bottom: 20px;
  }
  #malenkiemy .calendar-header{
-     font-family: var(--beauty-font);
+
     font-size: 24px;
     line-height: 100%;
     font-weight: 100;
@@ -226,7 +208,9 @@
     padding: 60px 20px 40px;
   }
  #malenkiemy .timetable__block-name{
-          text-transform: uppercase;
+     font-family: "Great Vibes", cursive;
+     font-size: 44px;
+     margin: 20px 0;
   }
  #malenkiemy .timetable__block-line{
       border-left: 1px solid var(--background-color);
@@ -303,7 +287,7 @@
     height: 60px;
     line-height: 55px;
     color: var(--background-color);
-    font-family: var(--beauty-font);
+
     font-size: 24px;
 }
 
@@ -329,6 +313,8 @@
     z-index: 2;         /* Размещаем текст НАД фоном и НАД .timer_number */
     /* z-index можно и не ставить, главное чтобы у спана был position:relative */
 }
+
+
 #malenkiemy .question__text-mini{
     font-size: 16px;
     padding: 10px 0 15px;
@@ -472,13 +458,13 @@
     text-align: left;
 }
 #malenkiemy #groom-footer{
-    font-family: var(--beauty-font);
+
     font-size: 60px;
     text-transform: uppercase;
     line-height: 100%;
 }
 #malenkiemy #bride-footer{
-    font-family: var(--beauty-font);
+
     font-size: 60px;
     text-transform: uppercase;
     line-height: 100%;
@@ -506,7 +492,7 @@
             margin-bottom: 0px;
         padding-top: 0px;
         font-size: 32px;
-        font-family: var(--beauty-font);
+
         padding-bottom: 10px;
 }
 #malenkiemy #dresscode-foto-man, #malenkiemy #dresscode-foto-woman{
@@ -522,21 +508,21 @@
 
 @media screen and (max-width: 800px) {
 #malenkiemy{
-    font-family: var(--main-font);
+
     font-size: 20px;
     line-height: 120%;
     color: var(--text-color);
     text-align: center;
 }
 #malenkiemy .title_text{
-    font-family: var(--beauty-font);
+
     font-size: 36px;
     line-height: 130%;
     color: var(--text-color);
     min-width: 250px;
 }
  #malenkiemy .descr_text{
-    font-family: var(--main-font);
+
     font-size: 20px;
     line-height: 120%;
     color: var(--text-color);
@@ -571,7 +557,7 @@
             margin-bottom: 0px;
         padding-top: 0px;
         font-size: 32px;
-        font-family: var(--beauty-font);
+
         padding-bottom: 10px;
 }
 }
@@ -580,7 +566,7 @@
         padding-top: 30px;
         font-size: 32px;
         padding-bottom: 10px;
-        font-family: var(--beauty-font);
+
     }
 #malenkiemy .question ::-webkit-input-placeholder {
   color: var(--header-color);

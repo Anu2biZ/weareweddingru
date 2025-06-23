@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ffdef99-eeda-444c-83f1-4037d40b6925" name="Changes" comment="Убрал лишнее">
+    <list default="true" id="6ffdef99-eeda-444c-83f1-4037d40b6925" name="Changes" comment="чето там">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shaper_helixultimate/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/malenkie-my.css@v=1750624758.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shaper_helixultimate/css/demo/malenkie-my.css@v=1750624758.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,7 @@
       <workItem from="1749803279029" duration="4128000" />
       <workItem from="1750064359763" duration="1312000" />
       <workItem from="1750624364453" duration="693000" />
-      <workItem from="1750682513956" duration="6089000" />
+      <workItem from="1750682513956" duration="6573000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -144,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750706886531</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="чето там">
+      <option name="closed" value="true" />
+      <created>1750707557337</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750707557337</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +182,7 @@
     <MESSAGE value="аменили фотки" />
     <MESSAGE value="добавили деталецй" />
     <MESSAGE value="Убрал лишнее" />
-    <option name="LAST_COMMIT_MESSAGE" value="Убрал лишнее" />
+    <MESSAGE value="чето там" />
+    <option name="LAST_COMMIT_MESSAGE" value="чето там" />
   </component>
 </project>

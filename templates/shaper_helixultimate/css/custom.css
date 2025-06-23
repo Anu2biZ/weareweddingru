@@ -5,7 +5,7 @@ body{  --background-color: #e7e2db;
     --text-light-color: #e7e2db;
      --elements-color1: #f5dbe2;
      --elements-color2: #a1a0a0;
-    
+
     --main-font: 'CALVINO-reg', sans-serif; /* Основной шрифт */
     --beauty-font: 'mak', sans-serif; /* Шрифт для заголовков */
     --secondary-font: 'Hagin', sans-serif; /* Второй шрифт */
@@ -38,8 +38,8 @@ body{  --background-color: #e7e2db;
 }
  .img-mobile-step{
      display: none;
- } 
- 
+ }
+
 @media (max-width: 768px) { /* Показываем только на мобильных */
     .mobile-menu-container {
         display: block;
@@ -160,7 +160,7 @@ body{  --background-color: #e7e2db;
     text-transform: uppercase;
 }
 .mobile-menu-contact{
-    
+
 }
 .mobile-menu-text{
    font-size: 14px;
@@ -218,12 +218,6 @@ font-style: normal;
        font-weight: 200;
 }
 
-@font-face {
-  font-family: 'CALVINO-reg';
-  src:  url(../fonts/CALVINO-DISPLAY-VARIABLE-TRIAL.ttf);
-       font-style: normal;
-       font-weight: normal;
-}
 @font-face {
   font-family: 'Montserrat-Light';
   src:  url(../fonts/Montserrat-Light.ttf);
@@ -554,7 +548,7 @@ color: var(--header-color);
 }
 .run-row-el{
  }
-.run-row-block{ 
+.run-row-block{
   display: flex;
   overflow: hidden;
 }
@@ -573,7 +567,7 @@ color: var(--header-color);
     color: aliceblue;
     font-family: var(--beauty-font);
     margin: 0;
-   
+
     position: relative;
     padding: 30px 0;
     font-size: 42px;
@@ -674,7 +668,7 @@ color: var(--header-color);
     width: 800px;
     height: fit-content;
     z-index: 1500;
-    
+
 }
 #box-window-in {
     padding: 10px 20px;
@@ -733,7 +727,7 @@ body{
      padding: 0 15px 0 5px;
     font-size: 40px;
     line-height: 40px;
-  
+
 }
 .step-part2{
     display: flex;
@@ -816,7 +810,7 @@ body{
 .contact-block{padding: 10px 0;
 }
 .button-white-green-main a{
- color: var(--header-color); 
+ color: var(--header-color);
 }
 .design-item-img img{
   padding: 0 5px;
@@ -824,7 +818,7 @@ body{
 
 .design-item-name{
     padding: 10px 0;
-   
+
     font-family: var(--beauty-font);
     text-transform: uppercase;
     font-size: 24px;
@@ -866,7 +860,7 @@ body{
     max-width: 200px;
     border-radius: 0px;
      cursor: pointer;
-   
+
 }
 .blocks-scroll img{
       animation: scroll-vert 20s linear infinite;
@@ -904,7 +898,7 @@ body{
 .blocks-main{
      display: flex;
     flex-direction: row;
-    justify-content: center;   
+    justify-content: center;
 }
 .price-2{
  margin: 0;
@@ -1050,7 +1044,7 @@ padding: 10px 0;
       margin: auto;
 }
 .tips-foto-img{
-  
+
 }
 .pre-button-div-right{
     text-align: right;
@@ -1066,7 +1060,7 @@ padding: 10px 0;
 }
 .pre-button-div-right .button-black-main{
  display: inline-block;
-} 
+}
 .sign{
  padding: 60px 0 10px 0;
 }
@@ -1090,11 +1084,11 @@ padding: 10px 0;
     font-family: var(--beauty-font);
   /*  font-weight: bold;*/
     text-transform: uppercase;
- 
+
     padding-bottom: 5px;
-    
+
         display: inline-block;
-   
+
     font-size: 16px;
     line-height: 20px;
     padding-right: 0px;
@@ -1105,7 +1099,7 @@ padding: 10px 0;
          height: calc(100vh - 60px);
     max-width: 1200px;
       padding-bottom: 50px;
-    margin: auto; 
+    margin: auto;
 }
 .div-vertical-align{
   position: absolute;
@@ -1118,14 +1112,14 @@ padding: 10px 0;
     margin: auto;
     background: var(--header-color);
     padding: 60px 40px;
-    
+
 }
 .t-wa-title{
     font-family: var(--beauty-font);
     text-transform: uppercase;
     font-size: 26px;
     padding-bottom: 30px;
-    
+
     color: var(--background-color);
 }
 .t-wa-text{
@@ -1215,7 +1209,7 @@ body.ltr .sp-megamenu-parent>li.sp-has-child>a:after, body.ltr .sp-megamenu-pare
 
 .main-page {
     line-height: 20px;
-    font-size: 16px;  
+    font-size: 16px;
 }
 .tips-main{
      text-align: right;
@@ -1237,7 +1231,7 @@ body.ltr .sp-megamenu-parent>li.sp-has-child>a:after, body.ltr .sp-megamenu-pare
 }
 .tips-foto{
   display: inline-block;
-  
+
 }
 
 
@@ -1270,7 +1264,7 @@ body.ltr .sp-megamenu-parent>li.sp-has-child>a:after, body.ltr .sp-megamenu-pare
 }
 .blocks-block-left {
     width: 350px;
-    display: inline-block; 
+    display: inline-block;
     /* height: 520px; */
         margin: 0 0 20px 0;
 }
@@ -1307,7 +1301,7 @@ body.ltr .sp-megamenu-parent>li.sp-has-child>a:after, body.ltr .sp-megamenu-pare
     width: 100%;
     z-index: 4;
 animation: spFadeIn 0.5s;
-  
+
 }
 .sp-module-title{display:none;}
 
@@ -1356,7 +1350,7 @@ animation: spFadeIn 0.5s;
   width: 240px;
   border-bottom: 1px solid #ECF1F2;
   visibility: hidden;
-  opacity: 0;  
+  opacity: 0;
   transform: translateY(10px);
   transition: .3s ease-in-out;
 }
@@ -1400,7 +1394,7 @@ padding: 0;margin-bottom: 5px;
 
   @media screen and (max-width: 800px) {
     .contact-phone-img{
-     display:none; 
+     display:none;
     }
     ul.social-icons>li a:hover {
     color: #199abd;
@@ -1415,17 +1409,17 @@ padding: 0;margin-bottom: 5px;
        display:none;
      }
     .run-row-block{
-      
+
     }
      .img-mobile-step{
      display: block;
- } 
+ }
  .img-desctop-step{
      display:none;
-     
+
 
  }
- 
+
     .step-block{
     }
     .step-time-line {
@@ -1511,11 +1505,11 @@ padding: 0;margin-bottom: 5px;
       width: calc(100% - 0px);
     }
   }
-  
-  
+
+
   /*стили для брифа*/
-  
-  
+
+
   #json-editor-container {
   max-width: 800px;
   margin: 20px auto;
@@ -1557,7 +1551,7 @@ label {
   margin-bottom: 5px;
 }
 #colors-container , #colors-container-men, #colors-container-women{
-  
+
     flex-wrap: wrap;
     gap: 5px;
     align-items: center;
@@ -1565,7 +1559,7 @@ label {
 .color-input {
     width: 40px;
     height: 40px;
-     
+
        padding: 0;
           box-sizing: border-box;
         margin: 10px;
@@ -1624,7 +1618,7 @@ button {
 .color-input {
     width: 40px;
     height: 40px;
-     
+
        padding: 0;
           box-sizing: border-box;
         margin: 10px;
@@ -1649,7 +1643,7 @@ button {
     font-size: 16px;
     line-height: 20px;
     padding-bottom: 5px;
-    
+
     width: calc(100% - 0px);
 }
 .tips-block {
@@ -1678,7 +1672,7 @@ button {
 }
 .banner-main h2 {
     font-size: 16px;
-    
+
 }
 .text-upper {
    font-size: 28px;
@@ -1695,7 +1689,7 @@ button {
     padding: 20px 20px 6px 20px;
 }
 .div-vertical-align{
-    
+
 }
 .banner-main {
    width: 100%;
@@ -1793,7 +1787,7 @@ button {
 .selected-design-form{
  display: flex;
     flex-direction: row;
-    align-items: flex-start;   
+    align-items: flex-start;
 }
 #modal-form{
     display: flex;
@@ -1857,12 +1851,12 @@ button {
     content: '';
   position: absolute;
   background: var(--background-color);
-    
+
         top: 4px;
     left: 0;
     width: 15px;
     height: 15px;
-    
+
     border: 1px solid var(--header-color);
     border-radius: 50%;
     transition: all 0.3s;
@@ -2102,7 +2096,7 @@ button {
 @media (max-width: 768px) { /* Показываем на мобильных */
     .price-block-mobile {
         display: block;
-        overflow: hidden; 
+        overflow: hidden;
         padding: 50px 0;/* Чтобы карусель не выходила за границы */
     }
     .faq-toggle {
@@ -2132,18 +2126,18 @@ button {
 
     .swiper-slide.swiper-slide-active .price-1-title,
     .swiper-slide.swiper-slide-active .price-2-title {
-      
+
     }
     .swiper-slide.swiper-slide-active .price-1-price,
      .swiper-slide.swiper-slide-active .price-2-price {
-     
+
     }
     .swiper-slide.swiper-slide-active .price-hit {
-       
-        
+
+
     }
      .swiper-slide.swiper-slide-active {
-       
+
         box-shadow: 0 0 10px #333
     }
 
@@ -2202,14 +2196,14 @@ button {
     padding: 0px 5px;
 }
 .price-2 {
-   
+
     height: 500px;
-    
+
 }
 .price-1 {
-   
+
    /* height: 450px;*/
-    
+
 }
 .footer-main .social-icons a{
         color: var(--background-color);
@@ -2353,7 +2347,7 @@ button {
     border-radius: 50%;
     border: 1px solid var(--header-color);
     background: #686667;
-    
+
     transition: all 0.3s;
 }
 .communication-options-row label {
@@ -2403,7 +2397,7 @@ button {
  display: flex;
     flex-direction: row;
     gap: 20px;
-    padding: 20px 30px;  
+    padding: 20px 30px;
     justify-content: center;
 }
 .about-us-foto{
@@ -2447,7 +2441,7 @@ button {
 }
 
   @media screen and (max-width: 800px) {
-      
+
       .about-us-main {
     display: flex
 ;
@@ -2477,10 +2471,10 @@ button {
 
 .contacts{
  padding: 60px 15px;
-    text-align: left;   
+    text-align: left;
 }
   }
-  
+
 .options-main, .faq-main{
     display: flex;
     flex-direction: row;
@@ -2501,14 +2495,14 @@ button {
     padding-bottom: 30px;
 }
 .faq-text .button-green-main{
-    
+
     padding: 10px 20px;
-   
+
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     max-width: 250px;
-    
+
     margin-top: 10px;
 }
   @media screen and (max-width: 800px) {
@@ -2534,9 +2528,9 @@ button {
     padding: 0 20px;
 }
 .faq-text .button-green-main{
-    
+
     padding: 10px 20px;
-   
+
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -2550,7 +2544,7 @@ button {
     padding-top: 80px;
     padding-bottom: 80px;
     text-align: center;
-    
+
 }
 
 .review-imgs {
@@ -2568,7 +2562,7 @@ button {
   align-items: center;
 }
 .review-img img {
-    
+
    width: 100%;
     height: auto;
     margin: auto;
@@ -2580,7 +2574,7 @@ button {
     margin: auto;
         padding: 5px 0 10px;
     }
-    
+
        .review-main .swiper-slide {
                margin: 0 0px;
         opacity: 0.7;
@@ -2594,8 +2588,8 @@ button {
         box-shadow: 0 0 0px #333;
         opacity: 1;
         transform: scale(1);
-    } 
-    
+    }
+
 
 
 .review-imgs {
@@ -2618,14 +2612,14 @@ button {
   }
 .review-imgs .swiper-slide {
       width: 70%;
-  
+
     flex-shrink: 0;
     display: flex;
   align-items: center;
 }
 }
 .review-img img {
-    
+
    width: 100%;
     height: auto;
     margin: auto;
@@ -2797,7 +2791,7 @@ position: relative;
 .burger-menu {
     display: none;
 }
-/* 
+/*
 .music-selection {
   font-family: sans-serif;
 }
@@ -2815,13 +2809,13 @@ position: relative;
 .music-selection__categories {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .music-selection__category {
   width: 30%;
   margin-bottom: 20px;
-  min-width: 250px; 
+  min-width: 250px;
 }
 
 .music-selection__category-title {
@@ -2851,12 +2845,12 @@ position: relative;
 }
 
 .music-selection__play-icon {
-  width: 30px; 
+  width: 30px;
   height: 30px;
 }
 
 .music-selection__track-info {
-  flex-grow: 1; 
+  flex-grow: 1;
 }
 
 .music-selection__track-name {
@@ -2870,7 +2864,7 @@ position: relative;
 }
 
 .music-selection__slider {
-  flex-grow: 1; 
+  flex-grow: 1;
   margin-right: 10px;
 }
 
@@ -2882,9 +2876,9 @@ position: relative;
   .music-selection__audio{
     display: none;
   }*/
-  
+
   /* музыкальная подборка*/
-  
+
   #music-selection, #poleznoe {
          --background-color: #e7e2db;
     --header-color: #393738;
@@ -2912,22 +2906,22 @@ position: relative;
             max-width: 600px;
     margin: auto;
         }
-        
+
       #music-selection  .header {
             text-align: center;
             margin-bottom: 20px;
     padding-bottom: 10px;
             border-bottom: 1px dashed var(--elements-color2);
         }
-        
+
        #music-selection h1 {
                 font-family: var(--beauty-font);
     color: var(--header-color);
     font-size: 32px;
             margin-bottom: 10px;
         }
-  
-        
+
+
       #music-selection  h2 {
                font-size: 22px;
     margin-bottom: 10px;
@@ -2938,8 +2932,8 @@ position: relative;
             position: relative;
             display: inline-block;
         }
-    
-        
+
+
       #music-selection  .category {
             margin-bottom: 40px;
             padding: 20px;
@@ -2947,13 +2941,13 @@ position: relative;
             border-radius: 8px;
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
         }
-        
+
       #music-selection  .tracks-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 20px;
         }
-        
+
        #music-selection .track {
             background-color: white;
             border-radius: 8px;
@@ -2961,37 +2955,37 @@ position: relative;
             box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        
+
        #music-selection .track:hover {
             transform: translateY(-5px);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
         }
-        
+
        #music-selection .track h3 {
             color: #555;
             margin-bottom: 8px;
             font-size: 1.2rem;
         }
-        
+
        #music-selection .track p {
             color: #888;
             margin-bottom: 15px;
             font-size: 0.9rem;
         }
-        
+
        #music-selection .audio-player {
             width: 100%;
             border-radius: 20px;
             height: 40px;
         }
-        
+
        #music-selection .tabs {
             display: flex;
             justify-content: center;
             margin-bottom: 30px;
             flex-wrap: wrap;
         }
-        
+
         #music-selection .tab {
             padding: 5px 15px;
     margin: 5px;
@@ -3002,11 +2996,11 @@ position: relative;
             transition: all 0.3s ease;
             font-size: 14px;
         }
-        
+
        #music-selection .tab:hover {
             background-color: var(--elements-color2);
         }
-        
+
        #music-selection .tab.active {
             background-color: var(--elements-color2);
             color: white;
@@ -3017,21 +3011,21 @@ position: relative;
     text-transform: uppercase;
     font-family: var(--beauty-font);
         }
-        
+
        #music-selection .category {
             display: none;
         }
-        
+
        #music-selection .category.active {
             display: block;
             animation: fadeIn 0.5s ease-in-out;
         }
-        
+
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
         }
-        
+
       #music-selection  footer {
             text-align: center;
             margin-top: 40px;
@@ -3040,27 +3034,27 @@ position: relative;
             color: #888;
             font-size: 0.9rem;
         }
-  
-        
+
+
         @media (max-width: 768px) {
          #music-selection   .tracks-container {
                 grid-template-columns: 1fr;
             }
-            
+
           #music-selection  .tab {
                 padding: 8px 15px;
                 font-size: 0.9rem;
             }
-            
+
          #music-selection   h1 {
                 font-size: 28px;
             }
-            
+
           #music-selection  h2 {
                 font-size: 1.5rem;
             }
         }
-  
+
   /* Отправкаа формы*/
    #form-complete {
         --background-color: #e7e2db;
@@ -3073,7 +3067,7 @@ position: relative;
     --main-font: 'CALVINO-reg', sans-serif;
     --beauty-font: 'RICORDI', sans-serif;
    }
-    
+
         #form-complete {
             background-color: #fcf9f7;
             color: #4a4a4a;
@@ -3081,7 +3075,7 @@ position: relative;
             padding: 20px;
             font-family: var(--main-font);
         }
-        
+
         #form-complete  .container {
             max-width: 900px;
             margin: 0 auto;
@@ -3091,21 +3085,21 @@ position: relative;
             padding: 40px;
             color: var(--header-color);
         }
-        
+
        #form-complete  h1,  #form-complete h2,  #form-complete h3 {
             color: #8d7b6a;
             margin-bottom: 10px;
             font-family: var(--beauty-font);
             color: var(--header-color);
         }
-        
+
         #form-complete h1 {
             font-size: 32px;
             text-align: center;
             margin-bottom: 30px;
             position: relative;
         }
-        
+
 
         #form-complete  h2 {
             font-size: 24px;
@@ -3113,62 +3107,62 @@ position: relative;
             border-bottom: 1px dashed var(--elements-color2);
             padding-bottom: 10px;
         }
-        
+
          #form-complete p {
             margin-bottom: 0px;
             font-size: 16px;
             line-height: 120%;
         }
-        
+
         #form-complete ul {
             margin-bottom: 20px;
             padding-left: 20px;
         }
-        
+
          #form-complete li {
             margin-bottom: 10px;
         }
-        
+
          #form-complete .btn {
             display: inline-block;
             padding: 10px 25px;
-          
+
             color: white;
             text-decoration: none;
             border-radius: 30px;
-            
-            
+
+
             transition: all 0.3s ease;
             text-align: center;
             background-color: var(--elements-color2);
-   
+
     font-weight: 100;
     text-transform: uppercase;
     margin: 10px 0 15px;
-    
+
     font-family: var(--beauty-font);
         }
-        
+
         #form-complete .btn:hover {
             background-color: #a08d7c;
             transform: translateY(-2px);
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-        
+
         #form-complete .steps {
                 margin: 20px 0 10px 0;
             text-align: left;
     line-height: 120%;
     padding-left: 10px;
         }
-        
+
         #form-complete .steps li {
             margin-bottom: 20px;
             position: relative;
             padding-left: 35px;
             list-style-type: none;
         }
-        
+
         #form-complete .steps li::before {
             content: "";
             position: absolute;
@@ -3185,23 +3179,23 @@ position: relative;
            /* font-weight: bold;*/
             font-size: 14px;
         }
-        
+
         #form-complete .steps li:nth-child(1)::before {
             content: "1";
         }
-        
+
         #form-complete .steps li:nth-child(2)::before {
             content: "2";
         }
-        
+
         #form-complete .steps li:nth-child(3)::before {
             content: "3";
         }
-        
+
      #form-complete    .steps li:nth-child(4)::before {
             content: "4";
         }
-        
+
         /* Карточки услуг */
         #form-complete .services {
             display: flex
@@ -3211,7 +3205,7 @@ position: relative;
     margin: 30px 0;
     flex-direction: column;
         }
-        
+
        #form-complete  .service-card {
             border: 1px solid var(--elements-color2);
             border-radius: 10px;
@@ -3219,23 +3213,23 @@ position: relative;
             transition: all 0.3s ease;
             background-color: #fff;
         }
-        
+
         #form-complete .service-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
         }
-        
+
         #form-complete .service-card h3 {
             font-size: 20px;
             margin-bottom: 15px;
             color: var(--header-color);
         }
-        
+
        #form-complete  .service-card p {
             font-size: 15px;
             margin-bottom: 15px;
         }
-        
+
       #form-complete   .service-image {
             width: 100%;
             gap: 5%;
@@ -3257,34 +3251,34 @@ position: relative;
                 text-align: left;
     color: var(--header-color);
         }
-        
+
        #form-complete  .stationery-list li {
             margin-bottom: 8px;
         }
-        
+
        #form-complete  .stationery-list strong {
         }
-        
+
         #form-complete .section {
             margin-bottom: 0px;
     padding-bottom: 0px;
 
            /* border-bottom: 1px dashed var(--elements-color2);*/
         }
-        
+
         #form-complete .footer {
             text-align: center;
             margin-top: 0px;
             color: var(--text-color);
             font-size: 14px;
         }
-        
+
          #form-complete .sparkle {
             display: inline-block;
             animation: sparkle 2s infinite;
             margin-left: 5px;
         }
-        
+
         #form-complete .highlight {
             color: var(--header-color);
           /*  font-weight: 600;*/
@@ -3307,7 +3301,7 @@ position: relative;
          #form-complete .benefit p{
             margin-bottom: 0px;
         }
-        
+
           /* Swiper Styles */
       #form-complete  .swiper {
             width: 100%;
@@ -3315,7 +3309,7 @@ position: relative;
             border-radius: 8px;
             margin-bottom: 20px;
         }
-        
+
        #form-complete .swiper-slide {
             background-position: center;
             background-size: cover;
@@ -3326,7 +3320,7 @@ position: relative;
             color: #b29f8e;
             font-style: italic;
         }
-        
+
        #form-complete .swiper-slide img{
             width: 100%;
             height: 100%;
@@ -3338,7 +3332,7 @@ position: relative;
                 max-width: 600px;
     margin: auto;
         }
-        #form-complete .swiper-button-next, 
+        #form-complete .swiper-button-next,
         #form-complete .swiper-button-prev, #poleznoe .swiper-button-next, #poleznoe .swiper-button-prev {
            color: var(--header-color);
                 background-color: var(--background-color);
@@ -3347,21 +3341,21 @@ position: relative;
             border-radius: 50%;
             --swiper-navigation-size: 20px;
         }
-        
-       #form-complete .swiper-button-next:after, 
+
+       #form-complete .swiper-button-next:after,
        #form-complete .swiper-button-prev:after, #poleznoe .swiper-button-next:after, #poleznoe .swiper-button-prev:after{
             font-size: 14px;
         }
-        
+
        #form-complete .swiper-pagination-bullet, #poleznoe .swiper-pagination-bullet {
              background-color: var(--elements-color2);
              border: 1px solid var(--header-color);
         }
-        
+
        #form-complete .swiper-pagination-bullet-active, #poleznoe .swiper-pagination-bullet-active {
         background-color: var(--header-color);
         }
-        
+
         #form-complete .image-placeholder {
             width: 100%;
             height: 100%;
@@ -3383,18 +3377,18 @@ position: relative;
             width: 12px;
     height: 12px;
         }
-        
+
         @keyframes sparkle {
             0% { opacity: 0.5; transform: scale(1); }
             50% { opacity: 1; transform: scale(1.2); }
             100% { opacity: 0.5; transform: scale(1); }
         }
-        
+
         @media (max-width: 768px) {
           #form-complete   .container {
                 padding: 20px;
             }
-           
+
          #form-complete  .swiper-pagination-bullet{
             width: 12px;
     height: 12px;
@@ -3402,18 +3396,18 @@ position: relative;
           #form-complete   .services {
                 grid-template-columns: 1fr;
             }
-            
+
            #form-complete  h1 {
                 font-size: 28px;
             }
-            
+
             #form-complete h2 {
                 font-size: 22px;
             }
         }
           #poleznoe{
             margin: 0 auto;
-    padding: 10px;   
+    padding: 10px;
     max-width: 800px;
           }
           #poleznoe p{
@@ -3421,7 +3415,7 @@ position: relative;
            line-height: 100%;
     font-size: 15px;
           }
-          
+
          #poleznoe h1 {
     font-family: var(--beauty-font);
     color: var(--header-color);
@@ -3436,32 +3430,32 @@ position: relative;
             list-style: none;
             gap: 20px;
         }
-        
+
      #poleznoe   nav a {
             text-decoration: none;
             color: #b76e79;
             font-weight: 500;
             transition: color 0.3s;
         }
-        
+
       #poleznoe  nav a:hover {
             color: #d87093;
         }
-        
+
         /* Основной контент */
       #poleznoe  main {
             display: grid;
             grid-template-columns: 3fr 1fr;
             gap: 40px;
         }
-        
+
       #poleznoe  .article {
             background-color: white;
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(216, 112, 147, 0.1);
         }
-        
+
       #poleznoe  h1 {
             font-family: 'Playfair Display', serif;
             font-size: 32px;
@@ -3469,18 +3463,18 @@ position: relative;
             margin-bottom: 20px;
             line-height: 1.3;
         }
-        
+
        #poleznoe .intro {
            font-size: 18px;
     margin-bottom: 15px;
     color: var(--text-color);
     line-height: normal;
         }
-        
+
       #poleznoe  .essential, #poleznoe .additional {
             margin-bottom: 40px;
         }
-        
+
       #poleznoe  h2 {
             font-family: var(--beauty-font);
     color: var(--header-color);
@@ -3492,32 +3486,32 @@ position: relative;
             padding-top: 20px;
     border-top: 1px dashed var(--elements-color2);
         }
-        
+
       #poleznoe  h2:before {
             content: "📌";
         }
-        
+
       #poleznoe  ul {
             list-style: none;
             margin-left: 15px;
             padding-left: 0px;
     text-align: left;
         }
-        
+
       #poleznoe  li {
             position: relative;
             padding-left: 25px;
             margin-bottom: 12px;
-            
+
         }
-        
+
       #poleznoe  li:before {
             content: "✔";
             position: absolute;
             left: 0;
             color: var(--header-color);
         }
-        
+
        #poleznoe .highlight {
             background-color: #fef2f7;
             padding: 20px;
@@ -3525,7 +3519,7 @@ position: relative;
             margin: 30px 0;
             border-left: 4px solid #d87093;
         }
-        
+
       #poleznoe  .cta {
            background: var(--background-color);
             padding: 25px;
@@ -3533,13 +3527,13 @@ position: relative;
             text-align: center;
 margin: 40px auto;
         }
-        
+
       #poleznoe  .cta h3 {
-           
+
             font-size: 22px;
             margin-bottom: 15px;
         }
-        
+
       #poleznoe  .cta-button {
             display: inline-block;
     color: white;
@@ -3554,19 +3548,19 @@ margin: 40px auto;
     transition: 0.3s;
     margin: 10px 0px 15px;
         }
-        
+
       #poleznoe  .cta-button:hover {
             transform: translateY(-3px);
             box-shadow: 0 6px 12px rgba(216, 112, 147, 0.3);
         }
-        
+
         /* Боковая панель */
        #poleznoe .sidebar {
             position: sticky;
             top: 20px;
             align-self: start;
         }
-        
+
       #poleznoe  .sidebar-section {
             background-color: white;
             padding: 25px;
@@ -3574,7 +3568,7 @@ margin: 40px auto;
             margin-bottom: 30px;
             box-shadow: 0 5px 15px rgba(216, 112, 147, 0.1);
         }
-        
+
       #poleznoe  .sidebar-section h3 {
             font-family: 'Playfair Display', serif;
             font-size: 20px;
@@ -3582,26 +3576,26 @@ margin: 40px auto;
             margin-bottom: 15px;
             text-align: center;
         }
-        
+
        #poleznoe .sidebar-cta {
             background: linear-gradient(135deg, #e1bee7, #bbdefb);
             text-align: center;
         }
-        
+
       #poleznoe#poleznoe  .service-list li {
             padding-left: 30px;
         }
-        
+
       #poleznoe  .service-list li:before {
             content: "💌";
         }
-        
+
        #poleznoe .testimonial {
             font-style: italic;
             position: relative;
             padding-top: 20px;
         }
-        
+
        #poleznoe .testimonial:before {
             content: """;
             font-size: 60px;
@@ -3612,58 +3606,58 @@ margin: 40px auto;
             z-index: -1;
             opacity: 0.7;
         }
-        
+
        #poleznoe .testimonial-author {
             text-align: right;
             margin-top: 10px;
           /*  font-weight: bold;*/
             font-style: normal;
         }
-        
+
         /* Декоративные элементы */
       #poleznoe  .decoration {
             position: fixed;
             z-index: -1;
             opacity: 0.1;
         }
-        
+
       #poleznoe  .decoration.top-left {
             top: 5%;
             left: 5%;
         }
-        
+
        #poleznoe .decoration.bottom-right {
             bottom: 5%;
             right: 5%;
         }
-        
+
         /* Адаптивность */
         @media (max-width: 900px) {
            #poleznoe main {
                 grid-template-columns: 1fr;
             }
-            
+
           #poleznoe  .sidebar {
                 position: static;
                 margin-top: 30px;
             }
         }
-        
+
         @media (max-width: 600px) {
           #poleznoe  body {
                 padding: 10px;
             }
-            
+
           #poleznoe  .article {
                 padding: 20px;
             }
-            
+
           #poleznoe  nav ul {
                 flex-direction: column;
                 gap: 10px;
                 align-items: center;
             }
-            
+
          #poleznoe   h1 {
                 font-size: 28px;
             }
@@ -3675,7 +3669,7 @@ margin: 40px auto;
             margin-right: 5px;
             vertical-align: middle;
         }
-        
+
         /* Галерея примеров приглашений */
       #poleznoe  .examples-gallery {
             display: grid;
@@ -3683,7 +3677,7 @@ margin: 40px auto;
             gap: 25px;
             margin-top: 20px;
         }
-        
+
       #poleznoe#poleznoe  .example-card {
            background: var(--background-color);
             border-radius: 8px;
@@ -3691,11 +3685,11 @@ margin: 40px auto;
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
             transition: transform 0.3s;
         }
-        
+
       #poleznoe  .example-card:hover {
             transform: translateY(-5px);
         }
-        
+
       #poleznoe  .example-image {
             height: 180px;
             background-color: #f8bbd0;
@@ -3705,7 +3699,7 @@ margin: 40px auto;
             color: white;
           /*  font-weight: bold;*/
         }
-        
+
       #poleznoe  .example-title {
           padding: 20px 0 12px;
     text-align: center;
@@ -3718,7 +3712,7 @@ margin: 40px auto;
             line-height: 120%;
     padding: 0 10px 10px;
         }
-        
+
         /* Дополнительные стили для выделения важной информации */
        #poleznoe .important-note {
             background-color: #f1f8e9;
@@ -3727,18 +3721,18 @@ margin: 40px auto;
             margin: 20px 0;
             border-radius: 0 8px 8px 0;
         }
-        
+
         /* Счетчик шагов для пошаговой инструкции */
       #poleznoe  .steps-list {
             counter-reset: steps;
         }
-        
+
       #poleznoe#poleznoe  .steps-list li {
             padding-left: 35px;
             counter-increment: steps;
             margin-bottom: 15px;
         }
-        
+
        #poleznoe .steps-list li:before {
             content: counter(steps);
             position: absolute;
@@ -3751,7 +3745,7 @@ margin: 40px auto;
             line-height: 25px;
             font-size: 14px;
         }
-        
+
         /* Стили для примеров имен */
        #poleznoe .example-box {
             background-color: #f3e5f5;
@@ -3760,13 +3754,13 @@ margin: 40px auto;
             margin: 15px 0;
             border: 1px dashed #ce93d8;
         }
-        
+
       #poleznoe  .example-box h4 {
             color: #9c27b0;
             margin-bottom: 10px;
             font-size: 16px;
         }
-        
+
        #poleznoe .example-box .example-text {
             font-family: 'Playfair Display', serif;
             font-style: italic;
@@ -3776,26 +3770,26 @@ margin: 40px auto;
             text-align: center;
             margin: 10px 0;
         }
-        
+
         /* Таблица с вариантами */
       #poleznoe  .variants-table {
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
         }
-        
+
        #poleznoe .variants-table th, .variants-table td {
             padding: 10px;
             border: 1px solid #f8bbd0;
             text-align: left;
         }
-        
+
        #poleznoe .variants-table th {
             background-color: #fce4ec;
             color: #b76e79;
            /* font-weight: 600;*/
         }
-        
+
        #poleznoe .variants-table tr:nth-child(even) {
             background-color: #fef2f7;
         }
@@ -3811,7 +3805,7 @@ margin: 40px auto;
  #poleznoe .intro {
            font-size: 16px;
         }
-          
+
         #poleznoe h2 {
             font-size: 22px;
         }
