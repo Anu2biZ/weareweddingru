@@ -571,3 +571,12 @@ body {
 #malenkiemy .question ::-webkit-input-placeholder {
   color: var(--header-color);
 }
+
+.timetable__block-descr {
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.details__text, .descr_text {
+    line-height: 32px;
+}
