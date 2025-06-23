@@ -1,4 +1,4 @@
-﻿<!doctype html>
+﻿﻿﻿﻿﻿﻿<!doctype html>
 <html lang="ru-ru" dir="ltr">
 
 <head>
@@ -83,7 +83,8 @@
           rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="templates/shaper_helixultimate/js/demo/timer.js"></script>
-    <script type="module" src="templates/shaper_helixultimate/js/form.js"></script>
+    <script src="templates/shaper_helixultimate/js/demo/malenkie-my/google-my.js"></script>
+    <script src="templates/shaper_helixultimate/js/form.js"></script>
     <script src="templates/shaper_helixultimate/js/order-info.js"></script>
     <script src="https://api-maps.yandex.ru/2.1/?apikey=Your API key&lang=en_US" type="text/javascript"></script>
 
@@ -128,6 +129,26 @@
         .logo-image-phone {
             height: 36px;
         }
+    }
+
+    .loader {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .loader-spinner {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border: 3px solid #f3f3f3;
+        border-top: 3px solid #3498db;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
     }</style>
     <script src="../../media/vendor/jquery/js/jquery.min.js@3.7.1"></script>
     <script src="../../media/legacy/js/jquery-noconflict.min.js@504da4"></script>
@@ -251,6 +272,7 @@
 
         </section>
         <section id="sp-main-body">
+
 
             <div class="container">
                 <div class="container-inner">
@@ -545,7 +567,6 @@
                                                     </section>
 
 
-                                                    <script src="templates/shaper_helixultimate/js/demo/malenkie-my/google-and_data-malenkie-my.js"></script>
 
                                                     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
                                                     <section class="counter">
@@ -629,8 +650,11 @@
                                                                                 пожалуйста, все поля.
                                                                             </div>
 
+                                                                            <div class="loader" style="display: none;">
+                                                                                <div class="loader-spinner"></div>
+                                                                                <p>Отправка...</p>
+                                                                            </div>
                                                                             <div class="rsvp__buttons">
-
                                                                                 <button name="Принято"
                                                                                         onclick="submityes(); return false;"
                                                                                         class="rsvp__button">Подтвердить

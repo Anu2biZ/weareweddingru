@@ -28,24 +28,6 @@ jQuery(document).ready(function() {
 
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-    const menuToggle = document.getElementById('mobile-menu-toggle');
-    const menuSidebar = document.getElementById('mobile-menu-sidebar');
-     const menuClose = document.getElementById('mobile-menu-close');
-
-
-  menuToggle.addEventListener('click', () => {
-    menuToggle.classList.toggle('active');
-    menuSidebar.classList.toggle('active');
-  });
-
-      menuClose.addEventListener('click', () => {
-        menuToggle.classList.remove('active');
-    menuSidebar.classList.remove('active');
-  });
-
-});
-
 /**
  * Move the progress bar
  */

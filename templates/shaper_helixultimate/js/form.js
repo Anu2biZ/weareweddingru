@@ -33,12 +33,15 @@ async function submitRSVP(status) {
     const rsvpContainer = document.getElementById('rsvp_container');
     const rsvpAnswYes = document.getElementById('rsvp-answ-yes');
     const rsvpAnswNo = document.getElementById('rsvp-answ-no');
+    const loader = document.querySelector('.loader');
 
     const data = {
         name: nameInput.value,
         guests: parseInt(guestsInput.value),
         status: status
     };
+
+    loader.style.display = 'block';
 
     try {
         await fetch(SCRIPT_URL, {
@@ -58,6 +61,7 @@ async function submitRSVP(status) {
             rsvpAnswNo.style.display = 'block';
         }
     } catch (error) {
+        loader.style.display = 'none';
         console.error('Error:', error);
         // Проверяем, была ли это CORS ошибка
         if (error.name === 'TypeError' && error.message.includes('Failed to fetch')) {
@@ -71,6 +75,8 @@ async function submitRSVP(status) {
         } else {
             alert('Произошла ошибка при отправке формы. Пожалуйста, попробуйте позже.');
         }
+    } finally {
+        loader.style.display = 'none';
     }
 }
 
