@@ -102,10 +102,9 @@
     width: 100%;
  }
  #malenkiemy .welcome_title_text{
-     font-family: var(--beauty-font);
+     font-family: "Great Vibes", cursive;
     font-weight: 100;
-    text-transform: uppercase;
-    font-size: 24px;
+    font-size: 50px;
  }
  #malenkiemy .info-date .descr_text, #malenkiemy #plan .descr_text, #malenkiemy #details .descr_text, #malenkiemy #rsvp-block .descr_text{
      color: var(--background-color);
