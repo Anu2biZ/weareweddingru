@@ -19,6 +19,7 @@ function validateForm() {
         return false;
     }
 
+    
     rsvpErrors.style.display = 'none';
     rsvpNull.style.display = 'none';
     return true;
